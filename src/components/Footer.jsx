@@ -47,9 +47,9 @@ const Footer = () => {
                         <div className="contact-detail-cont">
                         <h5>Love us as we love you!</h5>
                         <ul className="footer-social">
-                            <li><link to="#"><FaFacebookF /></link></li>
-                            <li><link to="#"><FaInstagram /></link></li>
-                            <li><link to="#"><IoLogoYoutube /></link></li>
+                            <li><Link to="#"><FaFacebookF /></Link></li>
+                            <li><Link to="#"><FaInstagram /></Link></li>
+                            <li><Link to="#"><IoLogoYoutube /></Link></li>
                         </ul>
                         </div>
 
