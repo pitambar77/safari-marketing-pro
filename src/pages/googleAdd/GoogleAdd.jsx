@@ -13,6 +13,7 @@ import { IoMdCheckmark } from "react-icons/io";
 import Accordion from "react-bootstrap/Accordion";
 import AddBlog from "../../pages/googleAdd/AddBlog";
 import SmpDontCharge from "../../components/SmpDontCharge";
+import Footer from "../../components/Footer";
 
 const GoogleAdd = () => {
 
@@ -523,6 +524,7 @@ const GoogleAdd = () => {
             </div>
         </div>
         <SmpDontCharge />
+        <Footer />
         </div>
     )
 }
