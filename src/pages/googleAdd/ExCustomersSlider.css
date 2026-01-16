@@ -1,0 +1,27 @@
+.customersslider {
+    width: 100%;
+    position: relative;
+    padding: 35px 35px 20px 35px;
+    border: 1px solid #bebebe;
+    border-radius: 25px;
+}
+.excostomer-main-pico{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.excostomer-name{
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.excostomer-brand-name h3{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+.main-descripnation{
+    font-size: 14px;
+}
