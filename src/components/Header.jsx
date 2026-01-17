@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import logo from "../assets/images/smp-logo.png";
 import Button from "../components/Button";
 
-function Header() {
+const Header = () => {
   const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
