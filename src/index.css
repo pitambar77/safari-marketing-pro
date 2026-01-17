@@ -37,7 +37,7 @@ button.smp-golbal-btn:hover {
 .header_section {
     width: 100%;
     position: relative;
-    background: #3d72c2f2;
+    background: #0057ff;
     padding: 5px 0px;
     transition: all 0.3s ease;
 }
@@ -76,7 +76,7 @@ ul.nav_menu_list li a:hover {
     width: 100%;
     position: relative;
     padding: 70px 0px;
-    background: #3d72c2f2;
+    background: #0057ff;
     background-position: center;
     background-size: cover;
 }
@@ -85,7 +85,7 @@ ul.nav_menu_list li a:hover {
     font-weight: 700;
     line-height: 24.3px;
     letter-spacing: .5px;
-    color: #eeb9e1;
+    color: #011833;
     padding: 0px;
     margin: 0px;
 }
@@ -97,7 +97,7 @@ ul.nav_menu_list li a:hover {
     margin: 40px 0px 20px 0px;
 }
 .add-hero-ban-cont h1 span {
-    color: #eeb9e1 !important;
+    color: #011833 !important;
 }
 .smp_heder_btn {
     width: 100%;
@@ -307,11 +307,11 @@ ul.digital-card-list li .gigital-check-ico{
 }
 
 .digital-card.add-colorbg {
-    background: #0057ff;
+    background: #011833;
     color: #fff;
 }
 .digital-card.add-colorbg ul li svg {
-    color: #63eac4 !important;
+    color: #0057ff !important;
 }
 .digital-card-main {
     width: 100%;
@@ -378,7 +378,7 @@ ul.customers-exp-list li::marker {
     font-size: 1.4em;
 }
 .service-packages .table thead th {
-    background-color: #0057ff;
+    background-color: #011833;
     padding: 20px;
     color: #fff;
 }
@@ -908,5 +908,113 @@ p.rating__info-rating {
     position: relative;
     background: #0057ff;
     padding: 70px 0px;
+    margin-top: 70px;
+}
+.main-cta-box {
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+}
+.social-main-pic {
+    width: 100%;
+    position: relative;
+    border-radius: 34px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.social-media-marketing {
+    width: 100%;
+    position: relative;
+    background: #e3edff;
+    padding: 70px 0;
+    margin-top: 70px;
+}
+.smm-services-sec {
+    width: 100%;
+    position: relative;
+    background: #0057ff;
+    padding: 70px 0px;
+}
+.smm-service-card {
+    width: 100%;
+    background: #ff5254;
+    padding: 30px;
+    border-radius: 25px;
+}
+.smm-service-card-pic {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.smm-service-card-para h3 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 25px;
+}
+.higt-sms-ser p span {
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.higt-sms-ser p {
+    display: flex;
+    align-items: center;
+}
+.smm-service-card.onemore-colo {
+    background: #011833;
+    color: #fff;
+}
+.smm-main-serv {
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+.google_garketing-sec.smm-facebook-code {
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+}
+.smm-details-tab-sec {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px 0px 0px;
+}
+.framework-sec.smm-frame-box {
+    width: 100%;
+    position: relative;
+    margin: 0px;
+}
+.smm-faq-sec {
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+}
+.full-funell-sec.smm-new-panel {
+    padding-top: 0px;
+}
+.leftctacard {
+    width: 100%;
+    position: relative;
+    background: #011833;
+    padding: 70px;
+    border-radius: 25px;
+    color: #fff;
+}
+.leftctacard h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.leftctacard img {
+    width: 150px;
+    margin-bottom: 25px;
+}
+.ctatwo-box {
+    width: 100%;
     margin-top: 70px;
 }

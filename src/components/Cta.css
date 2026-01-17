@@ -1,0 +1,15 @@
+.cta-details {
+    width: 100%;
+    position: relative;
+    background: #011833;
+    padding: 70px;
+    border-radius: 25px;
+    text-align: center;
+}
+.cta-details h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #fff;
+    margin-bottom: 35px;
+}

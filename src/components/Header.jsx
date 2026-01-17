@@ -35,8 +35,8 @@ function Header() {
           <div className="col-md-8">
             <nav className="smp_nav_menu">
               <ul className="nav_menu_list">
-                <li><Link to="#">About Us</Link></li>
-                <li><Link to="web-designing">Services</Link></li>
+                <li><Link to="/social-media-marketing">About Us</Link></li>
+                <li><Link to="/web-designing">Services</Link></li>
                 <li><Link to="#">Case Studies</Link></li>
                 <li><Link to="#">Resources</Link></li>
                 <li><Link to="#">Contact Us</Link></li>

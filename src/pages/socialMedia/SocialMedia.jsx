@@ -1,13 +1,7 @@
+
 import Button from "../../components/Button";
 import SmpDontCharge from '../../components/SmpDontCharge';
 import AgencyBrand from '../googleAdd/AgencyBrand';
-import Effective1 from "../../assets/images/effective1.webp";
-import Effective2 from "../../assets/images/effective2.webp";
-import Effective3 from "../../assets/images/effective3.webp";
-import Effective4 from "../../assets/images/effective4.webp";
-import Effective5 from "../../assets/images/effective5.webp";
-import Effective6 from "../../assets/images/effective6.webp";
-import WebsiteSamples from './WebsiteSamples';
 import FrameworkBox from "../googleAdd/FrameworkBox";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaRegCheckCircle } from "react-icons/fa";
@@ -17,19 +11,30 @@ import Table from 'react-bootstrap/Table';
 import { IoMdCheckmark } from "react-icons/io";
 import Accordion from "react-bootstrap/Accordion";
 import AddBlog from "../googleAdd/AddBlog";
-import Cta from '../../components/Cta';
+import social from "../../assets/images/social-media-pic.webp";
+import Smmpic1 from "../../assets/images/smm-service1.webp";
+import Smmpic2 from "../../assets/images/smm-service2.webp";
 
-const WebDesign = () => {
+import SmmMedia1 from "../../assets/images/smm-media1.webp";
+import SmmMedia2 from "../../assets/images/smm-media2.webp";
+import SmmMedia3 from "../../assets/images/smm-media3.webp";
+import SmmMedia4 from "../../assets/images/smm-media4.webp";
+import SmmMedia5 from "../../assets/images/smm-media5.webp";
+import Cta from '../../components/Cta';
+import SmmTabBox from './SmmTabBox';
+import LeftCta from '../../components/LeftCta';
+
+const SocialMedia = () => {
   return (
-    <div className="webdesign-page">
+    <div className="social-media-page">
 
         <div className="google-add-hero"  style={{backgroundImage:"url('https://www.heroesofdigital.com/wp-content/uploads/2025/02/Minimal-Pattern-2-C.png')",}}>
             <div className="container">
                 <div className="row add_hero">
                     <div className="col-md-7">
                         <div className="add-hero-ban-cont">
-                            <h3>Web Design</h3>
-                            <h1>Get a website that serves as a <span>sales generating machine</span></h1>
+                            <h3>Social Media Marketing</h3>
+                            <h1>Unlock the full potential of social media to <span>grow your business</span></h1>
                             <p>Safari Marketing Pro of Digital is Singapore’s Premier Google Ads agency focused on performance-based strategies that increase conversions, leads, and revenue — not just clicks and impressions.</p>
                             <div className="add-hero-btn-box">
                                 <Button  text="Get Free Proposal" link="./"  target="_self" />
@@ -69,83 +74,151 @@ const WebDesign = () => {
                 </div>
             </div>
          </div>
-         <div className="smp-best-website-sec">
+         <div className="social-media-marketing">
             <div className="container">
-                <div className="comon-heading-box white-main-hed">
-                    <h2>Some websites we've created that <span>generate enquiries </span>like a machine</h2>
-                </div>
-                <div className="smp-best-website">
-                    <WebsiteSamples />
-                </div>
-            </div>
-         </div>         
-         <div className="make-us-effective-sec">
-            <div className="container">
-                <div className="comon-heading-box">
-                    <h2>What makes an <br /> <span>effective website design</span></h2>
-                </div>
-                <div className="web-effective">
-                    <div className="effective-rors">
-                       
-                            <div className="web-effective-para">
-                                <h2>Designs that trigger emotions</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                       
-                            <div className="web-effective-pic">
-                                <img src={Effective1} alt="Designs that trigger emotions" className="w-100"/>
-                            </div>
-                      
-                            <div className="web-effective-pic">
-                                <img src={Effective2} alt="Persuasive content" className="w-100"/>
-                            </div>
-                       
-                            <div className="web-effective-para">
-                                <h2>Persuasive content</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                        
-                            <div className="web-effective-para">
-                                <h2>Convert more visitors into leads</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                       
-                            <div className="web-effective-pic">
-                                <img src={Effective3} alt="Convert more visitors into leads" className="w-100"/>
-                            </div>
-                      
-                            <div className="web-effective-pic">
-                                <img src={Effective4} alt="Loads blazing fast" className="w-100"/>
-                            </div>
-                    
-                            <div className="web-effective-para">
-                                <h2>Loads blazing fast</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                   
-                            <div className="web-effective-para">
-                                <h2>Looks beautiful on all devices</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                       
-                            <div className="web-effective-pic">
-                                <img src={Effective5} alt="Looks beautiful on all devices" className="w-100"/>
-                            </div>
-                     
-                            <div className="web-effective-pic">
-                                <img src={Effective6} alt="Get found on Google" className="w-100"/>
-                            </div>
-                      
-                            <div className="web-effective-para">
-                                <h2>Get found on Google</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                
-
-
+                <div className="row google_gark">
+                    <div className="col-md-6">
+                        <div className="comon-heading-box google_gark_left">
+                            <h2><span>What is Social Media Marketing?</span></h2>
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="google_gark_para">
+                            <h3>Social media marketing (SMM) is the process of gaining brand awareness and generating sales through social media platforms like Facebook, Instagram and YouTube. Our SMM system focuses on creating social media ads and content that generate sales for your business.</h3>
+                            <p>The messages in our ads are written persuasively to target your customers desires and needs. We also analyse ways to laser-target the best customers that are looking to buy your products or services, so that social media marketing can be an effective long-term strategy for your business to generate sales.</p>
+                            <p>Here’s where many social media marketing agencies in Singapore got it wrong. They create content from a creative perspective. It’s nice, full of puns, witty, and funny. But does it generate sales? Not for SMEs.There’s more to it than that.</p>
+                        </div>
                     </div>
                 </div>
+                <div className="social-main-pic">
+                    <img src={social} alt="Social media marketing" className="w-100"/>
+                </div>
+            </div>
+         </div>
+        <div className="smm-services-sec">
+            <div className="container">
+                <div className="comon-heading-box white-main-hed">
+                    <h2>What Clients Say About Our <br /><span>Meta Ads Agency</span> Services</h2>                 
+                </div>
+                <div className="smm-main-serv">
+                    <div className="row smm-ser-box">
+                        <div className="col-md-6">
+                            <div className="smm-service-card">
+                                <div className="smm-service-card-pic">
+                                     <img src={Smmpic1} alt="" className='w-100'/>
+                                </div>
+                                <div className="smm-service-card-para">
+                                <h3>Mega Furniture: Turning Traffic Into Sales</h3>
+                                <p>Mega Furniture faced high competition and rising Google cost-per-click (CPC) rates. By combining Facebook Ads with SEM and retargeting, we improved funnel efficiency and maximised digital conversions.</p>
+                                
+                                 <div className="higt-sms-ser">
+                                    <p><span>860%</span>increase in conversions</p>
+                                    <p><span>240%</span>reduction in cost per action (CPA)</p>
+                                 </div>
+                                </div>                               
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="smm-service-card onemore-colo">
+                                <div className="smm-service-card-pic">
+                                     <img src={Smmpic2} alt="" className='w-100'/>
+                                </div>
+                                <div className="smm-service-card-para">
+                                <h3>Chilli Manis: Catering That Clicks</h3>
+                                 <p>Mega Furniture faced high competition and rising Google cost-per-click (CPC) rates. By combining Facebook Ads with SEM and retargeting, we improved funnel efficiency and maximised digital conversions.</p>
+                                
+                                 <div className="higt-sms-ser">
+                                    <p><span>860%</span>increase in conversions</p>
+                                    <p><span>240%</span>reduction in cost per action (CPA)</p>
+                                 </div>
+                                </div>                               
+                            </div>
+                        </div>
 
+                    </div>
+                    
+                </div>
+                <div className="frame-btn-box">
+                     <Button  text="Client Success Stories" link="./"  target="_self" />
+                </div>
+
+            </div>
+        </div>
+         <div className="make-us-effective-sec">
+                    <div className="container">
+                        <div className="comon-heading-box">
+                            <h2>How our <span>sales-driven</span> Social Media Marketing system can help you</h2>
+                        </div>
+                        <div className="web-effective">
+                            <div className="effective-rors">
+                               
+                                    <div className="web-effective-para">
+                                        <h2>Facebook and Instagram advertising system</h2>
+                                        <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
+                                    </div>                             
+                                    <div className="web-effective-pic">
+                                        <img src={SmmMedia1} alt="Designs that trigger emotions" className="w-100"/>
+                                    </div>
+                              
+                                    <div className="web-effective-pic">
+                                        <img src={SmmMedia2} alt="Persuasive content" className="w-100"/>
+                                    </div>                            
+                                    <div className="web-effective-para">
+                                        <h2>Effective remarketing</h2>
+                                        <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
+                                    </div>
+                                
+                                    <div className="web-effective-para">
+                                        <h2>Thumb-stopping creatives</h2>
+                                        <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
+                                    </div>                              
+                                    <div className="web-effective-pic">
+                                        <img src={SmmMedia3} alt="Convert more visitors into leads" className="w-100"/>
+                                    </div>
+                              
+                                    <div className="web-effective-pic">
+                                        <img src={SmmMedia4} alt="Loads blazing fast" className="w-100"/>
+                                    </div>                           
+                                    <div className="web-effective-para">
+                                        <h2>Marketing technology</h2>
+                                        <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
+                                    </div>
+                           
+                                    <div className="web-effective-para">
+                                        <h2>Online contests</h2>
+                                        <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
+                                    </div>                              
+                                    <div className="web-effective-pic">
+                                        <img src={SmmMedia5} alt="Looks beautiful on all devices" className="w-100"/>
+                                    </div>
+
+                            </div>
+                        </div>
+        
+                    </div>
+        </div>
+        <div className="google_garketing-sec smm-facebook-code">
+            <div className="container">
+                <div className="row google_gark">
+                    <div className="col-md-6">
+                        <div className="comon-heading-box google_gark_left">
+                            <h2>Facebook Advertising Solutions That <span>Drive Real Business Growth</span></h2>
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="google_gark_para">
+                            <p>At Heroes of Digital, we help Singapore businesses — from start-ups to established enterprises — grow with Meta Ads campaigns designed for leads, sales, and ROI. </p>
+                            <p>As a trusted Meta advertising agency in Singapore, we follow a proven framework:</p>
+                            <ul class="customers-exp-list">
+                                <li>More hot leads through targeted Google Ads </li>
+                                <li>Boost your return on ad spend with optimised campaigns</li>
+                                <li>Stay ahead of trends with data-backed strategies</li>
+                                <li>Measure the true impact of your ad campaigns on sales</li>
+                            </ul>
+                            <p>This ensures your social media ad spend scales with your business. When comparing the best Facebook marketing agencies in Singapore, choose one that ties every click to measurable revenue.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
          </div>
          <div className="main-cta-box">
@@ -153,9 +226,21 @@ const WebDesign = () => {
               <Cta />
            </div>
          </div>
-
+         <div className="smm-details-tab-sec">
+            <div className="container">
+                <div className="comon-heading-box">
+                    <h2>Services We Provide as a <span>Facebook Ads Agency in Singapore</span></h2>
+                    <p>As one of the leading Facebook ads agencies in Singapore, we provide end-to-end Meta Ads services:</p>
+                </div>
+                <div className="tab-social-del">
+                    <SmmTabBox />
+                </div>
+            </div>
+         </div>
          
-         <div className="framework-sec">
+
+
+        <div className="framework-sec smm-frame-box">
             <div className="container">
                 <div className="comon-heading-box white-main-hed">
                     <h2>The Proven Framework Behind Our <br /><span>High-ROI Google Ads</span></h2>
@@ -217,79 +302,13 @@ const WebDesign = () => {
                 </div>
             </div>
         </div>
-        <div className="full-funell-sec">
+       
+        <div className="ctatwo-box">
             <div className="container">
-                 <div className="comon-heading-box">
-                    <h2>Get a <span>full-funnel digital marketing strategy</span> with our following services</h2>
-                  </div>
-                  <div className="funnel-main-details">
-                    <div className="row funnel-details">
-                        <div className="col-md-4">
-                            <div className="funnel-details-card">
-                                <h3>Create & manage powerful ad campaigns</h3>
-                                 <ul className="funnel-details_list">
-                                    <li><FaRegCheckCircle />SEM Management Services</li>
-                                    <li><FaRegCheckCircle />Social Advertising Services</li>
-                                    <li><FaRegCheckCircle />Programmatic Advertising Services</li>
-                                    <li><FaRegCheckCircle />Geofencing Advertising Services</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="funnel-details-card">
-                                <h3>Collect, analyse and deploy marketing data</h3>
-                                 <ul className="funnel-details_list">
-                                    <li><FaRegCheckCircle />SEM Management Services</li>
-                                    <li><FaRegCheckCircle />Social Advertising Services</li>
-                                    <li><FaRegCheckCircle />Programmatic Advertising Services</li>
-                                    <li><FaRegCheckCircle />Geofencing Advertising Services</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className="funnel-details-card">
-                                <h3>Stronger Brand. Higher Conversions.</h3>
-                                 <ul className="funnel-details_list">
-                                    <li><FaRegCheckCircle />SEM Management Services</li>
-                                    <li><FaRegCheckCircle />Social Advertising Services</li>
-                                    <li><FaRegCheckCircle />Programmatic Advertising Services</li>
-                                    <li><FaRegCheckCircle />Geofencing Advertising Services</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
+                <LeftCta />
+            </div>
+        </div>
 
-            </div>
-        </div>
-        <div className="customers-expect-sec">
-            <div className="container">
-                <div className="customers-expect-box">
-                    <div className="row customers-exp">
-                        <div className="col-md-8">
-                            <div className="customers-exp-data">
-                                <div className="comon-heading-box google_gark_left">
-                                 <h2>Ready to turn <span>clicks into customers</span> ?</h2>
-                                 <p>Are you getting the full potential of your digital campaigns? Partner with Heroes of Digital today!</p>
-                                </div>
-                                <h3>What you can expect from us:</h3>
-                                <ul className="customers-exp-list">
-                                    <li>More hot leads through targeted Google Ads </li>
-                                    <li>Boost your return on ad spend with optimised campaigns</li>
-                                    <li>Stay ahead of trends with data-backed strategies</li>
-                                    <li>Measure the true impact of your ad campaigns on sales</li>
-                                </ul>                                
-                                <p>Get a free Google Ads proposal, including a bonus pricing plan.</p>
-                                <Button  text="Get Proposal" link="./"  target="_self" />
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <ExCustomersSlider />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div className="service-packages-sec">
             <div className="container">
                  <div className="comon-heading-box">
@@ -439,7 +458,80 @@ const WebDesign = () => {
 
             </div>
         </div>
-        <div className="add_faqs-sec">
+         <div className="full-funell-sec smm-new-panel">
+            <div className="container">
+                 <div className="comon-heading-box">
+                    <h2>Get a <span>full-funnel digital marketing strategy</span> with our following services</h2>
+                  </div>
+                  <div className="funnel-main-details">
+                    <div className="row funnel-details">
+                        <div className="col-md-4">
+                            <div className="funnel-details-card">
+                                <h3>Create & manage powerful ad campaigns</h3>
+                                 <ul className="funnel-details_list">
+                                    <li><FaRegCheckCircle />SEM Management Services</li>
+                                    <li><FaRegCheckCircle />Social Advertising Services</li>
+                                    <li><FaRegCheckCircle />Programmatic Advertising Services</li>
+                                    <li><FaRegCheckCircle />Geofencing Advertising Services</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="funnel-details-card">
+                                <h3>Collect, analyse and deploy marketing data</h3>
+                                 <ul className="funnel-details_list">
+                                    <li><FaRegCheckCircle />SEM Management Services</li>
+                                    <li><FaRegCheckCircle />Social Advertising Services</li>
+                                    <li><FaRegCheckCircle />Programmatic Advertising Services</li>
+                                    <li><FaRegCheckCircle />Geofencing Advertising Services</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="funnel-details-card">
+                                <h3>Stronger Brand. Higher Conversions.</h3>
+                                 <ul className="funnel-details_list">
+                                    <li><FaRegCheckCircle />SEM Management Services</li>
+                                    <li><FaRegCheckCircle />Social Advertising Services</li>
+                                    <li><FaRegCheckCircle />Programmatic Advertising Services</li>
+                                    <li><FaRegCheckCircle />Geofencing Advertising Services</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+        <div className="customers-expect-sec">
+            <div className="container">
+                <div className="customers-expect-box">
+                    <div className="row customers-exp">
+                        <div className="col-md-8">
+                            <div className="customers-exp-data">
+                                <div className="comon-heading-box google_gark_left">
+                                 <h2>Ready to turn <span>clicks into customers</span> ?</h2>
+                                 <p>Are you getting the full potential of your digital campaigns? Partner with Heroes of Digital today!</p>
+                                </div>
+                                <h3>What you can expect from us:</h3>
+                                <ul className="customers-exp-list">
+                                    <li>More hot leads through targeted Google Ads </li>
+                                    <li>Boost your return on ad spend with optimised campaigns</li>
+                                    <li>Stay ahead of trends with data-backed strategies</li>
+                                    <li>Measure the true impact of your ad campaigns on sales</li>
+                                </ul>                                
+                                <p>Get a free Google Ads proposal, including a bonus pricing plan.</p>
+                                <Button  text="Get Proposal" link="./"  target="_self" />
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <ExCustomersSlider />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="smm-faq-sec">
             <div className="container">
                 <div className="comon-heading-box">
                     <h2>FAQs</h2>
@@ -566,9 +658,9 @@ const WebDesign = () => {
         </div>
         
         <SmpDontCharge />
-
+  
     </div>
   )
 }
 
-export default WebDesign;
+export default SocialMedia;

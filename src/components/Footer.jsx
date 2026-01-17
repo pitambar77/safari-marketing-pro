@@ -80,28 +80,28 @@ const Footer = () => {
                                 </div>
                                 <div className="footer-rating-point">
                                     <div className="footer-rat-point">                                      
-                                        <div class="widget_rating__info">
+                                        <div className="widget_rating__info">
                                             <a href="#">
-                                            <p class="rating__info-name">Scheduling</p>
-                                            <p class="rating__info-rating">4.9</p>
+                                            <p className="rating__info-name">Scheduling</p>
+                                            <p className="rating__info-rating">4.9</p>
                                              </a>
                                         </div>
-                                        <div class="widget_rating__info">
+                                        <div className="widget_rating__info">
                                             <a href="#">
-                                            <p class="rating__info-name">Quality</p>
-                                            <p class="rating__info-rating">4.9</p>
+                                            <p className="rating__info-name">Quality</p>
+                                            <p className="rating__info-rating">4.9</p>
                                              </a>
                                         </div>
-                                        <div class="widget_rating__info">
+                                        <div className="widget_rating__info">
                                             <a href="#">
-                                            <p class="rating__info-name">Cost</p>
-                                            <p class="rating__info-rating">4.8</p>
+                                            <p className="rating__info-name">Cost</p>
+                                            <p className="rating__info-rating">4.8</p>
                                              </a>
                                         </div>
-                                        <div class="widget_rating__info">
+                                        <div className="widget_rating__info">
                                             <a href="#">
-                                            <p class="rating__info-name">Would Refer</p>
-                                            <p class="rating__info-rating">4.9</p>
+                                            <p className="rating__info-name">Would Refer</p>
+                                            <p className="rating__info-rating">4.9</p>
                                              </a>
                                         </div>
                                                                      

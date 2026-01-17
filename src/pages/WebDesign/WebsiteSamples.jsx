@@ -7,14 +7,14 @@ import "swiper/css/navigation";
 
 /* ================= DATA ================= */
 const websiteSamples = {
-  Safari: [
+  Tanzania: [
     { id: 1, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Aesthetic2.webp" },
     { id: 2, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Aesthetic3.webp" },
     { id: 3, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Aesthetic1.webp" },
     { id: 4, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education1.webp" },
     { id: 5, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education2.webp" },
   ],
-  Tourism: [
+  Kenya: [
     { id: 1, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/abel-soh-website.jpg.webp" },
     { id: 2, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/hc-chang-website.jpg.webp" },
     { id: 3, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/dr-smile-website.jpg.webp" },
@@ -22,7 +22,7 @@ const websiteSamples = {
     { id: 5, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education2.webp" },
     
   ],
-  Wildlife: [
+  Uganda: [
      { id: 1, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Home1.webp" },
      { id: 2, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Home3.webp" },
      { id: 3, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education1.webp" },
@@ -30,28 +30,28 @@ const websiteSamples = {
      { id: 5, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/hc-chang-website.jpg.webp" },
 
   ],
-  Culture: [
+  Rwanda: [
     { id: 1, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education3.webp" },
     { id: 2, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education2.webp" },
     { id: 3, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education3.webp" },
     { id: 4, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/FNB3.webp" },
     { id: 5, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/FNB1.webp" },
   ],
-  Heritage: [
+  Zambia: [
      { id: 1, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/FNB3.webp" },
      { id: 2, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/FNB1.webp" },
      { id: 3, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education1.webp" },
      { id: 4, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Home2-1.webp" },
      { id: 5, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/abel-soh-website.jpg.webp" },
   ],
-  Adventure: [
+  Zimbabwe: [
     { id: 1, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/dr-smile-website.jpg.webp" },
     { id: 2, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education1.webp" },
     { id: 3, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Education3.webp" },
     { id: 4, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/FNB3.webp" },
     { id: 5, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/FNB1.webp" },
   ],
-  Trekking: [
+  SouthAfrica: [
      { id: 1, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Home1.webp" },
      { id: 2, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Home3.webp" },
      { id: 3, img: "https://www.heroesofdigital.com/wp-content/uploads/2025/03/Aesthetic1.webp" },
@@ -65,7 +65,7 @@ const categories = Object.keys(websiteSamples);
 
 /* ================= COMPONENT ================= */
 const WebsiteSamples = () => {
-  const [activeTab, setActiveTab] = useState("Safari");
+  const [activeTab, setActiveTab] = useState("Tanzania");
 
   return (
     <div className="samples-section">

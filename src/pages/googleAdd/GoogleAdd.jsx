@@ -1,4 +1,4 @@
-import Header from "../../components/Header";
+
 import Button from "../../components/Button";
 import AgencyBrand from "./AgencyBrand";
 import CaseStudy from "../../pages/googleAdd/CaseStudy";
@@ -13,13 +13,11 @@ import { IoMdCheckmark } from "react-icons/io";
 import Accordion from "react-bootstrap/Accordion";
 import AddBlog from "../../pages/googleAdd/AddBlog";
 import SmpDontCharge from "../../components/SmpDontCharge";
-import Footer from "../../components/Footer";
 
 const GoogleAdd = () => {
 
     return(
         <div className="google-add">
-        <Header />  
          <div className="google-add-hero"  style={{backgroundImage:"url('https://www.heroesofdigital.com/wp-content/uploads/2025/02/Minimal-Pattern-2-C.png')",}}>
             <div className="container">
                 <div className="row add_hero">
@@ -524,7 +522,6 @@ const GoogleAdd = () => {
             </div>
         </div>
         <SmpDontCharge />
-        <Footer />
         </div>
     )
 }
