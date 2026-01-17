@@ -872,3 +872,41 @@ p.rating__info-rating {
 .smp-footer-cop-box ul li a:hover{
     color: #ff5254;
 }
+.web-effective-para {
+    width: 100%;
+    position: relative;
+}
+.web-effective-para h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+.effective-rors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px 80px;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .effective-rors {
+        grid-template-columns: 1fr;
+    }
+}
+.web-effective {
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+}
+.make-us-effective-sec {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px 0px 0px;
+}
+.smp-best-website-sec {
+    width: 100%;
+    position: relative;
+    background: #0057ff;
+    padding: 70px 0px;
+    margin-top: 70px;
+}

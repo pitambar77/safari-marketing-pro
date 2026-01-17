@@ -26,13 +26,8 @@ function Header() {
         <div className="row header_smp align-items-center">
           <div className="col-md-2">
             <div className="smp_header_logo">
-              <Link to="#">
-                <img
-                  src={logo}
-                  alt="Safari Marketing Pro"
-                  title="Safari Marketing Pro"
-                  className="w-100"
-                />
+              <Link to="/">
+                <img src={logo}  alt="Safari Marketing Pro" title="Safari Marketing Pro" className="w-100"/>
               </Link>
             </div>
           </div>
@@ -41,7 +36,7 @@ function Header() {
             <nav className="smp_nav_menu">
               <ul className="nav_menu_list">
                 <li><Link to="#">About Us</Link></li>
-                <li><Link to="#">Services</Link></li>
+                <li><Link to="web-designing">Services</Link></li>
                 <li><Link to="#">Case Studies</Link></li>
                 <li><Link to="#">Resources</Link></li>
                 <li><Link to="#">Contact Us</Link></li>
