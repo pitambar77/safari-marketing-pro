@@ -4,7 +4,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider,} 
 import Layout from "./assets/Layout";
 
 import GoogleAdd from "./pages/googleAdd/GoogleAdd";
-import WebDesign from "./pages/webDesign/WebDesign";
+import WebDesign from "./pages/WebDesign/WebDesign";
 import SocialMedia from "./pages/socialMedia/SocialMedia";
 
 const router = createBrowserRouter(
