@@ -7,7 +7,7 @@ import Effective3 from "../../assets/images/effective3.webp";
 import Effective4 from "../../assets/images/effective4.webp";
 import Effective5 from "../../assets/images/effective5.webp";
 import Effective6 from "../../assets/images/effective6.webp";
-import WebsiteSamples from './WebsiteSamples';
+import WebsiteSamples from "../WebDesign/WebsiteSamples";
 import FrameworkBox from "../googleAdd/FrameworkBox";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaRegCheckCircle } from "react-icons/fa";
