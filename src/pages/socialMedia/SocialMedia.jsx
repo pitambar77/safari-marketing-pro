@@ -209,7 +209,7 @@ const SocialMedia = () => {
                         <div className="google_gark_para">
                             <p>At Heroes of Digital, we help Singapore businesses — from start-ups to established enterprises — grow with Meta Ads campaigns designed for leads, sales, and ROI. </p>
                             <p>As a trusted Meta advertising agency in Singapore, we follow a proven framework:</p>
-                            <ul class="customers-exp-list">
+                            <ul className="customers-exp-list">
                                 <li>More hot leads through targeted Google Ads </li>
                                 <li>Boost your return on ad spend with optimised campaigns</li>
                                 <li>Stay ahead of trends with data-backed strategies</li>
