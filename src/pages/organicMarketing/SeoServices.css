@@ -1,0 +1,42 @@
+.seo-services {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.seo-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px 24px;
+  height: 100%;
+}
+.seo-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* Custom Navigation */
+.seo-services .custom-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #ff5254;
+    border: 2px solid #fff;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.seo-services .custom-nav.prev {
+  left: -50px;
+}
+.seo-services .custom-nav.next {
+  right: -50px;
+}
+@media (max-width: 767px) {
+  .seo-services .custom-nav {
+    display: none;
+  }
+}

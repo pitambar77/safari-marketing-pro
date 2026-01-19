@@ -6,6 +6,7 @@ import Layout from "./assets/Layout";
 import GoogleAdd from "./pages/googleAdd/GoogleAdd";
 import WebDesign from "./pages/WebDesign/WebDesign";
 import SocialMedia from "./pages/socialMedia/SocialMedia";
+import OrganicMarketing from "./pages/organicMarketing/OrganicMarketing";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
       <Route index element={<GoogleAdd />} />
       <Route path="web-designing" element={<WebDesign />} />
       <Route path="social-media-marketing" element={<SocialMedia />} />
+      <Route path="organic-marketing" element={<OrganicMarketing />} />
     </Route>
   )
 );

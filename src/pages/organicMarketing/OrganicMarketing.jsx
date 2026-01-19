@@ -1,34 +1,35 @@
+import React from 'react'
 import Button from "../../components/Button";
 import AgencyBrand from '../googleAdd/AgencyBrand';
-import Effective1 from "../../assets/images/effective1.webp";
-import Effective2 from "../../assets/images/effective2.webp";
-import Effective3 from "../../assets/images/effective3.webp";
-import Effective4 from "../../assets/images/effective4.webp";
-import Effective5 from "../../assets/images/effective5.webp";
-import Effective6 from "../../assets/images/effective6.webp";
-import WebsiteSamples from "../WebDesign/WebsiteSamples";
-import FrameworkBox from "../googleAdd/FrameworkBox";
+import OrganicTabinfo from "../organicMarketing/OrganicTabinfo";
+import Smmpic1 from "../../assets/images/smm-service1.webp";
+import Smmpic2 from "../../assets/images/smm-service2.webp";
+import Seo1 from "../../assets/images/seo1.webp";
+import Seo2 from "../../assets/images/seo2.webp";
+import Seo3 from "../../assets/images/seo3.webp";
+import Seo4 from "../../assets/images/seo4.webp";
+
 import { FaCheckCircle } from "react-icons/fa";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { IoIosCloseCircleOutline } from "react-icons/io";
-import ExCustomersSlider from "../googleAdd/ExCustomersSlider";
+import ExCustomersSlider from "../../pages/googleAdd/ExCustomersSlider";
 import Table from 'react-bootstrap/Table';
 import { IoMdCheckmark } from "react-icons/io";
+import AddBlog from "../../pages/googleAdd/AddBlog";
+import SeoServices from './SeoServices';
 import Accordion from "react-bootstrap/Accordion";
-import AddBlog from "../googleAdd/AddBlog";
-import Cta from '../../components/Cta';
 
-const WebDesign = () => {
+const OrganicMarketing = () => {
   return (
-    <div className="webdesign-page">
-
+    <div className="organic-markting-page">
+        
         <div className="google-add-hero"  style={{backgroundImage:"url('https://www.heroesofdigital.com/wp-content/uploads/2025/02/Minimal-Pattern-2-C.png')",}}>
             <div className="container">
                 <div className="row add_hero">
                     <div className="col-md-7">
                         <div className="add-hero-ban-cont">
-                            <h3>Web Design</h3>
-                            <h1>Get a website that serves as a <span>sales generating machine</span></h1>
+                            <h3>SEO Agency Singapore</h3>
+                            <h1>SEO Services That Turn Traffic into <span>Paying Customers</span></h1>
                             <p>Safari Marketing Pro of Digital is Singapore’s Premier Google Ads agency focused on performance-based strategies that increase conversions, leads, and revenue — not just clicks and impressions.</p>
                             <div className="add-hero-btn-box">
                                 <Button  text="Get Free Proposal" link="./"  target="_self" />
@@ -68,104 +69,68 @@ const WebDesign = () => {
                 </div>
             </div>
          </div>
-         <div className="smp-best-website-sec">
-            <div className="container">
-                <div className="comon-heading-box white-main-hed">
-                    <h2>Some websites we've created that <span>generate enquiries </span>like a machine</h2>
-                </div>
-                <div className="smp-best-website">
-                    <WebsiteSamples />
-                </div>
-            </div>
-         </div>         
-         <div className="make-us-effective-sec">
+        <div className="organic-details-tab-sec">
             <div className="container">
                 <div className="comon-heading-box">
-                    <h2>What makes an <br /> <span>effective website design</span></h2>
+                    <h2>How Our 8-Step SEO Process <span>Helps You Rank on Page 1</span> in Africa</h2>
+                    <p>People click what they trust, and Google ranks what earns it. Backed by a proven approach trusted by 800+ companies, our Singapore SEO agency services deliver trust, traffic, and results that fuel long-term growth.</p>
                 </div>
-                <div className="web-effective">
-                    <div className="effective-rors">
-                       
-                            <div className="web-effective-para">
-                                <h2>Designs that trigger emotions</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                       
-                            <div className="web-effective-pic">
-                                <img src={Effective1} alt="Designs that trigger emotions" className="w-100"/>
-                            </div>
-                      
-                            <div className="web-effective-pic">
-                                <img src={Effective2} alt="Persuasive content" className="w-100"/>
-                            </div>
-                       
-                            <div className="web-effective-para">
-                                <h2>Persuasive content</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                        
-                            <div className="web-effective-para">
-                                <h2>Convert more visitors into leads</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                       
-                            <div className="web-effective-pic">
-                                <img src={Effective3} alt="Convert more visitors into leads" className="w-100"/>
-                            </div>
-                      
-                            <div className="web-effective-pic">
-                                <img src={Effective4} alt="Loads blazing fast" className="w-100"/>
-                            </div>
-                    
-                            <div className="web-effective-para">
-                                <h2>Loads blazing fast</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                   
-                            <div className="web-effective-para">
-                                <h2>Looks beautiful on all devices</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                       
-                            <div className="web-effective-pic">
-                                <img src={Effective5} alt="Looks beautiful on all devices" className="w-100"/>
-                            </div>
-                     
-                            <div className="web-effective-pic">
-                                <img src={Effective6} alt="Get found on Google" className="w-100"/>
-                            </div>
-                      
-                            <div className="web-effective-para">
-                                <h2>Get found on Google</h2>
-                                <p>Your website needs to be designed with your customers and your goals in mind. We excel at using design to trigger the right emotions to convert traffic into real customers. With us, your website becomes a lead-generating machine – a powerful part of your digital marketing strategy.</p>
-                            </div>
-                
-
-
-                    </div>
+                <div className="tab-social-del">
+                    <OrganicTabinfo />
                 </div>
-
+                  <div className="frame-btn-box">
+                      <Button  text="Get Free SEO Proposal" link="./"  target="_self" />
+                  </div>
             </div>
          </div>
-         <div className="main-cta-box">
-           <div className="container">
-              <Cta />
-           </div>
-         </div>
-
-         
-         <div className="framework-sec">
+         <div className="smm-services-sec">
             <div className="container">
                 <div className="comon-heading-box white-main-hed">
-                    <h2>The Proven Framework Behind Our <br /><span>High-ROI Google Ads</span></h2>
-                    <p>When it comes to Google Ads, we follow a proven process designed to get you the highest Return on Ad Spend (ROAS). Here’s how we do it.</p>
+                    <h2>800+ businesses choose us to <span>consistently rank their website #1</span> on Google</h2>        
+                    <p>As an online SEO agency, performance isn’t a promise — it’s our standard. Our SEO services combine strategic thinking, data-backed execution, and hands-on support to help you rank, grow, and stay ahead of your competition.</p>         
                 </div>
-                <div className="frmae-workflow">
-                  <FrameworkBox />
-                  <div className="frame-btn-box">
-                  <Button  text="Get Proposal" link="./"  target="_self" />
-                  </div>
+                <div className="smm-main-serv">
+                    <div className="row smm-ser-box">
+                        <div className="col-md-6">
+                            <div className="smm-service-card">
+                                <div className="smm-service-card-pic">
+                                     <img src={Smmpic1} alt="" className='w-100'/>
+                                </div>
+                                <div className="smm-service-card-para">
+                                <h3>Financial Services Company</h3>
+                                <p>Mega Furniture faced high competition and rising Google cost-per-click (CPC) rates. By combining Facebook Ads with SEM and retargeting, we improved funnel efficiency and maximised digital conversions.</p>
+                                
+                                 <div className="higt-sms-ser">
+                                    <p><span>860%</span>increase in conversions</p>
+                                    <p><span>240%</span>reduction in cost per action (CPA)</p>
+                                 </div>
+                                </div>                               
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="smm-service-card onemore-colo">
+                                <div className="smm-service-card-pic">
+                                     <img src={Smmpic2} alt="" className='w-100'/>
+                                </div>
+                                <div className="smm-service-card-para">
+                                <h3>HC Orthopaedic Surgery</h3>
+                                 <p>Mega Furniture faced high competition and rising Google cost-per-click (CPC) rates. By combining Facebook Ads with SEM and retargeting, we improved funnel efficiency and maximised digital conversions.</p>
+                                
+                                 <div className="higt-sms-ser">
+                                    <p><span>860%</span>increase in conversions</p>
+                                    <p><span>240%</span>reduction in cost per action (CPA)</p>
+                                 </div>
+                                </div>                               
+                            </div>
+                        </div>
+
+                    </div>
+                    
                 </div>
+                <div className="frame-btn-box">
+                     <Button  text="Client Success Stories" link="./"  target="_self" />
+                </div>
+
             </div>
         </div>
         <div className="digital-vs-rest-sec">
@@ -289,7 +254,7 @@ const WebDesign = () => {
                 </div>
             </div>
         </div>
-        <div className="service-packages-sec">
+         <div className="service-packages-sec">
             <div className="container">
                  <div className="comon-heading-box">
                     <h2>What’s Included in Our <span>Google Ads Service Packages</span></h2>
@@ -438,7 +403,81 @@ const WebDesign = () => {
 
             </div>
         </div>
-        <div className="add_faqs-sec">
+        <div className="other-seo-service-sec">
+            <div className="container">
+                <div className="comon-heading-box white-main-hed">
+                    <h2>Other SEO Services Designed <br /><span>for Your Business Goals</span></h2>        
+                    <p>No two businesses are alike — that’s why our strategies aren’t templated. As an experienced B2B SEO agency in Singapore and full-service online SEO agency, we offer targeted SEO services tailored to your growth stage, industry, and market.</p>         
+                </div>
+                <div className="other-service-slider">
+                    <SeoServices />
+                </div>
+
+            </div>
+        </div>
+        <div className="smp-organic-diff-sec">
+            <div className="container">
+                 <div className="comon-heading-box">
+                    <h2>The SMP of Digital <br /><span>Difference</span></h2>
+                    <p>At SMP of Digital, we focus on what truly moves the needle: your bottom line. Our SEO services Singapore are designed to drive real business outcomes.</p>
+                    <p>Recognised by 800+ local SMEs and SMCs as one of the best SEO agency Singapore options for ROI-focused growth, we combine AI tools, local expertise, and full-funnel strategies to help you scale sustainably.</p>
+                  </div>
+                  <div className="seo-diff-box">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="seo-smp-dif-card">
+                                <img src={Seo1} alt="SEO driven by ROI" className="w-100" />
+                                <h3>SEO driven by ROI</h3>
+                                <p>Our focus is driving real results. We target keywords that attract high-quality leads so your SEO spend translates into real revenue growth.</p>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="seo-smp-dif-card">
+                                <img src={Seo2} alt="Cutting-edge SEO tech" className="w-100" />
+                                <h3>Cutting-edge SEO tech</h3>
+                                <p>Our focus is driving real results. We target keywords that attract high-quality leads so your SEO spend translates into real revenue growth.</p>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="seo-smp-dif-card">
+                                <img src={Seo3} alt="Finger on the pulse" className="w-100" />
+                                <h3>Finger on the pulse</h3>
+                                <p>Our focus is driving real results. We target keywords that attract high-quality leads so your SEO spend translates into real revenue growth.</p>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="seo-smp-dif-card">
+                                <img src={Seo4} alt="24/7 reporting" className="w-100" />
+                                <h3>24/7 reporting</h3>
+                                <p>Our focus is driving real results. We target keywords that attract high-quality leads so your SEO spend translates into real revenue growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div className="frame-btn-box">
+                      <Button  text="Get Free SEO Proposal" link="./"  target="_self" />
+                  </div>
+            </div>
+        </div>
+        <div className="why-seo-smp-trust-se">
+            <div className="container">
+                <div className="comon-heading-box">
+                    <h2>Why SMP of Digital is <br /><span>Africa's Trusted SEO Agency</span></h2>
+                    <p>Since 2015, Heroes of Digital has helped 800+ businesses dominate search and drive real business growth. With 10 years of experience in SEO marketing Singapore, we go beyond rankings to deliver measurable outcomes through tailored, full-funnel strategies.</p>
+                    <p>🏆 Named one of Singapore’s Fastest Growing Companies (Straits Times x Statista 2022)</p>
+                    <p>🏆 Google Premier Partner | Meta Business Partner</p>
+                    <p>🏆 Winner – Southeast Asia Google Premier Partner Awards (2023)</p>
+                    <p>🏆 Featured on Clutch and Ahrefs as a top SEO agency</p>
+                    <p>Trusted by 800+ brands, we are the SEO service Singapore businesses use to turn their traffic into revenue.</p>
+                  </div>
+                  <div className="bublle-btn-box">
+                    <Button  text="Learn More About Us" link="./"  target="_self" />
+                    <Button  text="Talk to Our Team" link="./"  target="_self" />
+                  </div>
+
+            </div>
+        </div>
+         <div className="add_faqs-sec">
             <div className="container">
                 <div className="comon-heading-box">
                     <h2>FAQs</h2>
@@ -552,7 +591,8 @@ const WebDesign = () => {
                 </div>
             </div>
         </div>
-         <div className="add-page-blog-sec">
+
+        <div className="add-page-blog-sec">
             <div className="container">
                 <div className="blog-heading">
                     <h2><span>Relevant Blog</span> Posts</h2>
@@ -564,9 +604,8 @@ const WebDesign = () => {
             </div>
         </div>
 
-
     </div>
   )
 }
 
-export default WebDesign;
+export default OrganicMarketing;

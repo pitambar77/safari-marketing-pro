@@ -1,6 +1,5 @@
 
 import Button from "../../components/Button";
-import SmpDontCharge from '../../components/SmpDontCharge';
 import AgencyBrand from '../googleAdd/AgencyBrand';
 import FrameworkBox from "../googleAdd/FrameworkBox";
 import { FaCheckCircle } from "react-icons/fa";
@@ -656,9 +655,7 @@ const SocialMedia = () => {
                 </div>
             </div>
         </div>
-        
-        <SmpDontCharge />
-  
+
     </div>
   )
 }

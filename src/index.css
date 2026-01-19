@@ -64,10 +64,38 @@ ul.nav_menu_list li a {
     color: #fff;
     font-weight: 700;
     transition: color 0.5s ease-in-out;
+    padding-bottom: 20px;
 }
 ul.nav_menu_list li a:hover {
   color: #011833bd;
 }
+ul.nav_menu_list li:hover ul.smp-sub-menu-list {
+    display: block !important;
+    transition: 0.5s;
+}
+ul.nav_menu_list li a svg {
+    font-size: 34px;
+    transform: translate(-3px, -1px);
+}
+ul.smp-sub-menu-list li:hover a {
+    color: #ff5254;
+}
+ul.smp-sub-menu-list {
+    position: absolute;
+    top: 45px;
+    list-style: none;
+    z-index: 10;
+    background: #011833;
+    padding: 20px;
+    display: none;
+}
+ul.smp-sub-menu-list li {
+    margin-bottom: 10px;
+}
+ul.smp-sub-menu-list li:last-child {
+  margin-bottom: 0;
+}
+
 .smp_header_logo img {
     filter: brightness(0) invert(1);
     width: 125px !important;
@@ -542,6 +570,11 @@ ul.smpcoust-profile li {
     overflow: hidden;
     border: 5px solid #fff;
     border-radius: 50%;
+    cursor: pointer;
+}
+ul.smpcoust-profile li:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 ul.smpcoust-profile li:not(:first-child) {
   margin-left: -20px;
@@ -1017,4 +1050,61 @@ p.rating__info-rating {
 .ctatwo-box {
     width: 100%;
     margin-top: 70px;
+}
+.tab-social-del {
+    width: 100%;
+    position: relative;
+    margin: 60px 0px;
+}
+.organic-details-tab-sec {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.other-seo-service-sec {
+    width: 100%;
+    position: relative;
+    background: #0057ff;
+    padding: 70px 0px;
+}
+.seo-smp-dif-card {
+    width: 100%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.smp-organic-diff-sec {
+    width: 100%;
+    position: relative;
+    background: #f5f5f5;
+    padding: 70px 0px;
+}
+.seo-smp-dif-card img {
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.seo-smp-dif-card h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.seo-diff-box {
+    width: 100%;
+    position: relative;
+    margin: 50px 0px 0px 0px;
+}
+.why-seo-smp-trust-se {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.bublle-btn-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
 }

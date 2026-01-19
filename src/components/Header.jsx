@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import { useEffect, useState } from "react";
 import logo from "../assets/images/smp-logo.png";
 import Button from "../components/Button";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Header = () => {
   const [isFixed, setIsFixed] = useState(false);
@@ -35,8 +36,15 @@ const Header = () => {
           <div className="col-md-8">
             <nav className="smp_nav_menu">
               <ul className="nav_menu_list">
-                <li><Link to="/social-media-marketing">About Us</Link></li>
-                <li><Link to="/web-designing">Services</Link></li>
+                <li><Link to="#">About Us</Link></li>
+                <li><Link to="javascript:void(0)">Services <MdKeyboardArrowDown /></Link>
+                <ul className="smp-sub-menu-list">
+                  <li><Link to="/">Google Ads</Link></li>
+                  <li><Link to="/organic-marketing">Organic Marketing</Link></li>
+                  <li><Link to="/social-media-marketing">Social Media Marketing</Link></li>
+                  <li><Link to="/web-designing">Web Designing</Link></li>
+                </ul>
+                </li>
                 <li><Link to="#">Case Studies</Link></li>
                 <li><Link to="#">Resources</Link></li>
                 <li><Link to="#">Contact Us</Link></li>

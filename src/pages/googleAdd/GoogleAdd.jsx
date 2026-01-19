@@ -12,7 +12,7 @@ import Table from 'react-bootstrap/Table';
 import { IoMdCheckmark } from "react-icons/io";
 import Accordion from "react-bootstrap/Accordion";
 import AddBlog from "../../pages/googleAdd/AddBlog";
-import SmpDontCharge from "../../components/SmpDontCharge";
+
 
 const GoogleAdd = () => {
 
@@ -521,7 +521,8 @@ const GoogleAdd = () => {
                 </div>
             </div>
         </div>
-        <SmpDontCharge />
+
+
         </div>
     )
 }
