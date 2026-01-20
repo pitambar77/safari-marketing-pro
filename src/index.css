@@ -1265,3 +1265,186 @@ p.bround-onelist {
     position: relative;
     padding-top: 70px;
 }
+.crm-hero {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+    background: #3467d8;
+}
+.crm-banner-cont {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.crm-banner-cont h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #fff;
+}
+.crm-banner-cont h1 span{
+    color: #011833 !important;
+}
+.crm-banner-cont p {
+    width: 80%;
+    color: #fff;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0 auto;
+}
+ul.crm-bann-tiitl {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    letter-spacing: .84px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.crm-pipeline-set-box {
+    width: 100%;
+    position: relative;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.crm-pipeline-set-box.stepone {
+    display: flex;
+    background: #ff5254;
+}
+.crm-pipeline-set-box.stepone .crm-pipleline-con-step {
+    padding-right: 35px;
+    width: 120%;
+    padding-bottom: 145px;
+}
+.crm-pipeline-set-box.stepone .crm-pipleline-pico-step {
+    padding-top: 100px;
+    margin: 0px;
+}
+.crm-pipleline-con-step button {
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 3px 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.crm-pipleline-con-step h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 20px 0px;
+}
+.crm-pipleline-con-step a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    display: inline;
+    color: #000;
+    font-weight: 500;
+}
+.crm-pipleline-pico-step {
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+.crm-pipeline-set-box.steptwo {
+    background: #f7f7f7;
+    padding: 25px 25px 0px 25px;
+}
+.crm-pipeline-set-box.stethree {
+    background: #fcf7e9;
+}
+.crm-pipeline-set-box.stepfour {
+    background: #cbeaf6;
+}
+.crm-pipeline-set-box.stepfive {
+    background: #011833;
+    color: #fff;
+}
+.crm-pipeline-set-box.stepfive a{
+    color: #fff;
+}
+.sales-pipelines {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.pipeline-box {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.zoho-marketing-box {
+    width: 100%;
+    position: relative;
+    background: #011833;
+    padding-top: 70px;
+    margin-top: 70px;
+}
+.zohomarketing-card {
+    width: 100%;
+    position: relative;
+    color: #fff;
+    margin-bottom: 70px;
+}
+.zohomarketing-card h3 {
+    font-size: 22px;
+    font-weight: 800;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.zohomarketing-card a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    display: inline;
+    color: #fff;
+    font-weight: 500;
+}
+.zoho-why-icon {
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+}
+.zoho-why-icon svg{
+    font-size: 35px !important;
+}
+.smp-crowned {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.smp-croud-box {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.smp-croud-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.smp-croud-list li {
+    flex: 0 1 24%;
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #0057ff;
+    border-radius: 15px;
+}
+.smp-croud-list li img {
+  max-width: 100%;
+  height: auto;
+}
+

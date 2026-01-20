@@ -1,0 +1,56 @@
+.crm-video-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(90deg, #011833, #011833);
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin: 35px 0px;
+}
+.crm-play-icon {
+  background: #ffffff;
+  color: #1c0f4f;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.crm-video-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.crm-video-modal {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.crm-video-modal iframe {
+  width: 100%;
+  height: 450px;
+}
+.crm-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  color: #ffffff;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+}

@@ -8,6 +8,7 @@ import WebDesign from "./pages/WebDesign/WebDesign";
 import SocialMedia from "./pages/socialMedia/SocialMedia";
 import OrganicMarketing from "./pages/organicMarketing/OrganicMarketing";
 import ContentMarketing from "./pages/contentMarketing/ContentMarketing";
+import Crm from "./pages/crm/Crm";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route path="social-media-marketing" element={<SocialMedia />} />
       <Route path="organic-marketing" element={<OrganicMarketing />} />
       <Route path="content-marketing" element={<ContentMarketing />} />
+      <Route path="crm" element={<Crm />} />
     </Route>
   )
 );
