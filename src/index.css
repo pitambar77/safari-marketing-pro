@@ -1723,3 +1723,11 @@ ul.last-brading-log {
     position: relative;
     margin-bottom: 100px;
 }
+.zohomarketing-card a:hover {
+    color: #0057ff;
+    transition: 0.5s;
+}
+.crm-pipleline-con-step a:hover {
+    color: #0057ff;
+    transition: 0.5s;
+}
