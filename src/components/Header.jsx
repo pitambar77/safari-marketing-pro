@@ -36,7 +36,7 @@ const Header = () => {
           <div className="col-md-8">
             <nav className="smp_nav_menu">
               <ul className="nav_menu_list">
-                <li><Link to="#">About Us</Link></li>
+                <li><Link to="about-us">About Us</Link></li>
                 <li><Link to="javascript:void(0)">Services <MdKeyboardArrowDown /></Link>
                 <ul className="smp-sub-menu-list">
                   <li><Link to="/">Google Ads</Link></li>

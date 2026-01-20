@@ -1447,4 +1447,85 @@ ul.crm-bann-tiitl {
   max-width: 100%;
   height: auto;
 }
-
+.about-hero-tittle h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 82px;
+}
+.about-main-subtittle h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #0057ff;
+}
+.about-main-para p {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.about-main-para {
+    width: 100%;
+    position: relative;
+    padding-left: 80px;
+}
+.about-top {
+    margin-bottom: 70px;
+}
+.about-hero-box {
+    width: 100%;
+    position: relative;
+    padding-top: 70px;
+}
+.smp-about-brad {
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.we-aim-about-box {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+    background: #0057ff;
+    margin-top: 70px;
+}
+.our-miss-about-con h5 {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 43px;
+    margin-bottom: 25px;
+}
+.our-miss-about-box {
+    width: 100%;
+    position: relative;
+    background: #ff5254;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.row.smsp-miss {
+    display: flex;
+    align-items: center;
+}
+.our-miss-about-con {
+    width: 100%;
+    position: relative;
+    color: #fff;
+}
+.our-miss-about-con.fist-child-box {
+    padding-right: 60px;
+    padding-left: 20px;
+}
+.our-miss-about-con.second-child-box {
+    padding-right: 20px;
+    padding-left: 60px;
+}
+.our-miss-about-box.second-bg {
+    background: #011833;
+}
+.about-trust-agency {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px 100px 0px;
+}
