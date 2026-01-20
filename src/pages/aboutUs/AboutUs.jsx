@@ -1,6 +1,8 @@
 import React from 'react'
 import Bgvector from "../../assets/images/bg-vector-aboutus.svg";
-import AgencyBrand from '../googleAdd/AgencyBrand';
+import Button from "../../components/Button";
+import logo from "../../assets/images/smp-logo.png";
+import AboutSmpVideo from "../../pages/aboutUs/AboutSmpVideo";
 
 const AboutUs = () => {
   return (
@@ -74,31 +76,207 @@ const AboutUs = () => {
 
             </div>
         </div>
-        <div className="about-trust-agency">
-            <div className="container">
-                <div className="comon-heading-box">
-                    <h2>Top SMEs and MNCs in Singapore choose us as their <span>Google Ads agency in Singapore</span></h2>
-                </div>
-                <div className="agency_brand">
-                   <AgencyBrand />
-                </div>
-                <div className="googla-agec-logo">
-                    <div className="row brad_googleadd">
-                        <div className="col-md-2">
-                            <div className="brad_googleadd_log">
-                                <img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/PremierBadge2025.png" alt="" className="w-100"/>
-                            </div>
+       <div className="results-drive-box">
+         <div className="container">
+            <div className="comon-heading-box">
+                    <h2>We’re a <span>Results-Driven </span> Digital <br />Marketing Agency.</h2> 
+                    <div className="frame-btn-box">
+                  <Button  text="Read Written SMP Reviews" link="./"  target="_self" />
+                  </div>           
+            </div>
+         </div>
+         <div className="smp-results-drive-pic">
+                <ul className="smp-results-list">
+                    <li><img src="https://www.webfx.com/wp-content/uploads/2025/10/about-header-1.webp" alt="" className="w-100"/></li>
+                    <li><img src="https://www.webfx.com/wp-content/uploads/2025/10/about-header-2.webp" alt="" className="w-100"/></li>
+                    <li><img src="https://www.webfx.com/wp-content/uploads/2025/10/about-header-3.webp" alt="" className="w-100"/></li>
+                    <li><img src="https://www.webfx.com/wp-content/uploads/2025/10/about-header-4.webp" alt="" className="w-100"/></li>
+                    <li><img src="https://www.webfx.com/wp-content/uploads/2025/10/about-header-5.webp" alt="" className="w-100"/></li>
+                </ul>
+            </div>
+
+       </div>
+       <div className="smp-leader-comany-sec">
+        <div className="container">
+             <div className="comon-heading-box">
+                    <h2>We’re a Leader in Tech-Enabled <span>Digital Marketing Solutions</span></h2>                            
+            </div>
+            <div className="smp-custom-trategies">
+                <div className="row custom-trategies">
+                    <div className="col-md-6">
+                        <div className="custom-trategies-left">
+                            <h3>Custom Strategies. Real Results.</h3>
+                            <p>We create tailored marketing plans built around your goals — with a sharp focus on what matters most: leads, revenue, and real business growth.</p>
+
+                            <h3>Full-Service, Tech-Enabled Marketing</h3>
+                            <p>Our strategies combine SEO, PPC, content, and more to maximize results. Backed by RevenueCloudFX, you’ll get transparent reporting and smarter decisions</p>
+
+                            <h3>Built for Your Business</h3>
+                            <p>Forget one-size-fits-all. We deliver fully custom strategies powered by real people, real tech, and a shared passion</p>
+
                         </div>
-                        <div className="col-md-10">
-                            <div className="brad_googleadd-para">
-                                <p>Get a Google Premier Partner team of certified Google Adwords / SEM specialists who have a minimum of 2 years experience managing various SEM campaigns locally. We help you create the perfect combination of strategy and implementation to ensure we achieve your goals.</p>
-                                <h3>Managed by Certified Google Ads professionals</h3>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="custom-trategies-right">
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <div className="custom-trategies-card">
+                                        <div className="custom-trategies-vok">
+                                            <h3>$10B</h3>
+                                            <p>revenue generated</p>
+                                        </div>
+                                        <img src="https://www.webfx.com/wp-content/uploads/2025/10/chart-uptrend.svg" alt="" />
+                                    </div>
+                                </div>
+                                 <div className="col-md-6">
+                                    <div className="custom-trategies-card one-box">
+                                        <div className="custom-trategies-vok">
+                                            <h3>24M+</h3>
+                                            <p>leads delivered</p>
+                                        </div>
+                                        <img src="https://www.webfx.com/wp-content/uploads/2025/10/funnel-2.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="custom-trategies-card two-box">
+                                        <div className="custom-trategies-vok">
+                                            <h3>40+</h3>
+                                            <p>earned media wins</p>
+                                        </div>
+                                        <img src="https://www.webfx.com/wp-content/uploads/2025/10/award-2.svg" alt="" />
+                                    </div>
+                                </div>
+                                 <div className="col-md-6">
+                                    <div className="custom-trategies-card three-box">
+                                        <div className="custom-trategies-vok">
+                                            <h3>#1</h3>
+                                            <p>ROI platform</p>
+                                        </div>
+                                        <img src="https://www.webfx.com/wp-content/uploads/2025/10/trophy-2.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div className="col-md-12">
+                                    <div className="last-brading-abbox">
+                                        <h3>In-house technology</h3>
+                                        <ul className="last-brading-log">
+                                            <li><img src="https://www.webfx.com/wp-content/themes/fx/assets/img/blocks/general/colored-flex-boxes/rcfx-light-mode.png" alt="" className="w-100"/></li>
+                                            <li><img src="https://www.webfx.com/wp-content/themes/fx/assets/img/blocks/general/colored-flex-boxes/nutshell-logo.png" alt="" className="w-100"/></li>
+                                            <li><img src="https://www.webfx.com/wp-content/themes/fx/assets/img/blocks/general/colored-flex-boxes/seo-com-logo.png" alt="" className="w-100"/></li>
+                                            <li><img src="https://www.webfx.com/wp-content/themes/fx/assets/img/blocks/general/colored-flex-boxes/teamai-logo.png" alt="" className="w-100"/></li>        
+                                        </ul>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-         </div>
+            <div className="smp-rankings-box">
+               <div className="row smp-ranking">
+                <div className="col-md-2">
+                    <div className="randing-smp-logo">
+                        <img src={logo} alt="" className="w-100"/>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="randing-smp-middle">
+                        <h3>We’ve Driven Over</h3>
+                        <h2>1,312,500 page</h2>
+                        <p> <span>#1 Rankings</span> on Google for our clients</p>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="randing-smp-right">
+                        <img src="https://www.webfx.com/wp-content/themes/fx/assets/img/ctas/page-1-rankings-cta/award-v2.svg" alt="" className="w-100"/>
+                    </div>
+                </div>
+
+               </div>
+            </div>
+            <div className="main-brad-smp-video">
+                <AboutSmpVideo />
+            </div>
+
+
+        </div>
+       </div>
+        <div className="growing-businesses-smp">
+            <div className="container">
+                <div className="comon-heading-box">
+                    <h2>We Drive Results That <br /><span>Grow Businesses</span> Digital</h2>   
+                 </div>
+                 <div className="growing-smp-con">
+                    <div className="row growing-paol">
+                        <div className="col-md-8">
+                                <div className="growing-para-box">
+                                    <p>At SMP, we help companies grow online with data-driven, AI-powered marketing strategies that deliver measurable results.</p>
+                                    <p>With $10B+ in client revenue generated in the last five years, we don’t just drive impact — we scale it. From visibility to leads to conversions, every strategy is tailored to your goals.</p>
+                                    <p>What sets us apart? Our blend of in-house experts and proprietary tools — combining human insight with advanced tech to power smarter, faster campaigns. With 1,100+ testimonials, our results speak for themselves.</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                                </div>
+                        </div>
+                        <div className="col-md-4">
+                                <div className="growing-pic-box">
+                                  <img src="https://www.webfx.com/wp-content/uploads/2025/09/card-simple.webp" alt="" className="w-100"/>
+                                </div>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+        </div>
+        <div className="smp-more-service">
+            <div className="container">
+                <div className="comon-heading-box">
+                    <h2>More than just a <span>place to work</span></h2>                            
+                </div>
+                <div className="top-service-smp-box">
+                    <div className="row top-tab-ser">
+                            <div className="col-md-6">
+                                <div className="smp-top-service-card">
+                                    <div className="smp-top-service-para">
+                                        <h3>#1 Best Place to Work</h3>
+                                         <p>in PA 9 years in a row</p>
+                                    </div>
+                                    <img src="https://www.webfx.com/wp-content/uploads/2025/10/track-record.svg" alt="" />
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="smp-top-service-card">
+                                    <div className="smp-top-service-para">
+                                        <h3>8,500+ lives impacted</h3>
+                                         <p>Through #FXBuilds</p>
+                                    </div>
+                                    <img src="https://www.webfx.com/wp-content/uploads/2025/10/tools.svg" alt="" />
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="smp-top-service-card">
+                                    <div className="smp-top-service-para">
+                                        <h3>Team perks</h3>
+                                         <p>Kayaks, yoga, and an in-house barista — it’s more than just a workplace.</p>
+                                    </div>
+                                    <img src="https://www.webfx.com/wp-content/uploads/2025/10/lotus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="smp-top-service-card">
+                                    <div className="smp-top-service-para">
+                                        <h3>Powered by Positivity</h3>
+                                         <p>We lead with positivity — tackling challenges with creativity and energizing every project.</p>
+                                    </div>
+                                    <img src="https://www.webfx.com/wp-content/uploads/2025/10/emotion-2.svg" alt="" />
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
     </div>
   )
 }
