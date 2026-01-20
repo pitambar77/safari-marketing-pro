@@ -14,6 +14,7 @@ ul.nav_menu_list {
     justify-content: center;
     margin: 0px;
     padding: 0px;
+    align-items: center;
 }
 .row.haeder_smp {
     display: flex;
