@@ -11,6 +11,7 @@ import ContentMarketing from "./pages/contentMarketing/ContentMarketing";
 import Crm from "./pages/crm/Crm";
 import AboutUs from "./pages/aboutUs/AboutUs";
 import SmpAwards from "./pages/smpAwards/SmpAwards";
+import SmpReviews from "./pages/smpReviews/SmpReviews";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="crm" element={<Crm />} />
       <Route path="about-us" element={<AboutUs />} />
       <Route path="awards" element={<SmpAwards />} />
+      <Route path="reviews" element={<SmpReviews />} />
     </Route>
   )
 );

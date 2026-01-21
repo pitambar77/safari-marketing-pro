@@ -1963,3 +1963,11 @@ ul.trusted-crm-brand-list li {
     width: 100%;
     height: 640px;
 }
+.costomer-review-rating {
+    width: 100%;
+    position: relative;
+    padding: 50px 0px 70px 0px;
+}
+.smm-services-sec.new-revies-case {
+    margin-top: 70px;
+}
