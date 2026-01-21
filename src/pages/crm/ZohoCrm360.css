@@ -1,0 +1,44 @@
+.crm360-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: -185px;
+}
+.crm360-svg {
+    width: 90%;
+    transform-style: preserve-3d;
+    transform: perspective(1200px) rotateX(65deg);
+}
+.rotate-slow { animation: spin 70s linear infinite; transform-origin: center; }
+.rotate-medium { animation: spin 50s linear infinite reverse; transform-origin: center; }
+.rotate-fast { animation: spin 30s linear infinite; transform-origin: center; }
+.rotate-sector { animation: spin 18s linear infinite; transform-origin: center; }
+.labels-layer {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+.label {
+    position: absolute;
+    transform: translateX(-50%);
+    pointer-events: auto;
+    background: #ffffff;
+    color: #0057ff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 999px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    text-decoration: none;
+    white-space: nowrap;
+}
+.label.small {
+    padding: 5px 10px;
+    font-size: 10px;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

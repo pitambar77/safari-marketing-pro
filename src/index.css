@@ -21,7 +21,7 @@ ul.nav_menu_list {
     align-items: center;
 }
 button.smp-golbal-btn {
-    padding: 10px 20px;
+    padding: 8px 20px;
     background: #ff5254;
     color: #fff;
     font-weight: bold;
@@ -39,7 +39,7 @@ button.smp-golbal-btn:hover {
     width: 100%;
     position: relative;
     background: #3467d8;
-    padding: 5px 0px;
+    padding: 8px 0px;
     transition: all 0.3s ease;
 }
 .header_section.fixed {
@@ -1730,4 +1730,215 @@ ul.last-brading-log {
 .crm-pipleline-con-step a:hover {
     color: #0057ff;
     transition: 0.5s;
+}
+ul.trusted-crm-brand-list {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 45px;
+}
+ul.trusted-crm-brand-list li {
+    padding: 13px 22px;
+    background: #ececec;
+    border-radius: 35px;
+    box-shadow: 5px 5px 3px .8px rgb(0 87 255 / 11%);
+}
+.win-together-crm {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+    background: #e3edff;
+}
+.trusted-crm-box {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.zoho-smp-tab {
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+.crm-sample-zoho {
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+}
+.crm-sample-zoho .custom-nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 115%;
+    margin-bottom: 0;
+    z-index: 10;
+}
+.crm-sample-zoho .custom-nav button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #0057ff;
+    background: transparent;
+    font-size: 20px;
+    color: #0057ff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.crm-sample-zoho .tab {
+    padding: 12px 28px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    background: #fff;
+    color: #0057ff;
+}
+
+.crm-sample-zoho .tab.active {
+    background: #011833;
+    color: #fff;
+}
+.crm-sample-zoho .tabs {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.crm-sample-zoho .sample-card {
+    overflow: hidden;
+    box-shadow: none;
+    border-radius: 10px;
+}
+.crm-sample-zoho .custom-nav button:hover {
+    background: #ff5254;
+    border: 2px solid #ffffff;
+    color: #fff;
+}
+.crm-integrations-box {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px 0px 0px;
+}
+.crm-intigrt-pioc {
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+.full-view-crm {
+    width: 100%;
+    position: relative;
+    background: #e3edff;
+    padding: 70px 0px 0px 0px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.grow-with-smsp {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+.grow-with-smsp-chid1 {
+    max-width: 260px;
+    width: 100%;
+    padding-top: 75px;
+    box-sizing: border-box;
+    text-align: center;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    position: relative;
+    background: #c9bcfd;
+}
+.labels-layer a:hover {
+    background: #ff5254;
+    color: #fff;
+}
+.grow-with-smsp-chid2 {
+    max-width: 260px;
+    width: 100%;
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    position: relative;
+    background: #b6eefe;
+    margin-left: -20px;
+}
+.grow-with-smsp-chid2 .icon-fgwo-smp {
+    padding-top: 60px;
+}
+.grow-with-smsp-chid3 .pic-fgwo-smp {
+    padding-top: 70px;
+}
+.grow-with-smsp-chid3 {
+    max-width: 260px;
+    width: 100%;
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    position: relative;
+    background: #3467d8;
+    color: #fff;
+    margin-left: -20px;
+    z-index: -1;
+}
+.grow-with-smsp h1 {
+    font-size: 50px;
+    font-weight: 800;
+    padding: 0px;
+    margin: 0px;
+}
+.grow-with-smsp h3 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 0px;
+    margin: 12px 0px;
+}
+.icon-fgwo-smp svg {
+    font-size: 98px !important;
+    transform: translate(0px, 15px);
+    color: #565656c9;
+}
+.icon-fgwo-smp{
+    width: 100%;
+    overflow: hidden;
+}
+.smsp-zoho-ineer-top {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.smsp-zoho-ineer-top h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.smsp-zoho-ineer-top img {
+    position: absolute;
+    width: 271px;
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+.smp-crm_faqs-sec {
+    width: 100%;
+    padding-bottom: 100px;
+}
+.smsp-zoho-ineer-top h1 span {
+    color: #0057ff;
 }
