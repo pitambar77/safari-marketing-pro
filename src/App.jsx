@@ -10,6 +10,7 @@ import OrganicMarketing from "./pages/organicMarketing/OrganicMarketing";
 import ContentMarketing from "./pages/contentMarketing/ContentMarketing";
 import Crm from "./pages/crm/Crm";
 import AboutUs from "./pages/aboutUs/AboutUs";
+import SmpAwards from "./pages/smpAwards/SmpAwards";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path="content-marketing" element={<ContentMarketing />} />
       <Route path="crm" element={<Crm />} />
       <Route path="about-us" element={<AboutUs />} />
+      <Route path="awards" element={<SmpAwards />} />
     </Route>
   )
 );

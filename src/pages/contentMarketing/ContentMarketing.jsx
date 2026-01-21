@@ -1,4 +1,4 @@
-
+import React from 'react';
 import Button from "../../components/Button";
 import AgencyBrand from "../googleAdd/AgencyBrand";
 import ContentTabinfo from "./ContentTabinfo";

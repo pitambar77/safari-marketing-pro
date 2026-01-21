@@ -1,4 +1,4 @@
-
+import React from 'react';
 import Button from "../../components/Button";
 import Smpcrm1 from "../../assets/images/smp-crm1.png";
 import Smpcrm2 from "../../assets/images/smp-crm2.webp";

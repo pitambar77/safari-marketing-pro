@@ -1942,3 +1942,24 @@ ul.trusted-crm-brand-list li {
 .smsp-zoho-ineer-top h1 span {
     color: #0057ff;
 }
+.smp-arards-box {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.smp-arwsa-card {
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.awrd-main-smp-box {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.smp-arwsa-videocard .smp-video-thumb {
+    width: 100%;
+    height: 640px;
+}
