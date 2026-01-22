@@ -1971,3 +1971,48 @@ ul.trusted-crm-brand-list li {
 .smm-services-sec.new-revies-case {
     margin-top: 70px;
 }
+.smp-home-page {
+    width: 100%;
+    position: relative;
+}
+.smp-home-page .add-hero-ban-cont h1 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #fff;
+    margin: 40px 0px 20px 0px;
+}
+.home-page-video {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+    background: #011833;
+}
+.smp-video-content {
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+.home-vid-box {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.smp-video-content p {
+    font-size: 25px;
+    line-height: 35px;
+}
+.smp-video-content h3 {
+    font-size: 35px;
+    font-style: italic;
+}
+.main-tustaward-smp {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px 0px 0px;
+}
+.row.main-tustaw {
+    display: flex;
+    align-items: center;
+}

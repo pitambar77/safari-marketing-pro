@@ -47,7 +47,7 @@ const Header = () => {
                 </li>
                 <li><Link to="javascript:void(0)">Services <MdKeyboardArrowDown /></Link>
                 <ul className="smp-sub-menu-list">
-                  <li><Link to="/">Google Ads</Link></li>
+                  <li><Link to="/google-ads">Google Ads</Link></li>
                   <li><Link to="/organic-marketing">Organic Marketing</Link></li>
                   <li><Link to="/social-media-marketing">Social Media Marketing</Link></li>
                   <li><Link to="/web-designing">Web Designing</Link></li>

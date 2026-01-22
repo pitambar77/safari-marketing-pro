@@ -12,15 +12,17 @@ import Crm from "./pages/crm/Crm";
 import AboutUs from "./pages/aboutUs/AboutUs";
 import SmpAwards from "./pages/smpAwards/SmpAwards";
 import SmpReviews from "./pages/smpReviews/SmpReviews";
+import Home from "./pages/home/Home";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route index element={<GoogleAdd />} />
+      <Route index element={<Home />} />
       <Route path="web-designing" element={<WebDesign />} />
       <Route path="social-media-marketing" element={<SocialMedia />} />
       <Route path="organic-marketing" element={<OrganicMarketing />} />
       <Route path="content-marketing" element={<ContentMarketing />} />
+      <Route path="google-ads" element={<GoogleAdd />} />
       <Route path="crm" element={<Crm />} />
       <Route path="about-us" element={<AboutUs />} />
       <Route path="awards" element={<SmpAwards />} />
