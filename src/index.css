@@ -2000,12 +2000,12 @@ ul.trusted-crm-brand-list li {
     margin-top: 50px;
 }
 .smp-video-content p {
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 24px;
 }
 .smp-video-content h3 {
-    font-size: 35px;
+    font-size: 25px;
     font-style: italic;
+    font-weight: 600;
 }
 .main-tustaward-smp {
     width: 100%;
@@ -2015,4 +2015,216 @@ ul.trusted-crm-brand-list li {
 .row.main-tustaw {
     display: flex;
     align-items: center;
+}
+.smp-digtal-box {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+    background: #0057ff;
+}
+.smp-not-digi-para {
+    width: 100%;
+    position: relative;
+    color: #fff;
+    padding-right: 30px;
+}
+.smp-not-digi-para p {
+    font-weight: 500;
+}
+.smp-not-digi-count {
+    width: 100%;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.digital-counter-smp {
+    width: 48%;
+    position: relative;
+    padding: 35px;
+    border: 2px solid #FFFFFFD4;
+    border-radius: 25px;
+    background-image: linear-gradient(150deg, #0057ff 8%, #a2bfff 100%);
+    color: #fff;
+}
+.digital-counter-smp h3 {
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 58px;
+    padding: 0px;
+    margin: 0px;
+}
+.smsp-digi-tab.nav {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+@media (min-width: 1024px) {
+    .smsp-digi-tab.nav > * {
+        flex: 0 0 calc(25% - 11.25px); 
+        max-width: calc(25% - 11.25px);
+        text-align: center;
+    }
+}
+.smsp-digi-tab.nav .nav-item a {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 0px;
+    border: 4px solid #0057ff;
+    background: #011833;
+    color: #fff;
+    border-radius: 25px;
+}
+.smsp-digi-tab.nav .nav-item a.nav-link.active {
+    color: #000000 !important;
+    background: #e3edff;
+}
+.digital-revenue-tab {
+    width: 100%;
+    position: relative;
+    padding-top: 70px;
+}
+.digital-goal-tab-smp .tab-content {
+    margin-top: 35px;
+    padding: 0px;
+}
+.digita-smp-rrop {
+    width: 100%;
+    position: relative;
+    padding-right: 25px;
+}
+.digita-smp-rpara .row {
+    display: flex;
+    align-items: center;
+}
+.digita-smp-rpara {
+    background: #e3edff;
+    padding: 50px;
+    color: #000;
+    border-radius: 25px;
+}
+.digita-smp-pico {
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.smp-not-digi {
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+.digita-revenue-bxo {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.smp-dif-revenue-slider {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.smp-leads-revenuse-box {
+    width: 100%;
+    position: relative;
+    padding: 70px;
+    background: #0057ff;
+}
+.why-you-work-card {
+    width: 100%;
+    position: relative;
+}
+.why-you-work-ico svg {
+    font-size: 50px;
+    color: #0057ff;
+}
+.why-you-work-ico {
+  padding: 20px 0px;
+}
+.why-you-work-card h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.why-you-work-with-child {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.why-you-work-with-us {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.meet-smp-techno {
+    width: 100%;
+    position: relative;
+    background: #0057ff;
+    padding: 70px 0px;
+}
+.meet-techo-sop .digital-counter-smp {
+    width: 100%;
+}
+.clients-satisfied-smp {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.clients-satisfied-site-list .nav-item a {
+    border: 1px solid #e6edfa;
+    color: #000;
+    background: #e6edfa;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.clients-satisfied-site-list .nav.nav-pills {
+    display: flex;
+    gap: 10px;
+}
+.clients-satisfied-brands {
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+}
+.clients-satisfied-brands ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+}
+.clients-satisfied-brands ul li {
+  flex: 0 0 calc(25% - 20px); 
+  max-width: calc(25% - 20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients-satisfied-cta {
+    width: 100%;
+    position: relative;
+    padding: 35px;
+    border: 2px solid #FFFFFFD4;
+    border-radius: 25px;
+    background-image: linear-gradient(150deg, #0057ff 8%, #a2bfff 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 75px;
+}
+.clients-satisfied-cta h2 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.add_faqs-sec.smphome-faqs {
+    width: 100%;
+    padding-top: 70px;
 }

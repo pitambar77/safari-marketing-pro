@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+.funnel-container {
+  max-width: 900px;
+  margin: auto;
+}
+.funnel-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.base-image {
+  width: 100%;
+  display: block;
+  visibility: hidden;
+}
+.image-layer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  transition: width 0.35s ease;
+}
+.image-layer img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-layer.left {
+  left: 0;
+  z-index: 2;
+}
+.image-layer.left img {
+  left: 0;
+}
+.image-layer.right {
+  right: 0;
+  z-index: 1;
+}
+.image-layer.right img {
+  right: 0;
+}
+.funnel-slider {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: ew-resize;
+  z-index: 5;
+}
+.divider {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  z-index: 6;
+}
+.divider img {
+    width: 42px;
+    height: 100% !important;
+    height: auto;
+    pointer-events: none;
+}

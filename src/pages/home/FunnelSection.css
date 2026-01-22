@@ -1,0 +1,81 @@
+.funnel-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  width: 60%;
+  margin: 0 auto; 
+  perspective: 1200px;
+}
+.funnel-box {
+  width: 100%;
+  position: relative;
+  color: #fff;
+  aspect-ratio: 3 / 1.6;
+  min-height: 260px; 
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(80px) rotateX(35deg);
+  transform-origin: top center;
+  transition: all 0.7s ease;
+}
+.funnel-box.show {
+  opacity: 1;
+  transform: translateY(0) rotateX(0deg);
+}
+.funnel-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://www.heroesofdigital.com/wp-content/uploads/2025/10/funnel-01-1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  z-index: 0;
+}
+
+.funnel-content {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  padding:
+    clamp(32px, 6vh, 80px)
+    clamp(40px, 10%, 140px)
+    clamp(26px, 5vh, 56px);
+  text-align: center;
+  box-sizing: border-box;
+}
+.funnel-inner {
+    max-width: 520px;
+    padding-top: 100px;
+}
+.funnel-box h3 {
+    font-size: 30px !important;
+    line-height: 30px;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 2px solid #e3edff;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.funnel-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.funnel-box ul li {
+  margin: 6px 0;
+}
+@media (max-width: 768px) {
+  .funnel-section {
+    width: 95%;
+  }
+  .funnel-box {
+    aspect-ratio: 4 / 2.4;
+    min-height: 220px;
+  }
+}
