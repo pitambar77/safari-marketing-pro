@@ -9,7 +9,7 @@ ul.nav_menu_list {
     width: 100%;
     position: relative;
     display: flex;
-    gap: 40px;
+    gap: 30px;
     list-style: none;
     justify-content: center;
     margin: 0px;
@@ -2232,4 +2232,37 @@ ul.trusted-crm-brand-list li {
     width: 100%;
     position: relative;
     margin-top: 60px;
+}
+.addres-details-addres {
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+}
+.addres-details-addres h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.details-addres-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0px;
+    border-bottom: 1px solid #ccc;
+}
+.details-addres-ncxc h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.details-addres-ico svg {
+    font-size: 30px;
+}
+.addres-details-cont {
+    width: 100%;
+    position: relative;
+    padding: 20px 0px 100px 0px;
+}
+.details-addres-box.last-no {
+    border: none;
 }

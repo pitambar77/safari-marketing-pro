@@ -13,6 +13,8 @@ import AboutUs from "./pages/aboutUs/AboutUs";
 import SmpAwards from "./pages/smpAwards/SmpAwards";
 import SmpReviews from "./pages/smpReviews/SmpReviews";
 import Home from "./pages/home/Home";
+import TanzaniaContact from "./pages/contactUs/TanzaniaContact";
+import KenyaContact from "./pages/contactUs/KenyaContact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +29,8 @@ const router = createBrowserRouter(
       <Route path="about-us" element={<AboutUs />} />
       <Route path="awards" element={<SmpAwards />} />
       <Route path="reviews" element={<SmpReviews />} />
+      <Route path="tanzania" element={<TanzaniaContact />} />
+      <Route path="kenya" element={<KenyaContact />} />
     </Route>
   )
 );
