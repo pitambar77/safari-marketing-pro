@@ -15,7 +15,7 @@ import { FaReact } from "react-icons/fa";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { FaUserAstronaut } from "react-icons/fa";
 import { MdBookmarkAdd } from "react-icons/md";
-import TechnologyTab from './technologyTab';
+import TechnologyTab from './TechnologyTab';
 import Smmpic1 from "../../assets/images/smm-service1.webp";
 import Smmpic2 from "../../assets/images/smm-service2.webp";
 
