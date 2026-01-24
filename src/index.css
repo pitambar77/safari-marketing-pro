@@ -2548,3 +2548,22 @@ ul.trusted-crm-brand-list li {
     margin-bottom: 25px;
     color: #011833;
 }
+.community-hero-se {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px 0px 0px;
+}
+.community-hero-para {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.community-hero-para h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0px;
+    margin-bottom: 25px;
+}
+.community-hero-para h2 span {
+    color: #0057ff;
+}
