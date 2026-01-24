@@ -99,7 +99,7 @@ const CompanyValues = () => {
                         <div className="row middle-company-val">
                             <div className="col-md-6">
                                 <div className="middle-company-profile">
-                                    <img src="http://localhost:5173/src/assets/images/social1.webp" alt="" className="w-100" />
+                                    <img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/HODWEB-21-scaled-1-1536x1152.webp" alt="" className="w-100" />
                                 </div>
                             </div>
                             <div className="col-md-6">
@@ -121,7 +121,7 @@ const CompanyValues = () => {
                                 <div className="middle-company-para">
                                     <h3>We embrace challenges with solutions, not complaints</h3>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    <img src="http://localhost:5173/src/assets/images/social2.webp" alt="" className="w-100" />
+                                    <img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/HODWEB-12-scaled-1-1536x863.webp" alt="" className="w-100" />
                                 </div>
                             </div>
                         </div>
@@ -174,6 +174,7 @@ const CompanyValues = () => {
                     </div>
                 </div>
             </div>
+
             <div className="company-value-cta">
                 <div className="row company-vla-call-box">
                     <div className="col-md-4">
