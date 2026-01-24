@@ -1,0 +1,67 @@
+.smp-review-section {
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+}
+.smp-review-section .smp-review-card {
+  background: #e3edff;
+  border-radius: 20px;
+  padding: 40px;
+  position: relative;
+}
+.smp-review-section .review-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #5f6b7a;
+}
+.smp-review-section .review-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.smp-review-section .review-author strong {
+  font-size: 18px;
+}
+.smp-review-section .review-author span {
+  margin-left: 8px;
+  font-size: 18px;
+}
+.smp-review-section .review-avatar {
+  position: absolute;
+  right: 40px;
+  background: #ffd966;
+  padding: 6px;
+  border-radius: 50%;
+}
+.smp-review-section .review-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.smp-review-section .smp-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ffffff;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #aa9c9c;
+    border-radius: 50%;
+    font-size: 26px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    z-index: 10;
+}
+.smp-review-section .smp-nav:hover {
+    background: #0057ff;
+    color: #fff;
+    border: 1px solid #0057ff;
+}
+.smp-review-section .smp-prev {
+  left: -9%;
+}
+.smp-review-section .smp-next {
+  right: -9%;
+}

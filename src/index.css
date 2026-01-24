@@ -2266,3 +2266,200 @@ ul.trusted-crm-brand-list li {
 .details-addres-box.last-no {
     border: none;
 }
+.career-hero-sec {
+    width: 650px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0px;
+}
+.career-left-pico {
+    position: absolute;
+    left: -60px;
+    top: 0px;
+    transform: translate(-100%, -80px);
+}
+.career-right-pico {
+    position: absolute;
+    right: -64px;
+    top: 0%;
+    transform: translate(100%, -40px);
+}
+.career-middle-content {
+    width: 100%;
+    text-align: center;
+}
+.career-middle-content h1 {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 46px;
+    letter-spacing: -1.368px;
+}
+.career-middle-content h1 span {
+    color: #0057ff;
+}
+.career-page {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 150px;
+}
+.career-btn-hero {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+.career-para-box h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: -1.008px;
+}
+.career-para-box {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+}
+.career-pic-box {
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    border: 2px solid #0057ff;
+}
+.why-choose-our-carreer {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px 0px 0px;
+}
+.career-perks-child-box h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+}
+.career-perks-child-box {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.career-perks-child-box img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+.career-perks-sec {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.career-smp-video {
+    width: 100%;
+    position: relative;
+    padding-top: 70px;
+}
+.smp-careeer-vix-con {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+}
+.smp-careeer-vix-con h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: -1.008px;
+}
+.career-perks-ineer {
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+.applications-care-left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 25px;
+}
+.applications-care-left {
+    width: 100%;
+    position: relative;
+    padding-right: 40px;
+}
+.oppening-smp-position {
+    width: 100%;
+    position: relative;
+    background: #e3edff;
+    padding: 70px 0px;
+    margin-top: 70px;
+}
+.join-our-mission {
+    width: 100%;
+    position: relative;
+    padding: 40px 0px;
+}
+.join-our-mission h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.smp_ltgcl_form_wrap .form-group {
+    margin-bottom: 0px;
+}
+.our-car-brand {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.our-tittle-carr-para {
+    width: 100%;
+    position: relative;
+    padding-right: 50px;
+}
+.our-tittle-carr-para h3 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: -1.008px;
+}
+.our-tittle-carr-para h3 span {
+    color: #0057ff;
+}
+.our-tittle-carr-para .dooklop {
+    margin-top: 40px;
+}
+.our-tittle-carr-para .conuteyopo h3 {
+    color: #0057ff;
+}
+.smp-initiatives-sec {
+    width: 100%;
+    position: relative;
+    background: #e3edff;
+    padding: 70px 0px;
+}
+.smp-initiatives-top-pic {
+    width: 100%;
+    position: relative;
+    padding-bottom: 60px;
+}
+.smp-initiatives-pra h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.smp-caree-testimonial {
+    width: 100%;
+    position: relative;
+    padding-bottom: 70px;
+}

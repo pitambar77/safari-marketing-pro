@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
 }
-.contact-wrapper {
+.tanzania-contact .contact-wrapper {
   max-width: 725px;
   width: 100%;
 }
@@ -14,38 +14,38 @@
   line-height: 1.1;
   margin-bottom: 12px;
 }
-.sub-text {
+.tanzania-contact .contact-wrapper .sub-text {
   font-size: 14px;
   color: #555;
   margin-bottom: 28px;
 }
-.form-group {
+.tanzania-contact .contact-wrapper .form-group {
   margin-bottom: 26px;
 }
-.form-group h4 {
+.tanzania-contact .contact-wrapper .form-group h4 {
   font-size: 20px;
   margin-bottom: 14px;
   font-weight: 600;
 }
-.form-group label {
+.tanzania-contact .contact-wrapper .form-group label {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
   cursor: pointer;
 }
-.form-group input[type="checkbox"] {
+.tanzania-contact .contact-wrapper .form-group input[type="checkbox"] {
   margin-right: 8px;
   width: auto;
 }
-.tag-list {
+.tanzania-contact .contact-wrapper .tag-list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-.tag-radio input {
+.tanzania-contact .contact-wrapper .tag-radio input {
   display: none;
 }
-.tag-radio span {
+.tanzania-contact .contact-wrapper .tag-radio span {
   padding: 6px 14px;
   background: #f2f2f2;
   border-radius: 20px;
@@ -54,46 +54,45 @@
   border: 1px solid transparent;
   transition: 0.25s;
 }
-.tag-radio input:checked + span {
+.tanzania-contact .contact-wrapper .tag-radio input:checked + span {
   background: #0057ff;
   color: #fff;
   border-color: #0057ff;
 }
-input,
-textarea {
-  width: 100%;
-  padding: 22px 18px;
-  font-size: 13px;
-  border-radius: 6px;
-  border: 1px solid #ddd;
-  outline: none;
-  background: #fff;
-  color: #000;
+.tanzania-contact .contact-wrapper input, textarea {
+    width: 100%;
+    padding: 15px 18px !important;
+    font-size: 13px;
+    border-radius: 6px !important;
+    border: 1px solid #ddd !important;
+    outline: none;
+    background: #fff;
+    color: #000;
 }
-select {
-  width: 100%;
-  height: 48px;
-  padding: 0 18px; 
-  font-size: 13px;
-  border-radius: 6px;
-  border: 1px solid #ddd;
-  background: #fff;
-  color: #000;
-  cursor: pointer;
-  appearance: auto;
-  -webkit-appearance: menulist;
-  -moz-appearance: menulist;
+.tanzania-contact .contact-wrapper select {
+    width: 100%;
+    height: 48px;
+    padding: 0 18px !important;
+    font-size: 13px;
+    border-radius: 6px !important;
+    border: 1px solid #ddd !important;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    appearance: auto !important;
+    -webkit-appearance: menulist;
+    -moz-appearance: menulist;
 }
-textarea {
+.tanzania-contact .contact-wrapper textarea {
   height: 90px;
   resize: none;
 }
-input:focus,
+.tanzania-contact .contact-wrapper input:focus,
 select:focus,
 textarea:focus {
   border-color: #7b4dff;
 }
-.submit-btn {
+.tanzania-contact .contact-wrapper .submit-btn {
   width: 100%;
   padding: 14px;
   background: #ff5254;
@@ -105,15 +104,15 @@ textarea:focus {
   cursor: pointer;
   transition: 0.3s;
 }
-.submit-btn:hover {
+.tanzania-contact .contact-wrapper .submit-btn:hover {
   opacity: 0.9;
 }
 @media (max-width: 480px) {
-  .contact-wrapper h1 {
+  .tanzania-contact .contact-wrapper h1 {
     font-size: 26px;
   }
 }
-.form-group.userdetails-box label {
+.tanzania-contact .form-group.userdetails-box label {
     font-size: 20px;
     margin-bottom: 14px;
     font-weight: 600;

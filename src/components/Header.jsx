@@ -42,10 +42,10 @@ const Header = () => {
                   <li><Link to="/reviews">Our Review</Link></li>
                   <li><Link to="/awards">Company Value</Link></li>
                   <li><Link to="/awards">Community Impact</Link></li>
-                  <li><Link to="/awards">Carrers</Link></li>
+                  <li><Link to="/careers">Career</Link></li>
                 </ul>
                 </li>
-                <li><Link to="javascript:void(0)">Services <MdKeyboardArrowDown /></Link>
+                <li><Link>Services <MdKeyboardArrowDown /></Link>
                 <ul className="smp-sub-menu-list">
                   <li><Link to="/google-ads">Google Ads</Link></li>
                   <li><Link to="/organic-marketing">Organic Marketing</Link></li>
@@ -57,7 +57,7 @@ const Header = () => {
                 </li>
                 <li><Link to="#">Case Studies</Link></li>
                 <li><Link to="#">Resources</Link></li>
-                <li><Link to="#">Contact Us <MdKeyboardArrowDown /></Link>
+                <li><Link>Contact Us <MdKeyboardArrowDown /></Link>
                 <ul className="smp-sub-menu-list">
                   <li><Link to="/tanzania">Tanzania</Link></li>
                   <li><Link to="/kenya">Kenya</Link></li>
