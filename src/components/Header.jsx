@@ -40,7 +40,7 @@ const Header = () => {
                 <ul className="smp-sub-menu-list">
                   <li><Link to="/awards">Awards</Link></li>
                   <li><Link to="/reviews">Our Review</Link></li>
-                  <li><Link to="/awards">Company Value</Link></li>
+                  <li><Link to="/company-values">Company Value</Link></li>
                   <li><Link to="/awards">Community Impact</Link></li>
                   <li><Link to="/careers">Career</Link></li>
                 </ul>

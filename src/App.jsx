@@ -16,6 +16,7 @@ import Home from "./pages/home/Home";
 import TanzaniaContact from "./pages/contactUs/TanzaniaContact";
 import KenyaContact from "./pages/contactUs/KenyaContact";
 import Career from "./pages/careerPage/Career";
+import CompanyValues from "./pages/companyValues/CompanyValues";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -33,6 +34,7 @@ const router = createBrowserRouter(
       <Route path="tanzania" element={<TanzaniaContact />} />
       <Route path="kenya" element={<KenyaContact />} />
       <Route path="careers" element={<Career />} />
+      <Route path="company-values" element={<CompanyValues />} />
     </Route>
   )
 );
