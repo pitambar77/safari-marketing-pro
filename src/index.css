@@ -2753,3 +2753,120 @@ ul.blog-detal-jump-list {
     text-decoration-thickness: 1.5px;
     text-decoration-color: #0057ff;
 }
+.bolg-land-tittle h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 82px;
+}
+.blog-landing-page {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.all-post-page-smp ul.nav.nav-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    border: none;
+}
+.all-post-page-smp {
+    width: 100%;
+    position: relative;
+}
+.all-post-page-smp .nav-tabs .nav-link {
+    padding: 13px 25px;
+    border-radius: 25px;
+    border: 1px solid #3467d8 !important;
+    color: #000;
+    font-weight: 600;
+}
+.all-post-page-smp button.nav-link.active {
+    background: #3467d8 !important;
+    color: #fff !important;
+}
+.recent-post-blogs {
+    width: 100%;
+    position: relative;
+    margin: 60px 0px;
+}
+.main-recent-post-smp h3 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.main-recent-post-smp span.badge.bg-primary{
+    padding: 7px 14px;
+    border-radius: 24px 24px 24px 24px;
+    background: #f5f5f5;
+    font-size: 12px;
+    font-weight: 700;
+}
+.blog-card-smp-box {
+    width: 100%;
+    position: relative;
+}
+.blog-card-smp-box .card-body {
+    width: 100%;
+    position: relative;
+    padding: 20px 0px;
+}
+.card-body h5 {
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    line-height: 21px;
+}
+.blog-card-smp-box button.page-link {
+    font-weight: 600;
+}
+.blog-card-smp-box a {
+    color: #000;
+}
+.main-recent-post-smp a {
+    color: #000;
+}
+.blog-card-smp-box:hover h5 {
+    color: #0057ff;
+    transition: 0.5s;
+}
+.main-recent-post-smp:hover h3 {
+    color: #0057ff;
+    transition: 0.5s;
+}
+.arelated-post-group-smp {
+    width: 100%;
+    position: relative;
+    padding-left: 30px;
+    border-left: 1px solid #d4dae1;
+}
+.main-recent-post-smp {
+    width: 100%;
+    position: relative;
+    padding-right: 30px;
+}
+.arelated-post-group-smp .rela-post-smp {
+    width: 100%;
+    position: relative;
+    margin-bottom: 35px;
+}
+.arelated-post-group-smp .rela-post-smp h3 a {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: #000;
+}
+.arelated-post-group-smp .rela-post-smp h3 {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+ul.post-categoris-new {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0px;
+}
+.arelated-post-group-smp .rela-post-smp h3 a:hover {
+    color: #0057ff;
+    transition: 0.5s;
+}
