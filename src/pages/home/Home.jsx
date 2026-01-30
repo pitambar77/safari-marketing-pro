@@ -272,8 +272,6 @@ const Home = () => {
             <p>Need better results from your digital marketing? SMP of Digital offers a wide range of digital marketing services that work together to attract, delight, and convert leads. Combined with our unique technology suite, we help clients get breakthrough results they’ve never achieved before.</p>
           </div>
           <FunnelSection />
-
-
         </div>
       </div>
       <div className="why-you-work-with-us">
@@ -425,98 +423,98 @@ const Home = () => {
                           <Tab.Pane eventKey="first">
                             <div className="clients-satisfied-brands">
                               <ul>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100"/></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100" /></li>
                               </ul>
                             </div>
                           </Tab.Pane>
                           <Tab.Pane eventKey="second">
                             <div className="clients-satisfied-brands">
                               <ul>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100"/></li>                          
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100" /></li>
                               </ul>
                             </div>
                           </Tab.Pane>
                           <Tab.Pane eventKey="three">
                             <div className="clients-satisfied-brands">
                               <ul>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100"/></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100" /></li>
                               </ul>
                             </div>
                           </Tab.Pane>
                           <Tab.Pane eventKey="four">
                             <div className="clients-satisfied-brands">
                               <ul>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100"/></li>                          
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100" /></li>
                               </ul>
                             </div>
                           </Tab.Pane>
                           <Tab.Pane eventKey="five">
                             <div className="clients-satisfied-brands">
                               <ul>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100"/></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100" /></li>
                               </ul>
                             </div>
                           </Tab.Pane>
                           <Tab.Pane eventKey="six">
                             <div className="clients-satisfied-brands">
                               <ul>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100"/></li>                          
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100" /></li>
                               </ul>
                             </div>
                           </Tab.Pane>
                           <Tab.Pane eventKey="seven">
                             <div className="clients-satisfied-brands">
                               <ul>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100"/></li>
-                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100"/></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Capital-Heart-Centre-CHC.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Atlas-Podiatry.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/International-Centre-for-Cardiothoracic-Surgery-ICTS.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/03/Oxford-Ortho.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/ENT-Surgeons-Medical-Centre-2.jpg.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/chongheelim.png.webp" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/06/Henry-Chan-Ortho.png" alt="" className="w-100" /></li>
+                                <li><img src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Skin-lab-logo.png.webp" alt="" className="w-100" /></li>
                               </ul>
                             </div>
                           </Tab.Pane>
@@ -538,55 +536,55 @@ const Home = () => {
           </div>
         </div>
       </div>
-       <div className="smm-services-sec">
-            <div className="container">
-                <div className="comon-heading-box white-main-hed">
-                    <h2>What Clients Say About Our <br /><span>Meta Ads Agency</span> Services</h2>                 
-                </div>
-                <div className="smm-main-serv">
-                    <div className="row smm-ser-box">
-                        <div className="col-md-6">
-                            <div className="smm-service-card">
-                                <div className="smm-service-card-pic">
-                                     <img src={Smmpic1} alt="" className='w-100'/>
-                                </div>
-                                <div className="smm-service-card-para">
-                                <h3>Mega Furniture: Turning Traffic Into Sales</h3>
-                                <p>Mega Furniture faced high competition and rising Google cost-per-click (CPC) rates. By combining Facebook Ads with SEM and retargeting, we improved funnel efficiency and maximised digital conversions.</p>
-                                
-                                 <div className="higt-sms-ser">
-                                    <p><span>860%</span>increase in conversions</p>
-                                    <p><span>240%</span>reduction in cost per action (CPA)</p>
-                                 </div>
-                                </div>                               
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <div className="smm-service-card onemore-colo">
-                                <div className="smm-service-card-pic">
-                                     <img src={Smmpic2} alt="" className='w-100'/>
-                                </div>
-                                <div className="smm-service-card-para">
-                                <h3>Chilli Manis: Catering That Clicks</h3>
-                                 <p>Mega Furniture faced high competition and rising Google cost-per-click (CPC) rates. By combining Facebook Ads with SEM and retargeting, we improved funnel efficiency and maximised digital conversions.</p>
-                                
-                                 <div className="higt-sms-ser">
-                                    <p><span>860%</span>increase in conversions</p>
-                                    <p><span>240%</span>reduction in cost per action (CPA)</p>
-                                 </div>
-                                </div>                               
-                            </div>
-                        </div>
+      <div className="smm-services-sec">
+        <div className="container">
+          <div className="comon-heading-box white-main-hed">
+            <h2>What Clients Say About Our <br /><span>Meta Ads Agency</span> Services</h2>
+          </div>
+          <div className="smm-main-serv">
+            <div className="row smm-ser-box">
+              <div className="col-md-6">
+                <div className="smm-service-card">
+                  <div className="smm-service-card-pic">
+                    <img src={Smmpic1} alt="" className='w-100' />
+                  </div>
+                  <div className="smm-service-card-para">
+                    <h3>Mega Furniture: Turning Traffic Into Sales</h3>
+                    <p>Mega Furniture faced high competition and rising Google cost-per-click (CPC) rates. By combining Facebook Ads with SEM and retargeting, we improved funnel efficiency and maximised digital conversions.</p>
 
+                    <div className="higt-sms-ser">
+                      <p><span>860%</span>increase in conversions</p>
+                      <p><span>240%</span>reduction in cost per action (CPA)</p>
                     </div>
-                    
+                  </div>
                 </div>
-                <div className="frame-btn-box">
-                     <Button  text="Client Success Stories" link="./"  target="_self" />
+              </div>
+              <div className="col-md-6">
+                <div className="smm-service-card onemore-colo">
+                  <div className="smm-service-card-pic">
+                    <img src={Smmpic2} alt="" className='w-100' />
+                  </div>
+                  <div className="smm-service-card-para">
+                    <h3>Chilli Manis: Catering That Clicks</h3>
+                    <p>Mega Furniture faced high competition and rising Google cost-per-click (CPC) rates. By combining Facebook Ads with SEM and retargeting, we improved funnel efficiency and maximised digital conversions.</p>
+
+                    <div className="higt-sms-ser">
+                      <p><span>860%</span>increase in conversions</p>
+                      <p><span>240%</span>reduction in cost per action (CPA)</p>
+                    </div>
+                  </div>
                 </div>
+              </div>
 
             </div>
+
+          </div>
+          <div className="frame-btn-box">
+            <Button text="Client Success Stories" link="./" target="_self" />
+          </div>
+
         </div>
+      </div>
 
       <div className="add_faqs-sec smphome-faqs">
         <div className="container">

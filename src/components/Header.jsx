@@ -56,7 +56,12 @@ const Header = () => {
                 </ul>
                 </li>
                 <li><Link to="#">Case Studies</Link></li>
-                <li><Link to="#">Resources</Link></li>
+                <li><Link>Resources <MdKeyboardArrowDown /></Link>
+                <ul className="smp-sub-menu-list">
+                  <li><Link to="/blog-details">Blog Details</Link></li>
+                  <li><Link to="/kenya">Blogs</Link></li>
+                </ul>
+                </li>
                 <li><Link>Contact Us <MdKeyboardArrowDown /></Link>
                 <ul className="smp-sub-menu-list">
                   <li><Link to="/tanzania">Tanzania</Link></li>

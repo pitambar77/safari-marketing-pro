@@ -18,6 +18,7 @@ import KenyaContact from "./pages/contactUs/KenyaContact";
 import Career from "./pages/careerPage/Career";
 import CompanyValues from "./pages/companyValues/CompanyValues";
 import CommunityImpact from "./pages/communityImpact/CommunityImpact";
+import BlogDetails from "./pages/blogDetails/BlogDetails";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -36,7 +37,8 @@ const router = createBrowserRouter(
       <Route path="kenya" element={<KenyaContact />} />
       <Route path="careers" element={<Career />} />
       <Route path="company-values" element={<CompanyValues />} />
-       <Route path="community-impact" element={<CommunityImpact />} />
+      <Route path="community-impact" element={<CommunityImpact />} />
+      <Route path="blog-details" element={<BlogDetails />} />
     </Route>
   )
 );
