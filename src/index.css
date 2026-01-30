@@ -2870,3 +2870,276 @@ ul.post-categoris-new {
     color: #0057ff;
     transition: 0.5s;
 }
+.comon-heading-box.makke-full-ser {
+    width: 100%;
+    text-align: left;
+}
+.botto-marketing-para {
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+}
+.full-service-welcom {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.main-marketing-revie-rating {
+    width: 100%;
+    position: relative;
+    background: #3467d8;
+    padding: 30px 0px;
+}
+.rating-box-marketing {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+}
+.rating-box-marketing ul.rating-star {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 4px 0px;
+    gap: 5px;
+}
+.rating-box-marketing h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
+.rating-box-marketing ul.rating-star li svg {
+    color: #f2cd23;
+}
+.marketing-rating-box {
+    width: 60%;
+    margin: 0 auto;
+}
+.rating-box-marketing img {
+    width: 100px !important;
+}
+.uncover-market-box {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.market-strategy-box-full {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.market-strategy-box-left {
+    width: 100%;
+    position: relative;
+    background: #edf5ff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.market-strategy-box-left h3 {
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    gap: 15px;
+    background: #0057ff;
+    color: #fff;
+    padding: 11px;
+    align-items: center;
+}
+.market-strategy-box-left h3 svg {
+    font-size: 70px;
+}
+ul.strategy-box-left-list {
+    width: 100%;
+    position: relative;
+    list-style: none;
+    padding: 30px;
+}
+ul.strategy-box-left-list li {
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ul.strategy-box-left-list li svg{
+    font-size: 20px;
+}
+.market-strategy-box-right {
+    width: 100%;
+    position: relative;
+    background: #ffe9d7;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.market-strategy-box-right h3 {
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    gap: 15px;
+    background: #ff5254;
+    color: #fff;
+    padding: 11px;
+    align-items: center;
+}
+.market-strategy-box-right h3 svg {
+    font-size: 70px;
+}
+ul.strategy-box-left-list.corsss li svg {
+    color: #ff5254;
+}
+ul.strategy-box-left-list li svg {
+    color: #0056fd;
+}
+.full-marketing-form-right input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+}
+.full-marketing-form-left {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.c360marketing-field {
+  margin-bottom: 20px;
+}
+.c360marketing-field .large-textarea {
+  min-height: 220px;
+  resize: vertical;
+}
+.c360marketing-field .custom-select {
+  appearance: auto;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  background-image: none;
+}
+.c360marketing-field .form-control {
+    height: 48px;
+    font-size: 15px;
+    border: 1px solid #e8e9ea !important;
+    outline: none;
+    border-radius: 10px !important;
+    padding: 15px !important;
+}
+.c360marketing-field textarea.form-control {
+    min-height: 80px;
+    max-height: none;
+    resize: vertical;
+}
+button.marking3cbtn {
+    padding: 8px 20px;
+    background: #ff5254;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: none;
+    line-height: 28px;
+    border-radius: 1282px 1282px 1282px 1282px;
+    transition: 0.3s ease;
+}
+.copily-360markk p {
+    padding: 0px;
+    margin: 0px;
+}
+.full-marketing-form-box {
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+.row.dmon-fold-bhbsh {
+    margin-top: 60px;
+}
+button.marking3cbtn:hover{
+    background: #011833;
+}
+.main-3cvideo-middle {
+    width: 70%;
+    margin: 50px auto 50px;
+}
+.wesmp-guide-bootom-guide-para {
+    width: 100%;
+    position: relative;
+    padding-top: 70px;
+    text-align: center;
+}
+.wesmp-guide-bootom-guide-para h3 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 25px;
+}
+.weguide-3cmarkting-box {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+    background: #e3edff;
+}
+.comon-heading-box.makke-full-ser h2 {
+    margin-bottom: 20px;
+}
+.strategy-approach-3cbox {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.strategy-approach-main {
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+}
+.strategy-approach-card h3 {
+    font-size: 20px;
+    margin: 20px auto;
+    font-weight: 700;
+}
+.strategy-approach-card {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: -3px 2px 29px -10px rgba(0, 0, 0, 0.15);
+    padding: 30px 20px;
+}
+.strategy-agency-card {
+    border-radius: 8px;
+    background: #F9F9F9;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.strategy-agency-tittle {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.strategy-agency-tittle h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.strategy-agency-tittle svg {
+    padding: 10px;
+    fill: #0057ff;
+    width: 60px;
+    height: 50px;
+    background: #dce1ec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smp-strategy-agency-parent {
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+.strategy-agency-box-smp {
+    width: 100%;
+    position: relative;
+    padding-bottom: 100px;
+}

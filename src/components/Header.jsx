@@ -52,7 +52,8 @@ const Header = () => {
                   <li><Link to="/social-media-marketing">Social Media Marketing</Link></li>
                   <li><Link to="/web-designing">Web Designing</Link></li>
                   <li><Link to="/content-marketing">Content Marketing</Link></li>
-                   <li><Link to="/crm">CRM</Link></li>
+                  <li><Link to="/crm">CRM</Link></li>
+                  <li><Link to="/marketing-360">360 Marketing</Link></li>
                 </ul>
                 </li>
                 <li><Link to="#">Case Studies</Link></li>
