@@ -2957,7 +2957,7 @@ ul.strategy-box-left-list {
     width: 100%;
     position: relative;
     list-style: none;
-    padding: 30px;
+    padding: 20px;
 }
 ul.strategy-box-left-list li {
     line-height: 35px;
@@ -3367,6 +3367,108 @@ button.marking3cbtn:hover{
     display: inline-flex;
     font-size: 17px;
     padding: 10px;
+    font-weight: 600;
     border-radius: 4px;
     background: rgba(148, 193, 255, 0.17);
+    margin-bottom: 25px;
+}
+.deside-aproch-card {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    background: #edf5ff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.deside-aproch-tittle {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.deside-aproch-pic {
+    width: 20%;
+}
+.deside-aproch-tit {
+    width: 100%;
+    position: relative;
+    max-width: calc(100% - 20%);
+}
+.deside-aproch-tit h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3467d8;
+    padding: 0px;
+    margin: 0px;
+}
+.deside-aproch-sub-box {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+.decide-which-approach-3cbox {
+    width: 100%;
+    position: relative;
+    margin-bottom: 70px;
+}
+.smp-plant-para {
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+.smp-plant-para button {
+    padding: 7px 35px;
+    margin-bottom: 20px;
+    border: 1px solid #3467d8;
+    font-weight: 700;
+    background: #3467d8;
+    color: #f4f7fb;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+ul.smp-plant-list {
+    width: 100%;
+    position: relative;
+    list-style: none;
+    padding: 0px;
+}
+ul.smp-plant-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ul.smp-plant-list li svg {
+    color: #a3bd6d;
+}
+.row.plaing-smsp-box {
+    display: flex;
+    align-items: center;
+}
+.planing-treee-child {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.theceffective-results-pic {
+    width: 100%;
+    position: relative;
+    margin: 30px 0px;
+}
+.smp-planting-side-box {
+    width: 100%;
+    position: relative;
+    margin-bottom: 70px;
+}
+.website-plan-marksmp {
+    width: 100%;
+    position: relative;
+    padding: 25px 25px 20px 25px;
+}
+.smp-businessplan-pio {
+    width: 100%;
+    position: relative;
+    margin-bottom: 70px;
 }
