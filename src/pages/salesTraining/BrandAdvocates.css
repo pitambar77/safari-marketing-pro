@@ -1,0 +1,92 @@
+.brand-advocates {
+  padding: 80px 20px;
+}
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #011833;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.step svg {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+.step.active {
+  background: #3467d8;
+  transform: scale(1.05);
+}
+.arrow {
+    margin: 0 14px;
+    font-size: 30px;
+    color: #0057ff;
+    font-weight: 900;
+}
+.step span {
+    text-transform: uppercase;
+}
+.center-desc {
+    max-width: 650px;
+    margin: 90px auto 0;
+    padding: 0px 45px 45px 45px;
+    background: #e3edff;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+.center-desc::before {
+  content: "";
+  position: absolute;
+  top: -87px;
+  left: 50%;
+  height: 80px;
+  border-left: 2px dotted #0057ff;
+  transform: translateX(-50%);
+}
+.center-desc::after {
+    content: "";
+    position: absolute;
+    top: -13px;            
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #0057ff; 
+}
+.curve-icon {
+    width: 200px;
+    height: 100px;
+    background-color: #3467d8;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 25px;
+    color: #fff;
+}
+.desc svg {
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+.desc p {
+    line-height: 1.8;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}

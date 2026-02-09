@@ -54,6 +54,7 @@ const Header = () => {
                   <li><Link to="/content-marketing">Content Marketing</Link></li>
                   <li><Link to="/crm">CRM</Link></li>
                   <li><Link to="/marketing-360">360 Marketing</Link></li>
+                  <li><Link to="/sales-training">Sales Training</Link></li>
                 </ul>
                 </li>
                 <li><Link to="#">Case Studies</Link></li>

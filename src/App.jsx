@@ -21,6 +21,7 @@ import CommunityImpact from "./pages/communityImpact/CommunityImpact";
 import BlogDetails from "./pages/blogDetails/BlogDetails";
 import Blogs from "./pages/blogs/Blogs";
 import Marketing360 from "./pages/marketing360/Marketing360";
+import SalesTraining from "./pages/salesTraining/SalesTraining";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -43,6 +44,7 @@ const router = createBrowserRouter(
       <Route path="blog-details" element={<BlogDetails />} />
       <Route path="blogs" element={<Blogs />} />
       <Route path="marketing-360" element={<Marketing360 />} />
+      <Route path="sales-training" element={<SalesTraining />} />
     </Route>
   )
 );
