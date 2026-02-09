@@ -559,7 +559,7 @@ const Marketing360 = () => {
             <div className="3ceffective-results-box">
                 <div className="container">
                     <div class="comon-heading-box">
-                        <h2>Thrive’s Growth Formula Delivers <span>the Most Effective Results</span></h2>
+                        <h2>SMP Growth Formula Delivers <span>the Most Effective Results</span></h2>
                         <p>Drive Gains at Both Ends of Your Sales Funnel</p>
                     </div>
                     <div className="middle-box-3cpara">
