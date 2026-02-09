@@ -11,6 +11,8 @@ import Marketing360Form from './Marketing360Form';
 import formpic from "../../assets/images/contactexperience-desktop-new.png";
 import formpic2 from "../../assets/images/3cGroup.png";
 import formpic3 from "../../assets/images/3cmapGroup.png";
+
+import formwebpic from "../../assets/images/Group-webcol.webp";
 import { IoLogoWebComponent } from "react-icons/io5";
 
 
@@ -319,7 +321,233 @@ const Marketing360 = () => {
                     </div>
                 </div>
             </div>
+            <div className="website-include-mar">
+                <div className="container">
+                    <div class="comon-heading-box">
+                        <h2>What’s Included in Your Web <span>Marketing Strategy?</span></h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen</p>
+                    </div>
+                    <div className="webside-incl-details">
+                        <div className="row webbbs-smp">
+                            <div className="col-md-6">
+                                <div className="website-plan-marke-box">
+                                    <div className="website-plan-mark-child childone">
+                                        <div className="strategy-agency-tittle childone-heding">
+                                            <IoLogoWebComponent />
+                                            <h4>Section 1: Scorecard Results and Recommendation</h4>
+                                        </div>
+                                        <div className="website-plan-mark-details">
+                                            <ul className="strategy-box-left-list">
+                                                <li><FiCheck />Determine marketing gaps</li>
+                                                <li><FiCheck />Expand your reach</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="website-plan-mark-child childtwo">
+                                        <div className="strategy-agency-tittle childtwo-heding">
+                                            <IoLogoWebComponent />
+                                            <h4>Section 2: Solutions and Plan</h4>
+                                        </div>
+                                        <div className="website-plan-mark-details">
+                                            <ul className="strategy-box-left-list">
+                                                <li><FiCheck />Determine marketing gaps</li>
+                                                <li><FiCheck />Improve audience targeting</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="website-plan-mark-child childthree">
+                                        <div className="strategy-agency-tittle childthree-heding">
+                                            <IoLogoWebComponent />
+                                            <h4>Section 3: Worksheet and Investment</h4>
+                                        </div>
+                                        <div className="website-plan-mark-details">
+                                            <ul className="strategy-box-left-list">
+                                                <li><FiCheck />Determine marketing gaps</li>
+                                                <li><FiCheck />Expand your reach</li>
+                                                <li><FiCheck />Improve audience targeting</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="website-plan-marke-pic">
+                                    <img src={formwebpic} alt="" className="w-100" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="strategyfirm-box">
+                <div className="container">
+                    <div class="comon-heading-box">
+                        <h2>A Digital Strategy Firm <span>That Delivers</span></h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div className="strategyfirm-para-box">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    </div>
 
+                </div>
+            </div>
+            <div className="threccase-study-box">
+                <div className="container">
+                    <div class="comon-heading-box">
+                        <h2>Case <span>Study</span></h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen</p>
+                    </div>
+                    <div className="threccasefirm-para-box">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    </div>
+                    <div className="hree-case-partbox">
+                        <div className="row casemarkbox">
+                            <div className="col-md-4">
+                                <div className="threccase-card-box">
+                                    <div className="threccase-card-pic">
+                                        <img src="https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-bdf9387/thriveagency.com/files/digital-case-image1.png" alt="" className="w-100" />
+                                    </div>
+                                    <div className="fist-case-tittle">
+                                        <h2>Total Leads</h2>
+                                    </div>
+                                    <div className="fist-case-number">
+                                        <h2>+89,422</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="threccase-card-box">
+                                    <div className="threccase-card-pic">
+                                        <img src="https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-bdf9387/thriveagency.com/files/digital-case-image2.png" alt="" className="w-100" />
+                                    </div>
+                                    <div className="fist-case-tittle middle-color">
+                                        <h2>Organic Traffic</h2>
+                                    </div>
+                                    <div className="fist-case-number">
+                                        <h2>+57.4%</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="threccase-card-box">
+                                    <div className="threccase-card-pic">
+                                        <img src="https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-bdf9387/thriveagency.com/files/digital-case-image1.png" alt="" className="w-100" />
+                                    </div>
+                                    <div className="fist-case-tittle">
+                                        <h2>Ppc Conversion Rate</h2>
+                                    </div>
+                                    <div className="fist-case-number">
+                                        <h2>+13.5%</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="threccasefirm-para-box">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    </div>
+                    <div className="form-client-rev-3cbox">
+                        <h3>From the Client:</h3>
+                        <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."</p>
+                    </div>
+                    <div className="frame-btn-box">
+                        <Button text="Choose A Proven Growth Strategy" link="./" target="_self" />
+                    </div>
+
+                </div>
+            </div>
+            <div className="development-six-point">
+                <div className="container">
+                    <div class="comon-heading-box">
+                        <h2>6 Key Areas of Focus for Digital <span>Marketing Strategy Development</span></h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen</p>
+                    </div>
+                    <div class="steps-wrap full online-local-steps custom-yellowlast">
+                        <div class="candidatestep-wrap blue">
+                            <div class="step-img-wrap">
+                                <div class="stepbg">
+                                    <span>Step</span>
+                                    <h3>1</h3>
+                                </div>
+                            </div>
+                            <div class="step-content-wrap">
+                                <h4 class="sub-heading blue">Brand and Business</h4>
+                                <p>Evaluates the level of your digital presence, including competitive position, online reputation and customer relationship management (CRM)</p>
+                            </div>
+                        </div>
+                        <div class="candidatestep-wrap teal">
+                            <div class="step-img-wrap">
+                                <div class="stepbg">
+                                    <span>Step</span>
+                                    <h3>2</h3>
+                                </div>
+                            </div>
+                            <div class="step-content-wrap">
+                                <h4 class="sub-heading teal">Content and Engagement</h4>
+                                <p>Assesses your brand engagement, social media marketing strategy, email marketing strategy and content strategy SEO performance, etc.</p>
+                            </div>
+                        </div>
+                        <div class="candidatestep-wrap bluegreen">
+                            <div class="step-img-wrap">
+                                <div class="stepbg">
+                                    <span>Step</span>
+                                    <h3>3</h3>
+                                </div>
+                            </div>
+                            <div class="step-content-wrap ">
+                                <h4 class="sub-heading bluegreen">Internal Team or Partners</h4>
+                                <p>Determines your capacity to generate online marketing ideas and perform necessary web optimization processes.</p>
+                            </div>
+                        </div>
+                        <div class="candidatestep-wrap thrivegreen">
+                            <div class="step-img-wrap">
+                                <div class="stepbg">
+                                    <span>Step</span>
+                                    <h3>4</h3>
+                                </div>
+                            </div>
+                            <div class="step-content-wrap">
+                                <h4 class="sub-heading thrivegreen">Technology and Software Integration</h4>
+                                <p>Identifies your organization’s major challenges in tracking campaign performance metrics.</p>
+                            </div>
+                        </div>
+                        <div class="candidatestep-wrap green">
+                            <div class="step-img-wrap">
+                                <div class="stepbg">
+                                    <span>Step</span>
+                                    <h3>5</h3>
+                                </div>
+                            </div>
+                            <div class="step-content-wrap">
+                                <h4 class="sub-heading green">Lead Sources</h4>
+                                <p>Determines your key traffic sources and the availability of essential marketing channels.</p>
+                            </div>
+                        </div>
+                        <div class="candidatestep-wrap orange">
+                            <div class="step-img-wrap">
+                                <div class="stepbg">
+                                    <span>Step</span>
+                                    <h3>6</h3>
+                                </div>
+                            </div>
+                            <div class="step-content-wrap">
+                                <h4 class="sub-heading orange">Success Measurement</h4>
+                                <p>Evaluates your campaign performance based on factors such as customer lifetime value (CLV), lead volume and website traffic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="threccasefirm-para-box">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    </div>
+                    <div className="frame-btn-box">
+                        <Button text="Let Us Become Your Guide" link="./" target="_self" />
+                    </div>
+                </div>
+            </div>
 
         </section>
     )
