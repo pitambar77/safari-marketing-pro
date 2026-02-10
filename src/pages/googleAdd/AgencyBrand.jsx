@@ -25,17 +25,19 @@ const agency = [
   "https://www.heroesofdigital.com/wp-content/uploads/2025/06/n-logo.webp",
   "https://www.heroesofdigital.com/wp-content/uploads/2025/06/x-logo.png",
   "https://www.heroesofdigital.com/wp-content/uploads/2025/06/nanyang.webp",
-
 ];
 
 const AgencyBrand = () => {
   return (
-    <div className="agency_brand_pic">
-      {agency.map((img, index) => (
-        <img key={index} src={img} alt={`agency-${index + 1}`} />
-      ))}
-    </div>
+    <>
+     
+      <div className="agency_brand_pic">
+        {agency.map((img, index) => (
+          <img key={index} src={img} alt={`agency-${index + 1}`} />
+        ))}
+      </div>
+    </>
   );
-}
+};
 
 export default AgencyBrand;

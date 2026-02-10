@@ -3,43 +3,53 @@ import "./FunnelSection.css";
 
 const funnelData = [
   {
-    title: "Drive website traffic",
+    title: "Safari Web Design",
     items: [
-      "SEO Services",
-      "Local SEO Services",
-      "Ecommerce SEO Services",
-      "Content Marketing Services",
+     
+      
+      "Launch your safari website",
+      "Testing and fixing website errors",
+       "Understand your safari business goals",
+      "Develop a world-class website structure",
+      "Create value-added content and itineraries",
     ],
   },
   {
-    title: "Create and manage powerful ad campaigns",
+    title: "Organic Marketing (SEO)",
     items: [
-      "Google Advertising Services",
-      "Meta Advertising Services",
-      "TikTok Advertising Services",
-      "YouTube Advertising Services",
+      "Optimise your safari content",
+      "Research intent safari keywords",
+      "On-site SEO for your safari website",
+
+      "Build backlinks to your safari website",
+      "Analyse your leading safari competitors",
+      "Analyse your safari site ranks and traffic",
     ],
   },
   {
-    title: "Collect, analyse & deploy marketing data",
+    title: "Paid Marketing",
     items: [
-      "Analytics Dashboard",
-      "Website Call Tracking",
-      "Lead Management",
+      "Create safari ad copies",
+      "Create safari landing pages",
+      "Publish and manage safari campaigns",
+      "Market trends and competitor research",
+      "Keyword research and audience segmentation",
     ],
   },
   {
-    title: "Improve brand messaging & conversions",
+    title: "Sales ",
     items: [
-      "Website Design Services",
-      "Landing Page Design Services",
-      "Conversion Rate Optimisation (CRO) Services",
+      "Keep follow-ups in every possible way",
+      "Attend to safari inquiries immediately",
+
+      "Present safari itineraries to attract inquiries",
+      "Add value about your destinations to close deals",
     ],
   },
 ];
 
 const FunnelSection = () => {
-  const [visibleIndex, setVisibleIndex] = useState(0); 
+  const [visibleIndex, setVisibleIndex] = useState(0);
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -57,7 +67,7 @@ const FunnelSection = () => {
           index++;
         }, 350);
       },
-      { threshold: 0.25 }
+      { threshold: 0.25 },
     );
 
     if (sectionRef.current) observer.observe(sectionRef.current);
