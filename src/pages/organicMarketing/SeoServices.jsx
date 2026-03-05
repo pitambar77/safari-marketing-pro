@@ -6,33 +6,35 @@ import "./SeoServices.css";
 
 const services = [
   {
-    title: "E-commerce SEO Services",
-    desc:  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "Safari Content Marketing ",
+    desc:  "High-quality content is key to attracting, educating, and converting safari travelers. We craft storytelling that resonates with adventure seekers and luxury travelers alike.",
     list: [
-      "Technical SEO for product-rich",
-      "Structured implementation",
-      "SEO-optimised titles",
-      "Ongoing optimisation ",
+      "Destination Guides and Itineraries",
+      "Blog and Storytelling",
+      "Multimedia Content",
+      "Content Calendar Planning ",
+      "Authority Partnerships"
     ],
   },
   {
-    title: "Local SEO Services",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "Safari Local and International Visibility",
+    desc: "Safari travelers come from all over the world. We ensure your brand is found by the right audiences at the right time, whether locally or globally.",
     list: [
-      "Google Business Profile",
-      "Location-based keyword",
-      "Local citations & directories",
-      "Review generation strategy",
+      "Geo-Targeted SEO",
+      "Multilingual SEO",
+      "International Link Building",
+      
     ],
   },
   {
-    title: "Content SEO Services",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "Safari Technical and Performance SEO",
+    desc: "A safari website must be fast, secure, and easy to navigate for travelers worldwide. Technical SEO ensures your site performs optimally.",
     list: [
-      "Content strategy by intent",
-      "SEO blog writing",
-      "Service page copywriting",
-      "Internal linking optimisation",
+      "Site Speed and Performance",
+      "Mobile Optimization",
+      "Structured Data and Schema Markup",
+      "Website Architecture and Crawlability",
+      "SEO Health Monitoring and Fixes",
     ],
   },
   {

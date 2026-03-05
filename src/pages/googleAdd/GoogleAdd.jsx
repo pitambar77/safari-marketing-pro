@@ -105,7 +105,12 @@ const GoogleAdd = () => {
           <div className="row sus-stories">
             <div className="col-md-5">
               <div className="suc-stories-para">
-                <h2>Don’t Just Take Our Word For It</h2>
+                <h2>Success You Can Measure</h2>
+                <p>
+                  Explore client stories that highlight the results of our
+                  targeted Google Ads campaigns, driving high-quality safari
+                  inquiries and bookings across Africa.
+                </p>
                 <div className="suc-stories-btn">
                   <Button
                     text="Client Success Stories"
@@ -226,32 +231,54 @@ const GoogleAdd = () => {
       <div className="digital-vs-rest-sec">
         <div className="container">
           <div className="comon-heading-box">
-            <h2>Safari Marketing Pro of Digital vs The Rest</h2>
+            <h2>Safari Marketing Pro vs The Rest</h2>
           </div>
           <div className="digital-card-main">
             <div className="row digital-child-card">
               <div className="col-md-4">
                 <div className="digital-card add-colorbg">
-                  <h3>SMP of Digital</h3>
+                  <h3>Safari Marketing Pro (SMP)</h3>
                   <ul className="digital-card-list">
                     <li>
-                      <FaCheckCircle /> Dedicated account manager backed by a
-                      team of 100+ digital marketing pros
+                      <FaCheckCircle /> Built specifically for African safari
+                      operators, lodges, and tour companies
                     </li>
                     <li>
                       <FaCheckCircle />
-                      Automated reporting dashboard that shows all your key
-                      metrics in one place, anytime
+                      Full-funnel strategy tied to inquiries and bookings
                     </li>
                     <li>
                       <FaCheckCircle />
-                      AI-driven insights that connect campaigns to real business
-                      impact, online and offline
+                      High-intent safari search terms based on real buyer
+                      behavior
                     </li>
                     <li>
                       <FaCheckCircle />
-                      Holistic strategies focused on revenue—not just clicks,
-                      leads, or rankings
+                      Daily monitoring and continuous optimization
+                    </li>
+                    <li>
+                      <FaCheckCircle />
+                      Advanced tracking for inquiries, calls, and bookings
+                    </li>
+                    <li>
+                      <FaCheckCircle />
+                      Deep understanding of African destinations and seasons
+                    </li>
+                    <li>
+                      <FaCheckCircle />
+                      Clear reports tied to ROI and lead quality
+                    </li>
+                    <li>
+                      <FaCheckCircle />
+                      Easily scale campaigns across markets and seasons
+                    </li>
+                    <li>
+                      <FaCheckCircle />
+                      Uses best-in-class Google Ads and analytics tools
+                    </li>
+                    <li>
+                      <FaCheckCircle />
+                      Optimized ad spend focused on higher ROI
                     </li>
                   </ul>
                 </div>
@@ -262,46 +289,84 @@ const GoogleAdd = () => {
                   <ul className="digital-card-list">
                     <li>
                       <FaRegCheckCircle className="gigital-check-ico" />
-                      Understands metrics, but might not know how to turn that
-                      into growth
+                      Often limited safari experience
                     </li>
                     <li>
                       <FaRegCheckCircle className="gigital-check-ico" />
-                      Understands metrics, but might not know how to turn that
-                      into growth
+                      Focus on traffic volume
                     </li>
                     <li>
-                      <IoIosCloseCircleOutline /> One or two people juggling it
-                      all and struggling to keep up with rapid changes
+                      <IoIosCloseCircleOutline /> Limited research and testing
                     </li>
                     <li>
-                      <IoIosCloseCircleOutline /> Analytics tools, but often
-                      stretched thin trying to make sense of it all
+                      <IoIosCloseCircleOutline /> Restricted by time and
+                      internal workload Basic tracking setup
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline /> Basic tracking setup
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline /> Internal knowledge varies
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline /> Internal reports often lack
+                      benchmarks
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline /> Requires hiring and training
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline /> Limited by internal budget
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline /> Fixed salaries plus ad spend
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="digital-card">
-                  <h3>Typical Marketing Agency</h3>
+                  <h3>Other Agencies</h3>
                   <ul className="digital-card-list">
                     <li>
                       <IoIosCloseCircleOutline />
-                      Account manager, but limited in scope and resources
+                      General travel or non-travel focus
                     </li>
                     <li>
                       <IoIosCloseCircleOutline />
-                      Manual reports in Excel or Word—slow and prone to errors
+                      Campaigns run in isolation
                     </li>
                     <li>
                       <IoIosCloseCircleOutline />
-                      Surface-level analysis that rarely digs into true business
-                      outcomes
+                      Generic keywords
                     </li>
                     <li>
                       <IoIosCloseCircleOutline />
-                      remaining essentially unchanged. It was popularised in the
-                      1960s with the release of Letraset sheets containing
+                      Periodic updates
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline />
+                      Often click-focused
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline />
+                      Limited regional expertise
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline />
+                      Vanity metrics focused
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline />
+                      Scaling often increases cost
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline />
+                      Tool access varies
+                    </li>
+                    <li>
+                      <IoIosCloseCircleOutline />
+                      Management fees without results focus
                     </li>
                   </ul>
                 </div>
@@ -317,78 +382,78 @@ const GoogleAdd = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Get a <span>full-funnel digital marketing strategy</span> with our
-              following services
+              Get a <span> Full-Funnel Strategy for Your Google Ad </span>{" "}
+              Campaigns
             </h2>
+            <p>
+              We help safari operators, lodges, and tour companies maximize
+              visibility, attract qualified travelers, and convert inquiries
+              into bookings. Our full-funnel approach ensures every ad dollar
+              works hard for your business.
+            </p>
           </div>
           <div className="funnel-main-details">
             <div className="row funnel-details">
               <div className="col-md-4">
                 <div className="funnel-details-card">
-                  <h3>Create & manage powerful ad campaigns</h3>
+                  <h3>Powerful Ad Campaigns</h3>
                   <ul className="funnel-details_list">
                     <li>
                       <FaRegCheckCircle />
-                      SEM Management Services
+                      Safari-focused targeting and keywords
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Social Advertising Services
+                      High-intent audience segmentation
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Programmatic Advertising Services
+                      Compelling ads and optimized landing pages
                     </li>
-                    <li>
+                    {/* <li>
                       <FaRegCheckCircle />
                       Geofencing Advertising Services
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="funnel-details-card">
-                  <h3>Collect, analyse and deploy marketing data</h3>
+                  <h3>Smart Data & Optimization</h3>
                   <ul className="funnel-details_list">
                     <li>
                       <FaRegCheckCircle />
-                      SEM Management Services
+                      Track leads, costs, and ROI
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Social Advertising Services
+                      Identify top markets and campaigns
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Programmatic Advertising Services
+                      Ongoing performance optimization
                     </li>
-                    <li>
-                      <FaRegCheckCircle />
-                      Geofencing Advertising Services
-                    </li>
+                
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="funnel-details-card">
-                  <h3>Stronger Brand. Higher Conversions.</h3>
+                  <h3>Stronger Brand. Higher Conversions</h3>
                   <ul className="funnel-details_list">
                     <li>
                       <FaRegCheckCircle />
-                      SEM Management Services
+                      Retarget interested travelers
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Social Advertising Services
+                     Build trust in safari marketss
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Programmatic Advertising Services
+                      Optimize for inquiries and bookings
                     </li>
-                    <li>
-                      <FaRegCheckCircle />
-                      Geofencing Advertising Services
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -404,7 +469,8 @@ const GoogleAdd = () => {
                 <div className="customers-exp-data">
                   <div className="comon-heading-box google_gark_left">
                     <h2>
-                      Ready to turn <span>clicks into customers</span> ?
+                      Want more qualified inquiries from{" "}
+                      <span> Google Ads </span> campaigns?
                     </h2>
                     <p>
                       Are you getting the full potential of your digital
@@ -413,13 +479,17 @@ const GoogleAdd = () => {
                   </div>
                   <h3>What you can expect from us:</h3>
                   <ul className="customers-exp-list">
-                    <li>More hot leads through targeted Google Ads </li>
                     <li>
-                      Boost your return on ad spend with optimised campaigns
+                      Ad campaigns tailored to your target market and
+                      regions{" "}
                     </li>
-                    <li>Stay ahead of trends with data-backed strategies</li>
+                    <li>High ROI on ad conversions</li>
                     <li>
-                      Measure the true impact of your ad campaigns on sales
+                      Smart targeting to reach travelers ready to plan and book
+                    </li>
+                    <li>
+                      Continuous optimization to improve results, season after
+                      season
                     </li>
                   </ul>
                   <p>
@@ -816,7 +886,8 @@ const GoogleAdd = () => {
                         What is Quality Score?
                       </Accordion.Header>
                       <Accordion.Body>
-                        It measures how relevant your ads and pages are, which affects visibility and cost per lead.
+                        It measures how relevant your ads and pages are, which
+                        affects visibility and cost per lead.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="5">
@@ -824,10 +895,10 @@ const GoogleAdd = () => {
                         How do you measure success?
                       </Accordion.Header>
                       <Accordion.Body>
-                       By inquiries, cost per lead, lead quality, and booking potential, not just clicks.
+                        By inquiries, cost per lead, lead quality, and booking
+                        potential, not just clicks.
                       </Accordion.Body>
                     </Accordion.Item>
-               
                   </Accordion>
                 </div>
               </div>

@@ -367,7 +367,7 @@ ul.digital-card-list li .gigital-check-ico{
 }
 .funnel-details_list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    /* grid-template-columns: repeat(2, 1fr);  */
     gap: 0px 30px;
     padding: 0;
     margin: 0;
@@ -377,7 +377,7 @@ ul.digital-card-list li .gigital-check-ico{
 .funnel-details_list li {
     display: flex;
     gap: 10px;
-    padding: 20px 0;
+    padding: 15px 0;
     align-items: flex-start;
 }
 .funnel-details_list li svg {

@@ -8,7 +8,6 @@ import Effective4 from "../../assets/images/effective4.webp";
 import Effective5 from "../../assets/images/effective5.webp";
 import Effective6 from "../../assets/images/effective6.webp";
 import WebsiteSamples from "../WebDesign/WebsiteSamples";
-import FrameworkBox from "../googleAdd/FrameworkBox";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { IoIosCloseCircleOutline } from "react-icons/io";
@@ -19,6 +18,8 @@ import Accordion from "react-bootstrap/Accordion";
 import AddBlog from "../googleAdd/AddBlog";
 import Cta from "../../components/Cta";
 import social from "../../assets/images/social-media-pic.webp";
+import FrameworkBox from "./FrameworkBox";
+import { RxCross2 } from "react-icons/rx";
 
 const WebDesign = () => {
   return (
@@ -606,44 +607,24 @@ const WebDesign = () => {
               <thead>
                 <tr>
                   <th>Features</th>
-                  <th>Tier 1</th>
-                  <th>Tier 2</th>
-                  <th>Tier 3</th>
-                  <th>Tier 4</th>
-                  <th>Tier 5</th>
+                  <th>Starter</th>
+                  <th>Growth</th>
+                  <th>Professional</th>
+                  <th>Advanced</th>
+                  <th>Enterprise</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Budget</td>
-                  <td>$1000 to $2,499 per month</td>
-                  <td>$2,500 to $19,999 per month</td>
-                  <td>$20,000 to $29,999 per month</td>
-                  <td>$30,000 to $79,999 per month</td>
-                  <td>$80,000 per month and above</td>
+                  <td>Monthly Ad Budget</td>
+                  <td>$1,000 – $4,999 </td>
+                  <td>$5,000 – $14,999</td>
+                  <td>$15,000 – $29,999</td>
+                  <td>$30,000 – $74,999</td>
+                  <td>$75,000+</td>
                 </tr>
                 <tr>
-                  <td>Client retains admin access to the account</td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Complete google ads set up / restructure based on goals
-                  </td>
+                  <td>Client retains admin access</td>
                   <td>
                     <IoMdCheckmark />
                   </td>
@@ -661,7 +642,7 @@ const WebDesign = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td>Full keyword research and campaign strategy</td>
+                  <td>Campaign setup / restructure by goals</td>
                   <td>
                     <IoMdCheckmark />
                   </td>
@@ -679,7 +660,43 @@ const WebDesign = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td>Google Analytics 4 Set up</td>
+                  <td>Full keyword research & strategy</td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Conversion tracking (forms, calls, actions)</td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                </tr>
+                <tr>
+                  <td>GA4 setup (if needed)</td>
                   <td>If needed</td>
                   <td>If needed</td>
                   <td>If needed</td>
@@ -687,10 +704,61 @@ const WebDesign = () => {
                   <td>If needed</td>
                 </tr>
                 <tr>
+                  <td>Real-time reporting dashboard</td>
                   <td>
-                    Conversion tracking set up to track email form submissions &
-                    other key events
+                    <RxCross2 />
                   </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Continuous optimisation</td>
+                  <td>
+                    <RxCross2 />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Advanced bidding strategies</td>
+                  <td>
+                    <RxCross2 />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                  <td>
+                    <IoMdCheckmark />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Negative keyword management</td>
                   <td>
                     <IoMdCheckmark />
                   </td>
@@ -708,32 +776,12 @@ const WebDesign = () => {
                   </td>
                 </tr>
                 <tr>
+                  <td>Offline conversion tracking</td>
                   <td>
-                    Reporting Dashboard set up for realtime access to results
+                    <RxCross2 />
                   </td>
                   <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>Continuous optimisation towards campaign objectives</td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
+                    <RxCross2 />
                   </td>
                   <td>
                     <IoMdCheckmark />
@@ -746,36 +794,12 @@ const WebDesign = () => {
                   </td>
                 </tr>
                 <tr>
+                  <td>User behaviour tracking on pages</td>
                   <td>
-                    Implementation of various bidding strategies to get lowest
-                    cost per click and maximum conversions
+                    <RxCross2 />
                   </td>
                   <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Ongoing negative keyword insertion to reduce budget wastage
-                    and irrelevant clicks
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
+                    <RxCross2 />
                   </td>
                   <td>
                     <IoMdCheckmark />
@@ -788,54 +812,15 @@ const WebDesign = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td>Offline tracking integration</td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
+                  <td>Call tracking & recording</td>
+                  <td>Optional </td>
+                  <td>Optional </td>
+                  <td>Optional </td>
+                  <td>Optional </td>
+                  <td>Optional </td>
                 </tr>
                 <tr>
-                  <td>
-                    Tracking of user behaviour on website / landing page to
-                    optimise conversions if applicable
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>Call tracking and recording for service monitoring</td>
-                  <td>Optional if needed</td>
-                  <td>Optional if needed</td>
-                  <td>Optional if needed</td>
-                  <td>Optional if needed</td>
-                  <td>Optional if needed</td>
-                </tr>
-                <tr>
-                  <td>Campaign reviews and reporting</td>
+                  <td>Campaign reviews & reporting</td>
                   <td>Monthly</td>
                   <td>Monthly</td>
                   <td>Monthly</td>
@@ -845,10 +830,10 @@ const WebDesign = () => {
                 <tr>
                   <td>Dedicated account manager</td>
                   <td>
-                    <IoMdCheckmark />
+                    <RxCross2 />
                   </td>
                   <td>
-                    <IoMdCheckmark />
+                    <RxCross2 />
                   </td>
                   <td>
                     <IoMdCheckmark />

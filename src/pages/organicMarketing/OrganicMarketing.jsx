@@ -340,77 +340,77 @@ const OrganicMarketing = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Get a <span>full-funnel digital marketing strategy</span> with our
-              following services
+              Get a <span> full-funnel digital marketing strategy </span> with
+              our Organic Marketing Services
             </h2>
           </div>
           <div className="funnel-main-details">
             <div className="row funnel-details">
               <div className="col-md-4">
                 <div className="funnel-details-card">
-                  <h3>Create & manage powerful ad campaigns</h3>
+                  <h3>SEO & Search Visibility</h3>
                   <ul className="funnel-details_list">
                     <li>
                       <FaRegCheckCircle />
-                      SEM Management Services
+                      Technical SEO audits
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Social Advertising Services
+                      Keyword and search intent research
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Programmatic Advertising Services
+                      On-page optimisation
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Geofencing Advertising Services
+                      Google Business Profile optimisation
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="funnel-details-card">
-                  <h3>Collect, analyse and deploy marketing data</h3>
+                  <h3>Content & Authority Building</h3>
                   <ul className="funnel-details_list">
                     <li>
                       <FaRegCheckCircle />
-                      SEM Management Services
+                      SEO blog strategy and writing
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Social Advertising Services
+                      High-converting website copy
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Programmatic Advertising Services
+                      Landing page optimisation
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Geofencing Advertising Services
+                      Evergreen pillar content creation
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="funnel-details-card">
-                  <h3>Stronger Brand. Higher Conversions.</h3>
+                  <h3>Social & Community Growth</h3>
                   <ul className="funnel-details_list">
                     <li>
                       <FaRegCheckCircle />
-                      SEM Management Services
+                      Organic social media management
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Social Advertising Services
+                      Community engagement strategy
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Programmatic Advertising Services
+                      Influencer and partnership collaborations
                     </li>
                     <li>
                       <FaRegCheckCircle />
-                      Geofencing Advertising Services
+                      Email marketing and newsletter strategy
                     </li>
                   </ul>
                 </div>
@@ -427,22 +427,36 @@ const OrganicMarketing = () => {
                 <div className="customers-exp-data">
                   <div className="comon-heading-box google_gark_left">
                     <h2>
-                      Ready to turn <span>clicks into customers</span> ?
+                      Ready to use <span> organic marketing </span> for
+                      long-term growth? ?
                     </h2>
                     <p>
-                      Are you getting the full potential of your digital
-                      campaigns? Partner with Heroes of Digital today!
+                      Are you getting the most out of your digital campaigns? If
+                      not, partner with the best results-focused safari
+                      marketing agency.
                     </p>
                   </div>
                   <h3>What you can expect from us:</h3>
                   <ul className="customers-exp-list">
-                    <li>More hot leads through targeted Google Ads </li>
                     <li>
-                      Boost your return on ad spend with optimised campaigns
+                      Increased visibility in search engines to attract
+                      high-intent safari travelers{" "}
                     </li>
-                    <li>Stay ahead of trends with data-backed strategies</li>
                     <li>
-                      Measure the true impact of your ad campaigns on sales
+                      Optimized safari content and itineraries that convert
+                      visitors into inquiries
+                    </li>
+                    <li>
+                      A data-driven strategy tailored to your business goals and
+                      target markets
+                    </li>
+                    <li>
+                      Consistent tracking, analysis, and improvements for
+                      long-term growth
+                    </li>
+                    <li>
+                      Seamless integration with your website, sales process, and
+                      on-ground operations
                     </li>
                   </ul>
                   <p>
@@ -474,259 +488,82 @@ const OrganicMarketing = () => {
             <Table striped hover>
               <thead>
                 <tr>
-                  <th>Features</th>
-                  <th>Tier 1</th>
-                  <th>Tier 2</th>
-                  <th>Tier 3</th>
-                  <th>Tier 4</th>
-                  <th>Tier 5</th>
+                  <th>Packages</th>
+                  <th>Tier 1 – $18,000/year</th>
+                  <th>Tier 2 – $25,000/year</th>
+                  <th>Tier 3 – $30,000/year</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Budget</td>
-                  <td>$1000 to $2,499 per month</td>
-                  <td>$2,500 to $19,999 per month</td>
-                  <td>$20,000 to $29,999 per month</td>
-                  <td>$30,000 to $79,999 per month</td>
-                  <td>$80,000 per month and above</td>
+                  <td>Downpayment (33%)</td>
+                  <td>$5,940</td>
+                  <td>$8,250</td>
+                  <td>$9,900</td>
                 </tr>
                 <tr>
-                  <td>Client retains admin access to the account</td>
+                  <td>Future-Forward Search</td>
+                  <td>Keyword research & trend analysis</td>
+                  <td>Advanced keyword strategy & competitor insights</td>
                   <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
+                    Full-funnel, future-proof keyword strategy with AI & trend
+                    forecasting
                   </td>
                 </tr>
                 <tr>
+                  <td>Competitor Analysis</td>
+                  <td>Basic competitor research</td>
+                  <td>In-depth analysis of top safari competitors</td>
                   <td>
-                    Complete google ads set up / restructure based on goals
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
+                    Comprehensive market intelligence & performance benchmarking
                   </td>
                 </tr>
                 <tr>
-                  <td>Full keyword research and campaign strategy</td>
+                  <td>Full-Funnel Keyword Strategy</td>
+                  <td>Core high-intent safari keywords</td>
+                  <td>Expanded long-tail keywords & buyer intent mapping</td>
                   <td>
-                    <IoMdCheckmark />
+                    Complete full-funnel keyword mapping for all booking stages
                   </td>
+                </tr>
+
+                <tr>
+                  <td>Site Architecture Optimization</td>
+                  <td>Basic SEO-friendly structure</td>
+                  <td>Optimized UX and navigation</td>
+                  <td>Fully scalable architecture with CRO integration</td>
+                </tr>
+                <tr>
+                  <td>Strategic Link Building</td>
+                  <td>Local link acquisition</td>
+                  <td>Regional & niche travel backlinks</td>
+                  <td>Global safari authority backlinks & PR placements</td>
+                </tr>
+                <tr>
+                  <td>Full-Funnel Content Strategy</td>
+                  <td>Blog posts & basic guides</td>
+                  <td>Blog posts, landing pages, and destination guides</td>
                   <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
+                    Full content hub covering inspiration, planning, and booking
+                    stages
                   </td>
                 </tr>
                 <tr>
-                  <td>Google Analytics 4 Set up</td>
-                  <td>If needed</td>
-                  <td>If needed</td>
-                  <td>If needed</td>
-                  <td>If needed</td>
-                  <td>If needed</td>
-                </tr>
-                <tr>
+                  <td>Scalable Technical SEO</td>
+                  <td>Core site speed, mobile, and indexing fixes</td>
+                  <td>Advanced technical SEO with ongoing monitoring</td>
                   <td>
-                    Conversion tracking set up to track email form submissions &
-                    other key events
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
+                    Enterprise-level technical SEO with continuous performance
+                    optimization
                   </td>
                 </tr>
                 <tr>
+                  <td>Tracking, Reporting & Growth Planning</td>
+                  <td>Basic monthly reporting</td>
+                  <td>Detailed monthly reporting with insights</td>
                   <td>
-                    Reporting Dashboard set up for realtime access to results
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>Continuous optimisation towards campaign objectives</td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Implementation of various bidding strategies to get lowest
-                    cost per click and maximum conversions
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Ongoing negative keyword insertion to reduce budget wastage
-                    and irrelevant clicks
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>Offline tracking integration</td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Tracking of user behaviour on website / landing page to
-                    optimise conversions if applicable
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                </tr>
-                <tr>
-                  <td>Call tracking and recording for service monitoring</td>
-                  <td>Optional if needed</td>
-                  <td>Optional if needed</td>
-                  <td>Optional if needed</td>
-                  <td>Optional if needed</td>
-                  <td>Optional if needed</td>
-                </tr>
-                <tr>
-                  <td>Campaign reviews and reporting</td>
-                  <td>Monthly</td>
-                  <td>Monthly</td>
-                  <td>Monthly</td>
-                  <td>Monthly</td>
-                  <td>Monthly</td>
-                </tr>
-                <tr>
-                  <td>Dedicated account manager</td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
-                  </td>
-                  <td>
-                    <IoMdCheckmark />
+                    Advanced reporting with ROI-focused analytics & growth
+                    planning
                   </td>
                 </tr>
               </tbody>
@@ -840,14 +677,14 @@ const OrganicMarketing = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Why SMP of Digital is <br />
-              <span>Africa's Trusted SEO Agency</span>
+              Why <span> Safari Marketing Pro </span> is Africa's Trusted Choice
+              for SEO
             </h2>
             <p>
-              Since 2015, Heroes of Digital has helped 800+ businesses dominate
-              search and drive real business growth. With 10 years of experience
-              in SEO marketing Singapore, we go beyond rankings to deliver
-              measurable outcomes through tailored, full-funnel strategies.
+              For over 15 years, we’ve helped safari operators, lodges, and tour
+              companies boost visibility, attract qualified travelers, and
+              convert inquiries into bookings using the best SEO tools and
+              proven strategies for long-term results.
             </p>
             <p>
               🏆 Named one of Singapore’s Fastest Growing Companies (Straits
