@@ -109,17 +109,12 @@ const ContentMarketing = () => {
         <div className="container">
           <div className="comon-heading-box white-main-hed">
             <h2>
-              What our{" "}
-              <span>
-                video <br />
-                production services
-              </span>{" "}
-              include?
+              What <span> We Create </span> for You
             </h2>
             <p>
-              When it comes to Google Ads, we follow a proven process designed
-              to get you the highest Return on Ad Spend (ROAS). Here’s how we do
-              it.
+              As part of our Content Marketing strategy, we build a structured
+              ecosystem that supports visibility, engagement, and conversions
+              across every stage of the traveller journey:
             </p>
           </div>
           <div className="video-production-content">
@@ -130,13 +125,12 @@ const ContentMarketing = () => {
                   alt="Scripting & Storyboarding That Sells"
                   className="w-100"
                 />
-                <h3>Scripting & Storyboarding That Sells</h3>
+                <h3>SEO-Driven Blog Strategy</h3>
                 <p>
-                  We don’t just film — we script every scene with conversions in
-                  mind. From the first hook to the final CTA, each shot is
-                  mapped out to highlight your offer, solve objections, and
-                  trigger action. No fluff — just persuasive, goal-driven
-                  storytelling.
+                  We create search-intent aligned blog content that captures
+                  travellers in the research phase, drives qualified organic
+                  traffic, and feeds your long-term visibility on search
+                  engines.
                 </p>
               </div>
               <div className="video-production-card">
@@ -145,15 +139,11 @@ const ContentMarketing = () => {
                   alt="Full-Funnel Video Shoots (UGC, Reels, Explainers & More)"
                   className="w-100"
                 />
-                <h3>
-                  Full-Funnel Video Shoots (UGC, Reels, Explainers & More)
-                </h3>
+                <h3>Conversion-Led Landing Page Content</h3>
                 <p>
-                  We don’t just film — we script every scene with conversions in
-                  mind. From the first hook to the final CTA, each shot is
-                  mapped out to highlight your offer, solve objections, and
-                  trigger action. No fluff — just persuasive, goal-driven
-                  storytelling.
+                  We refine and develop website pages and campaign landing pages
+                  that guide visitors toward enquiries, combining persuasive
+                  copy, clear structure, and strong calls to action.
                 </p>
               </div>
               <div className="video-production-card">
@@ -162,13 +152,12 @@ const ContentMarketing = () => {
                   alt="Editing, Optimisation & Multi-Platform Delivery"
                   className="w-100"
                 />
-                <h3>Editing, Optimisation & Multi-Platform Delivery</h3>
+                <h3>Strategic Content Frameworks for Social</h3>
                 <p>
-                  We don’t just film — we script every scene with conversions in
-                  mind. From the first hook to the final CTA, each shot is
-                  mapped out to highlight your offer, solve objections, and
-                  trigger action. No fluff — just persuasive, goal-driven
-                  storytelling.
+                  We design storytelling frameworks that ensure your content is
+                  purposeful, aligned with your safari brand voice, and
+                  connected to broader marketing goals rather than random
+                  posting.
                 </p>
               </div>
               <div className="video-production-card">
@@ -177,13 +166,12 @@ const ContentMarketing = () => {
                   alt="Performance Tracking with Advanced software"
                   className="w-100"
                 />
-                <h3>Performance Tracking with Advanced software</h3>
+                <h3>Authority & Pillar Content Development</h3>
                 <p>
-                  We don’t just film — we script every scene with conversions in
-                  mind. From the first hook to the final CTA, each shot is
-                  mapped out to highlight your offer, solve objections, and
-                  trigger action. No fluff — just persuasive, goal-driven
-                  storytelling.
+                  We produce in-depth guides and cornerstone content that
+                  positions your safari brand as an industry authority,
+                  strengthening trust while supporting your overall SEO
+                  performance.
                 </p>
               </div>
             </div>
@@ -224,49 +212,35 @@ const ContentMarketing = () => {
                 <Accordion defaultActiveKey="0">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
-                      {" "}
-                      Maximise Your Social Media Advertising Budget{" "}
+                      Content Audits & Optimisation
                     </Accordion.Header>
                     <Accordion.Body>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      We analyse your existing blogs, destination pages, and
+                      itineraries to identify gaps, improve rankings, refresh
+                      outdated information, and optimise underperforming content
+                      to increase enquiries.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
-                      Data-Driven Social Media Video Production
+                      Internal Linking & Content Architecture
                     </Accordion.Header>
                     <Accordion.Body>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      We structure and connect your content strategically so
+                      blogs, itineraries, and landing pages support each other,
+                      improving SEO strength while guiding travellers smoothly
+                      through the booking journey.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
                     <Accordion.Header>
-                      {" "}
-                      Create Scroll-Stopping Social Media Videos{" "}
+                      Content Performance Reporting & Insights
                     </Accordion.Header>
                     <Accordion.Body>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                      We provide clear reporting on traffic growth, keyword
+                      movement, engagement, and enquiry contribution, helping
+                      you understand what content drives revenue and where to
+                      scale further.
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -279,8 +253,8 @@ const ContentMarketing = () => {
         <div className="container">
           <div className="comon-heading-box white-main-hed">
             <h2>
-              The Right Video for Every <br />
-              <span>Stage of Your Funnel</span>
+              The Right Content for Every Stage of Your{" "}
+              <span> Safari Booking Funnel </span>
             </h2>
             <p>
               When it comes to Google Ads, we follow a proven process designed
@@ -302,27 +276,27 @@ const ContentMarketing = () => {
                     />
                   </div>
                   <div className="frame-detail-con">
-                    <h3>Top of Funnel (Awareness & Engagement)</h3>
+                    <h3>Top of Funnel (Inspiration & Discovery)</h3>
                     <p>
-                      These videos are designed to stop the scroll, spark
-                      interest, and introduce your brand or offer.
-                    </p>
-                    <p className="bround-onelist">
-                      <GoDotFill /> <strong>Problem-First Intro Videos</strong>
+                      This is where potential guests are dreaming, researching
+                      destinations, and exploring safari possibilities.
                     </p>
                     <p>
-                      Open with a pain point your audience deeply relates to —
-                      then tease the solution. These are your strongest
-                      scroll-stoppers on TikTok, Meta, and YouTube Shorts.
-                    </p>
-                    <p className="bround-onelist">
-                      <GoDotFill />{" "}
-                      <strong>Big Promise or Shock-Value Hooks</strong>
+                      <GoDotFill /> SEO blogs like “Best Time to Visit the
+                      Serengeti” or “What to Pack for an African Safari”
                     </p>
                     <p>
-                      Lead with a bold statement, surprising stat, or
-                      emotionally charged claim that earns attention and
-                      curiosity. Works well for aggressive awareness campaigns.
+                      <GoDotFill /> Destination guides featuring parks,
+                      wildlife, and seasonal highlights
+                    </p>
+                    <p>
+                      <GoDotFill /> Wildlife education content (Great Migration,
+                      Big Five, gorilla trekking)
+                    </p>
+                    <p>
+                      <GoDotFill />
+                      Inspirational social content showcasing experiences,
+                      landscapes, and moments in the wild
                     </p>
                   </div>
                 </div>
@@ -339,27 +313,24 @@ const ContentMarketing = () => {
                     />
                   </div>
                   <div className="frame-detail-con">
-                    <h3>Middle of Funnel (Consideration & Education)t</h3>
+                    <h3>Middle of Funnel (Planning & Comparison)</h3>
                     <p>
-                      These videos are designed to stop the scroll, spark
-                      interest, and introduce your brand or offer.
-                    </p>
-                    <p className="bround-onelist">
-                      <GoDotFill /> <strong>Problem-First Intro Videos</strong>
+                      At this stage, travellers are narrowing down destinations,
+                      lodges, and operators.
                     </p>
                     <p>
-                      Open with a pain point your audience deeply relates to —
-                      then tease the solution. These are your strongest
-                      scroll-stoppers on TikTok, Meta, and YouTube Shorts.
-                    </p>
-                    <p className="bround-onelist">
-                      <GoDotFill />{" "}
-                      <strong>Big Promise or Shock-Value Hooks</strong>
+                      <GoDotFill /> Detailed safari itinerary pages with clear
+                      inclusions and highlights
                     </p>
                     <p>
-                      Lead with a bold statement, surprising stat, or
-                      emotionally charged claim that earns attention and
-                      curiosity. Works well for aggressive awareness campaigns.
+                      <GoDotFill /> Camp and lodge comparisons
+                    </p>
+                    <p>
+                      <GoDotFill /> Sample pricing guides and package breakdowns
+                    </p>
+                    <p>
+                      <GoDotFill />
+                      Testimonials, reviews, and real guest stories
                     </p>
                   </div>
                 </div>
@@ -376,32 +347,32 @@ const ContentMarketing = () => {
                     />
                   </div>
                   <div className="frame-detail-con">
-                    <h3>Bottom of Funnel (Conversion & Remarketing)</h3>
+                    <h3>Bottom of Funnel (Enquiry & Booking)</h3>
                     <p>
-                      These videos are designed to stop the scroll, spark
-                      interest, and introduce your brand or offer.
-                    </p>
-                    <p className="bround-onelist">
-                      <GoDotFill /> <strong>Problem-First Intro Videos</strong>
+                      Here, guests are almost ready to commit and need clarity
+                      and reassurance.
                     </p>
                     <p>
-                      Open with a pain point your audience deeply relates to —
-                      then tease the solution. These are your strongest
-                      scroll-stoppers on TikTok, Meta, and YouTube Shorts.
-                    </p>
-                    <p className="bround-onelist">
-                      <GoDotFill />{" "}
-                      <strong>Big Promise or Shock-Value Hooks</strong>
+                      <GoDotFill /> High-converting landing pages for specific
+                      safari packages
                     </p>
                     <p>
-                      Lead with a bold statement, surprising stat, or
-                      emotionally charged claim that earns attention and
-                      curiosity. Works well for aggressive awareness campaigns.
+                      <GoDotFill /> Clear pricing transparency and what’s
+                      included
+                    </p>
+                    <p>
+                      <GoDotFill /> FAQs addressing safety, visas, payments, and
+                      logistics
+                    </p>
+                    <p>
+                      <GoDotFill />
+                      Strong enquiry-driven calls to action with simple contact
+                      options
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              {/* <div className="col-md-6">
                 <div className="frame-work-box">
                   <div
                     className="frame-images-box"
@@ -418,26 +389,26 @@ const ContentMarketing = () => {
                       These videos are designed to stop the scroll, spark
                       interest, and introduce your brand or offer.
                     </p>
-                    <p className="bround-onelist">
-                      <GoDotFill /> <strong>Problem-First Intro Videos</strong>
+                    <p>
+                      <GoDotFill /> SEO blogs like “Best Time to Visit the
+                      Serengeti” or “What to Pack for an African Safari”
                     </p>
                     <p>
-                      Open with a pain point your audience deeply relates to —
-                      then tease the solution. These are your strongest
-                      scroll-stoppers on TikTok, Meta, and YouTube Shorts.
-                    </p>
-                    <p className="bround-onelist">
-                      <GoDotFill />{" "}
-                      <strong>Big Promise or Shock-Value Hooks</strong>
+                      <GoDotFill /> Destination guides featuring parks,
+                      wildlife, and seasonal highlights
                     </p>
                     <p>
-                      Lead with a bold statement, surprising stat, or
-                      emotionally charged claim that earns attention and
-                      curiosity. Works well for aggressive awareness campaigns.
+                      <GoDotFill /> Wildlife education content (Great Migration,
+                      Big Five, gorilla trekking)
+                    </p>
+                    <p>
+                      <GoDotFill />
+                      Inspirational social content showcasing experiences,
+                      landscapes, and moments in the wild
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -450,16 +421,13 @@ const ContentMarketing = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Examples of our{" "}
-              <span>
-                recent <br />
-                video production work
-              </span>
+              Recent <span> Content Marketing Campaigns </span> Driving Safari
+              Bookings
             </h2>
             <p>
-              Like all of our services, our video production agency is geared
-              towards making you more money, so we always remain focused on how
-              every video we produce can generate ROI.
+              Here’s a look at how we’ve helped safari operators turn strategic
+              content into stronger visibility, qualified enquiries, and
+              measurable growth across their digital platforms.
             </p>
           </div>
           <div className="content-viv-gallery">
@@ -471,13 +439,13 @@ const ContentMarketing = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              What businesses like yours say about our <br />
-              <span>video production agency</span>
+              What Safari Brands Like Yours Say About Our{" "}
+              <span> Content Marketing Services </span>
             </h2>
             <p>
-              Like all of our services, our video production agency is geared
-              towards making you more money, so we always remain focused on how
-              every video we produce can generate ROI.
+              Don’t just take our word for it, hear directly from safari
+              operators who have transformed their visibility, enquiries, and
+              bookings through our strategic content marketing approach.
             </p>
           </div>
           <ContentCustomerSlider />
@@ -487,14 +455,12 @@ const ContentMarketing = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Why We Are Different and
-              <br />
-              <span>Deliver Best Results</span>
+              Why Choose Us for <span> Content Marketing </span>?
             </h2>
             <p>
-              At SMP of Digital, we focus on what truly moves the needle: your
-              bottom line. Our SEO services Singapore are designed to drive real
-              business outcomes.
+              Our content marketing is not about posting more. It is about
+              building a strategic system that drives visibility, authority, and
+              consistent safari enquiries.
             </p>
           </div>
           <div className="seo-diff-box">
@@ -506,11 +472,11 @@ const ContentMarketing = () => {
                     alt="Measurable Results"
                     className="w-100"
                   />
-                  <h3>Measurable Results</h3>
+                  <h3>Measurable Content Performance</h3>
                   <p>
-                    Our focus is driving real results. We target keywords that
-                    attract high-quality leads so your SEO spend translates into
-                    real revenue growth.
+                    We track organic traffic growth, keyword rankings, time on
+                    page, engagement rates, and most importantly how content
+                    contributes to qualified safari enquiries and bookings.
                   </p>
                 </div>
               </div>
@@ -521,11 +487,11 @@ const ContentMarketing = () => {
                     alt="Strategic Partnership"
                     className="w-100"
                   />
-                  <h3>Strategic Partnership</h3>
+                  <h3>Search Intent–Led Strategy</h3>
                   <p>
-                    Our focus is driving real results. We target keywords that
-                    attract high-quality leads so your SEO spend translates into
-                    real revenue growth.
+                    Every blog, landing page, and website update is guided by
+                    real traveller search behaviour, ensuring your brand shows
+                    up at the right stage of the safari decision journey.
                   </p>
                 </div>
               </div>
@@ -536,11 +502,12 @@ const ContentMarketing = () => {
                     alt="Machine Learning Technology"
                     className="w-100"
                   />
-                  <h3>Machine Learning Technology</h3>
+                  <h3>Safari-Specific Content Expertise</h3>
                   <p>
-                    Our focus is driving real results. We target keywords that
-                    attract high-quality leads so your SEO spend translates into
-                    real revenue growth.
+                    We understand the safari buying cycle, from dream phase to
+                    booking, and create destination guides, wildlife content,
+                    and itinerary pages that resonate with high-value
+                    travellers.
                   </p>
                 </div>
               </div>
@@ -551,11 +518,11 @@ const ContentMarketing = () => {
                     alt="Conversion Rate Optimisation"
                     className="w-100"
                   />
-                  <h3>Conversion Rate Optimisation</h3>
+                  <h3>Conversion-Focused Content Optimisation</h3>
                   <p>
-                    Our focus is driving real results. We target keywords that
-                    attract high-quality leads so your SEO spend translates into
-                    real revenue growth.
+                    We refine headlines, structure, internal linking, and calls
+                    to action so your content does more than inform. It guides
+                    visitors toward making an inquiry.
                   </p>
                 </div>
               </div>

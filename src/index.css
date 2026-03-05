@@ -3964,3 +3964,12 @@ ul.frame-list li::marker {
 .web-effective-para ul li {
     padding-bottom: 15px;
 }
+
+.frame-detail-con p {
+    display: flex;
+    gap: 5px;
+}
+.frame-detail-con p svg {
+    margin-top: 4px;
+    min-width: 20px;
+}

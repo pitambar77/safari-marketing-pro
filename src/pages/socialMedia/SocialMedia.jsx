@@ -206,8 +206,8 @@ const SocialMedia = () => {
         <div className="container">
           <div className="comon-heading-box white-main-hed">
             <h2>
-              Explore Authentic Success Stories From Safari Operators{" "}
-              <span> Growing With SMP</span> .
+              Explore Authentic Success Stories From{" "}
+              <span> Safari Operators Growing With SMP </span>
             </h2>
           </div>
           <div className="smm-main-serv">
@@ -531,83 +531,79 @@ const SocialMedia = () => {
       <div className="digital-vs-rest-sec">
         <div className="container">
           <div className="comon-heading-box">
-            <h2>Safari Marketing Pro of Digital vs The Rest</h2>
+            <h2>Safari Marketing pro vs Other Agencies</h2>
           </div>
           <div className="digital-card-main">
             <div className="row digital-child-card">
               <div className="col-md-4">
                 <div className="digital-card add-colorbg">
-                  <h3>SMP of Digital</h3>
+                  <h3>Safari Marketing Pro </h3>
                   <ul className="digital-card-list">
                     <li>
-                      <FaCheckCircle /> Dedicated account manager backed by a
-                      team of 100+ digital marketing pros
+                      <FaCheckCircle />
+                      Safari-specific, future-forward SEO built for African
+                      travel markets
                     </li>
                     <li>
                       <FaCheckCircle />
-                      Automated reporting dashboard that shows all your key
-                      metrics in one place, anytime
+                      Full-funnel keyword and content strategy focused on
+                      bookings
                     </li>
                     <li>
                       <FaCheckCircle />
-                      AI-driven insights that connect campaigns to real business
-                      impact, online and offline
+                      Strategic site architecture and scalable technical SEO
                     </li>
                     <li>
                       <FaCheckCircle />
-                      Holistic strategies focused on revenue—not just clicks,
-                      leads, or rankings
+                      Authority building through relevant safari and travel
+                      sources
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="digital-card">
-                  <h3>In-House Teams</h3>
+                  <h3>In-House Team</h3>
                   <ul className="digital-card-list">
                     <li>
                       <FaRegCheckCircle className="gigital-check-ico" />
-                      Understands metrics, but might not know how to turn that
-                      into growth
+                      Limited safari and long-term SEO expertise
                     </li>
                     <li>
                       <FaRegCheckCircle className="gigital-check-ico" />
-                      Understands metrics, but might not know how to turn that
-                      into growth
+                      Often keyword-limited or content-constrained
                     </li>
                     <li>
-                      <IoIosCloseCircleOutline /> One or two people juggling it
-                      all and struggling to keep up with rapid changes
+                      <IoIosCloseCircleOutline /> Technical SEO handled
+                      reactively
                     </li>
                     <li>
-                      <IoIosCloseCircleOutline /> Analytics tools, but often
-                      stretched thin trying to make sense of it all
+                      <IoIosCloseCircleOutline /> Rarely prioritized
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="digital-card">
-                  <h3>Typical Marketing Agency</h3>
+                  <h3>Other Agencies</h3>
                   <ul className="digital-card-list">
                     <li>
                       <IoIosCloseCircleOutline />
-                      Account manager, but limited in scope and resources
+                      Generic SEO strategies across industries
                     </li>
                     <li>
                       <IoIosCloseCircleOutline />
-                      Manual reports in Excel or Word—slow and prone to errors
+                      High-volume keywords with low intent
                     </li>
                     <li>
                       <IoIosCloseCircleOutline />
-                      Surface-level analysis that rarely digs into true business
-                      outcomes
+                      Basic technical fixes only
                     </li>
                     <li>
                       <IoIosCloseCircleOutline />
-                      remaining essentially unchanged. It was popularised in the
-                      1960s with the release of Letraset sheets containing
+                      Low-quality or irrelevant backlinks
                     </li>
+                  
                   </ul>
                 </div>
               </div>
@@ -1030,7 +1026,6 @@ const SocialMedia = () => {
                         follows.
                       </Accordion.Body>
                     </Accordion.Item>
-                  
                   </Accordion>
                 </div>
               </div>
