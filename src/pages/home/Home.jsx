@@ -190,8 +190,8 @@ const Home = () => {
         <div className="container">
           <div className="comon-heading-box white-main-hed">
             <h2>
-              We don’t just "do digital marketing". <br />
-              <span>We drive revenue.</span>
+              We Don’t Just Run Campaigns, We Generate{" "}
+              <span> Leads That Convert </span>
             </h2>
           </div>
           <div className="smp-not-digi">
@@ -199,15 +199,15 @@ const Home = () => {
               <div className="col-md-6">
                 <div className="smp-not-digi-para">
                   <p>
-                    Most agencies “do SEO” or “run Google Ads.” But in today’s
-                    competitive landscape, these digital marketing tactics alone
-                    won’t help you succeed. You need a digital marketing partner
-                    that builds a revenue-generating system.
+                    The safari industry is one of the most competitive
+                    landscapes in the world. Yet, despite the high stakes, many
+                    operators are stuck in a cycle of "sitting and waiting" for
+                    inquiries that never come.
                   </p>
                   <p>
-                    That’s where we come in. By combining award-winning digital
-                    marketing strategies, technology, and consultancy, we’ve
-                    delivered powerful and tangible results since 2015.
+                    Almost 90% of safari holiday planning starts with an online
+                    search, but most operators either do not show up where
+                    travelers are looking or have websites that do not convert.
                   </p>
                 </div>
               </div>
@@ -237,11 +237,11 @@ const Home = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">
-                        98% Client Retention Rate
+                        98% Client Retention
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="three">5 Star Reviews</Nav.Link>
+                      <Nav.Link eventKey="three">5-Star Reviews</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="four">
@@ -258,26 +258,19 @@ const Home = () => {
                           <div className="col-md-6">
                             <div className="digita-smp-rrop">
                               <p>
-                                As a Top Google Premier Partner with over 100
-                                in-house specialists across performance
-                                marketing, SEO, design, content, and data
-                                analytics, our award-winning team brings
-                                enterprise-level firepower to mid-market brands.
+                                As a top Google Premier Partner, we operate at
+                                the highest tier of paid search expertise. This
+                                status is awarded only to agencies that
+                                consistently demonstrate strong performance,
+                                advanced optimization skills, and a deep
+                                understanding of conversion-focused advertising.
                               </p>
                               <p>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since
-                                the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries,
-                                but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was
-                                popularised in the 1960s with the release of
-                                Letraset sheets containing Lorem Ipsum passages,
-                                and more recently with desktop publishing
-                                software like Aldus PageMaker including versions
-                                of Lorem Ipsum.
+                                For safari operators, this means your campaigns
+                                are built on proven frameworks, backed by
+                                priority access to new tools and insights, and
+                                continuously refined to attract travelers who
+                                are ready to inquire, plan, and book.
                               </p>
                             </div>
                           </div>
@@ -299,26 +292,17 @@ const Home = () => {
                           <div className="col-md-6">
                             <div className="digita-smp-rrop">
                               <p>
-                                As a Top Google Premier Partner with over 100
-                                in-house specialists across performance
-                                marketing, SEO, design, content, and data
-                                analytics, our award-winning team brings
-                                enterprise-level firepower to mid-market brands.
+                                A 98% client retention rate is not accidental.
+                                It reflects sustained results, clear
+                                communication, and marketing systems that
+                                continue to perform month after month, even as
+                                markets, seasons, and traveler behavior change.
                               </p>
                               <p>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since
-                                the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries,
-                                but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was
-                                popularised in the 1960s with the release of
-                                Letraset sheets containing Lorem Ipsum passages,
-                                and more recently with desktop publishing
-                                software like Aldus PageMaker including versions
-                                of Lorem Ipsum.
+                                Our clients stay because we focus on what
+                                matters most, lead quality, follow-ups that
+                                convert, and strategies designed for long-term
+                                growth rather than short-term spikes in traffic.
                               </p>
                             </div>
                           </div>
@@ -340,26 +324,18 @@ const Home = () => {
                           <div className="col-md-6">
                             <div className="digita-smp-rrop">
                               <p>
-                                As a Top Google Premier Partner with over 100
-                                in-house specialists across performance
-                                marketing, SEO, design, content, and data
-                                analytics, our award-winning team brings
-                                enterprise-level firepower to mid-market brands.
+                                Our 5-star reviews come directly from safari
+                                brands that have experienced measurable
+                                improvements in inquiries and bookings. They
+                                reflect trust built through transparency,
+                                accountability, and consistent delivery of
+                                results.
                               </p>
                               <p>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since
-                                the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries,
-                                but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was
-                                popularised in the 1960s with the release of
-                                Letraset sheets containing Lorem Ipsum passages,
-                                and more recently with desktop publishing
-                                software like Aldus PageMaker including versions
-                                of Lorem Ipsum.
+                                Each review represents a real partnership where
+                                marketing moves beyond reports and dashboards
+                                and into tangible business outcomes that
+                                operators can feel on the ground.
                               </p>
                             </div>
                           </div>
@@ -381,26 +357,17 @@ const Home = () => {
                           <div className="col-md-6">
                             <div className="digita-smp-rrop">
                               <p>
-                                As a Top Google Premier Partner with over 100
-                                in-house specialists across performance
-                                marketing, SEO, design, content, and data
-                                analytics, our award-winning team brings
-                                enterprise-level firepower to mid-market brands.
+                                We believe safari operators deserve full
+                                visibility into their marketing performance. Our
+                                ROI dashboards clearly track where leads come
+                                from, how each campaign performs, and which
+                                channels drive confirmed safaris.
                               </p>
                               <p>
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since
-                                the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries,
-                                but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was
-                                popularised in the 1960s with the release of
-                                Letraset sheets containing Lorem Ipsum passages,
-                                and more recently with desktop publishing
-                                software like Aldus PageMaker including versions
-                                of Lorem Ipsum.
+                                This transparency removes guesswork and replaces
+                                it with confidence. You always know what is
+                                working, what needs improvement, and where to
+                                invest next to grow bookings efficiently.
                               </p>
                             </div>
                           </div>
@@ -464,6 +431,10 @@ const Home = () => {
               {/* Why work with <span>Heroes of Digital?</span> */}
               Why Work With <span> Safari Marketing Pro</span>
             </h2>
+            <p>
+              Safari Marketing Pro is not just another digital agency. We are
+              the only safari marketing company in Africa.
+            </p>
           </div>
           <div className="why-you-work-with-child">
             <div className="row work-with-child">

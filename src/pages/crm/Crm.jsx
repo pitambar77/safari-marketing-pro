@@ -57,10 +57,9 @@ const Crm = () => {
                   <span> CRM built for safari sales </span>
                 </h1>
                 <p>
-                  Safari Marketing Pro helps you connect your marketing, sales,
-                  and customer journeys using Zoho CRM — a powerful system that
-                  centralizes leads, automates follow-ups, tracks inquiries, and
-                  helps your team convert more travellers into paying guests.
+                  Whether you’re capturing leads from your website, Google Ads,
+                  or social media, Zoho CRM keeps everything organized in one
+                  place so no opportunity slips through the cracks.
                 </p>
                 <div className="add-hero-btn-box">
                   <Button text="Get Free Proposal" link="./" target="_self" />
@@ -85,8 +84,13 @@ const Crm = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Trusted by 300K+ <span>businesses worldwide</span>
+              Trusted by 300K+ <span> Businesses Worldwide </span>
             </h2>
+            <p>
+              Join safari operators, lodges, and tour companies across Africa
+              and beyond who rely on Zoho CRM to streamline their sales, improve
+              lead conversion, and grow bookings consistently.
+            </p>
           </div>
           <ul className="trusted-crm-brand-list">
             <li>
@@ -114,15 +118,16 @@ const Crm = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Teams that work together,
+              Teams That Work Together,
               <br />
-              <span>win together</span>
+              <span>Min Together</span>
             </h2>
             <p>
-              Multiple teams come together with sales to close deals. With Zoho
-              CRM for Everyone, you can build unique, collaborative spaces for
-              each team — all with some AI assistance, of course. Start winning
-              more, together.
+              Turn your safari leads into bookings faster with Zoho CRM,
+              expertly set up and optimized by SMP. Your marketing, sales, and
+              operations teams can collaborate seamlessly, automate follow-ups,
+              and use AI-powered insights to prioritize high-value leads, so
+              your team closes more travellers and wins together.
             </p>
           </div>
           <div className="zoho-smp-tab">
@@ -134,13 +139,14 @@ const Crm = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Leverage the Power <span>of Our Integrations</span>
+              Leverage the Power of <span> Our Integrations </span>
             </h2>
             <p>
-              Multiple teams come together with sales to close deals. With Zoho
-              CRM for Everyone, you can build unique, collaborative spaces for
-              each team — all with some AI assistance, of course. Start winning
-              more, together.
+              Zoho CRM connects your website, Google Ads, social media, and
+              other marketing channels, so leads automatically flow into your
+              CRM. By uniting all your tools, your teams can act faster,
+              communicate better, and close more bookings without missing a
+              single opportunity.
             </p>
           </div>
           <div className="crm-intigrt-pioc">
@@ -152,15 +158,16 @@ const Crm = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Everything your business needs,
-              <br />
-              <span>with a neat 360° view.</span>
+              Everything Your Safari Business Needs with a{" "}
+              <span> Clear 360° View </span>
             </h2>
             <p>
-              Multiple teams come together with sales to close deals. With Zoho
-              CRM for Everyone, you can build unique, collaborative spaces for
-              each team — all with some AI assistance, of course. Start winning
-              more, together.
+              Take control of your safari sales with Zoho CRM, implemented and
+              optimized by SMP. Bring marketing, sales, and operations together
+              in one organized system where leads are tracked, prioritized, and
+              acted on in real time using AI-powered insights. Streamline your
+              workflows, close more bookings, and grow your business with
+              clarity and confidence.
             </p>
           </div>
           <div className="full-view-smp-zohocrm">
@@ -210,11 +217,12 @@ const Crm = () => {
       <div className="crm-hero">
         <div className="container">
           <div className="crm-banner-cont">
-            <h1>Take us for a spin!</h1>
+            <h1>Ready to See It in Action?</h1>
             <p>
-              CRM Marketing Automation is a multichannel software solution with
-              features designed to ease the marketing process and generate
-              sales-ready leads.
+              SMP’s CRM Marketing Automation, powered by Zoho CRM, is built
+              specifically for safari brands that want to streamline marketing,
+              nurture enquiries automatically, and generate consistent
+              sales-ready bookings.
             </p>
             <CrmVideo />
           </div>
@@ -231,8 +239,8 @@ const Crm = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Keep your sales pipelines filled{" "}
-              <span>using strategic automation</span> on Google
+              Keep Your Safari Sales Pipeline Full with{" "}
+              <span> Smart Automation Powered by Zoho CRM </span>
             </h2>
           </div>
           <div className="pipeline-box">
@@ -241,11 +249,12 @@ const Crm = () => {
                 <div className="crm-pipeline-set-box stepone">
                   <div className="crm-pipleline-con-step">
                     <button>Stage 1</button>
-                    <h3>Attract and convert prospects</h3>
+                    <h3>Attract and capture high-quality safari enquiries</h3>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever
+                      Turn website visitors and campaign traffic into structured
+                      leads inside Zoho CRM. Capture enquiries from forms,
+                      social media, and paid campaigns, ensuring no potential
+                      booking slips through the cracks.
                     </p>
                     <a href="#">
                       Learn more <IoIosArrowDroprightCircle />
@@ -260,10 +269,15 @@ const Crm = () => {
                 <div className="crm-pipeline-set-box steptwo">
                   <div className="crm-pipleline-con-step">
                     <button>Stage 2</button>
-                    <h3>Nurture with multichannel automation</h3>
+                    <h3>
+                      Nurture prospects with multichannel automation through
+                      Zoho CRM
+                    </h3>
                     <p>
-                      Offer the most relevant, and personalized content right
-                      where your leads are.
+                      Engage every enquiry with timely email sequences, WhatsApp
+                      follow ups, and targeted content. Stay top of mind while
+                      guiding prospects from inspiration to serious
+                      consideration.
                     </p>
                     <a href="#">
                       Learn more <IoIosArrowDroprightCircle />
@@ -278,11 +292,15 @@ const Crm = () => {
                 <div className="crm-pipeline-set-box stethree">
                   <div className="crm-pipleline-con-step">
                     <button>Stage 3</button>
-                    <h3>Score leads based on intent</h3>
+                    <h3>
+                      Score and segment leads based on booking intent and
+                      engagement
+                    </h3>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text
+                      Automatically track interactions such as email opens,
+                      clicks, itinerary requests, and repeat visits. Prioritise
+                      high intent travellers so your team focuses on enquiries
+                      most likely to convert.
                     </p>
                     <a href="#">
                       Learn more <IoIosArrowDroprightCircle />
@@ -297,12 +315,14 @@ const Crm = () => {
                 <div className="crm-pipeline-set-box stepfour">
                   <div className="crm-pipleline-con-step">
                     <button>Stage 4</button>
-                    <h3>Assign only sales-ready leads to the sales team</h3>
+                    <h3>
+                      Route sales-ready enquiries directly to your reservations
+                      team
+                    </h3>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley
+                      Send qualified leads straight to the right consultant with
+                      full visibility of their engagement history. Your team
+                      steps in at the right moment with context and confidence.
                     </p>
                     <a href="#">
                       Learn more <IoIosArrowDroprightCircle />
@@ -319,13 +339,15 @@ const Crm = () => {
                     <div className="col-md-6">
                       <div className="crm-pipleline-con-step">
                         <button>Stage 5</button>
-                        <h3>Identify which campaigns bring maximum ROI</h3>
+                        <h3>
+                          Track campaign performance and identify what drives
+                          the highest ROI
+                        </h3>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled
+                          Measure which channels, campaigns, and touchpoints
+                          generate bookings. Use real data to refine your
+                          marketing strategy and scale what works for your
+                          safari brand.
                         </p>
                         <a href="#">
                           Learn more <IoIosArrowDroprightCircle />
@@ -348,21 +370,17 @@ const Crm = () => {
         <div className="container">
           <div className="comon-heading-box">
             <h2>
-              Grow your business with <br /> <span>marketing automation</span>
+              Grow Your Business with <span> Marketing Automation </span>
             </h2>
           </div>
           <div className="web-effective">
             <div className="effective-rors">
               <div className="web-effective-para">
-                <h2>
-                  Generate leads with strategic and personalized campaigns
-                </h2>
+                <h2>Generate Consistent, Qualified Enquiries</h2>
                 <p>
-                  Your website needs to be designed with your customers and your
-                  goals in mind. We excel at using design to trigger the right
-                  emotions to convert traffic into real customers. With us, your
-                  website becomes a lead-generating machine – a powerful part of
-                  your digital marketing strategy.
+                  Attract the right audience and automatically capture their
+                  details into your CRM. Marketing automation ensures every
+                  enquiry is recorded, organised, and ready for follow up.
                 </p>
               </div>
               <div className="web-effective-pic">
@@ -377,24 +395,20 @@ const Crm = () => {
                 <img src={Smpcrm7} alt="Persuasive content" className="w-100" />
               </div>
               <div className="web-effective-para">
-                <h2>Nurture leads using multichannel marketing automation</h2>
+                <h2>Nurture Leads Without Manual Effort</h2>
                 <p>
-                  Your website needs to be designed with your customers and your
-                  goals in mind. We excel at using design to trigger the right
-                  emotions to convert traffic into real customers. With us, your
-                  website becomes a lead-generating machine – a powerful part of
-                  your digital marketing strategy.
+                  Guide prospects through their booking journey with pre built
+                  email sequences, reminders, and personalised messaging. Stay
+                  connected at every stage without overwhelming your team.
                 </p>
               </div>
 
               <div className="web-effective-para">
-                <h2>Convert leads effortlessly to increase ROI</h2>
+                <h2>Increase Conversions with Smarter Insights</h2>
                 <p>
-                  Your website needs to be designed with your customers and your
-                  goals in mind. We excel at using design to trigger the right
-                  emotions to convert traffic into real customers. With us, your
-                  website becomes a lead-generating machine – a powerful part of
-                  your digital marketing strategy.
+                  Track engagement, identify high intent travellers, and focus
+                  your sales efforts where they matter most. Data driven
+                  decisions help you close more bookings and maximise ROI.
                 </p>
               </div>
               <div className="web-effective-pic">
@@ -411,7 +425,7 @@ const Crm = () => {
       <div className="zoho-marketing-box">
         <div className="container">
           <div className="comon-heading-box white-main-hed">
-            <h2>Why Zoho Marketing Automation?</h2>
+            <h2>Why Integrate Zoho CRM With Your Safari Business</h2>
           </div>
           <div className="zoho-marketing-inner">
             <div className="row zoho-roas">
@@ -420,11 +434,12 @@ const Crm = () => {
                   <div className="zoho-why-icon">
                     <SlCalender />
                   </div>
-                  <h3>Complete marketing planner</h3>
+                  <h3>Capture Every Safari Enquiry Automatically</h3>
                   <p>
-                    Organize all your marketing efforts using a single calendar.
-                    Get more done with efficient planning and identify campaigns
-                    that perform with better monitoring features.
+                    We connect your website, landing pages, ads, and social
+                    campaigns directly to Zoho CRM so every enquiry flows into
+                    one central system. No lost emails. No missed WhatsApps.
+                    Just organised leads ready for follow up.
                   </p>
                   <a href="#">
                     Learn more <IoIosArrowDroprightCircle />
@@ -436,11 +451,12 @@ const Crm = () => {
                   <div className="zoho-why-icon">
                     <MdSms />
                   </div>
-                  <h3>Personalized experience</h3>
+                  <h3>Clear Pipeline Visibility From Enquiry to Booking</h3>
                   <p>
-                    Organize all your marketing efforts using a single calendar.
-                    Get more done with efficient planning and identify campaigns
-                    that perform with better monitoring features.
+                    We structure your sales pipeline around your actual safari
+                    booking process. You can instantly see where each enquiry
+                    sits, which deals are hot, and what needs action so your
+                    team stays proactive instead of reactive.
                   </p>
                   <a href="#">
                     Learn more <IoIosArrowDroprightCircle />
@@ -452,11 +468,11 @@ const Crm = () => {
                   <div className="zoho-why-icon">
                     <RiColorFilterAiLine />
                   </div>
-                  <h3>Ecommerce solution</h3>
+                  <h3>Smart Automation That Reduces Manual Work</h3>
                   <p>
-                    Organize all your marketing efforts using a single calendar.
-                    Get more done with efficient planning and identify campaigns
-                    that perform with better monitoring features.
+                    We set up workflows that automatically assign leads, send
+                    reminders, trigger follow ups, and update stages. Your team
+                    spends less time on admin and more time closing bookings.
                   </p>
                   <a href="#">
                     Learn more <IoIosArrowDroprightCircle />
@@ -468,11 +484,11 @@ const Crm = () => {
                   <div className="zoho-why-icon">
                     <FcSalesPerformance />
                   </div>
-                  <h3>Sales aligned with marketing</h3>
+                  <h3>Lead Scoring That Prioritises High Intent Travellers</h3>
                   <p>
-                    Organize all your marketing efforts using a single calendar.
-                    Get more done with efficient planning and identify campaigns
-                    that perform with better monitoring features.
+                    Using engagement tracking and predictive insights, we help
+                    you identify serious buyers versus early stage researchers.
+                    Your consultants focus their energy where it matters most.
                   </p>
                   <a href="#">
                     Learn more <IoIosArrowDroprightCircle />
@@ -484,11 +500,11 @@ const Crm = () => {
                   <div className="zoho-why-icon">
                     <VscGraph />
                   </div>
-                  <h3>GDPR-compliant</h3>
+                  <h3>Marketing and Sales Working in One System</h3>
                   <p>
-                    Organize all your marketing efforts using a single calendar.
-                    Get more done with efficient planning and identify campaigns
-                    that perform with better monitoring features.
+                    We align your campaigns with your CRM so you can see which
+                    marketing efforts generate real bookings. No guesswork. Just
+                    clear visibility on what drives revenue.
                   </p>
                   <a href="#">
                     Learn more <IoIosArrowDroprightCircle />
@@ -500,11 +516,13 @@ const Crm = () => {
                   <div className="zoho-why-icon">
                     <FaPersonWalkingArrowLoopLeft />
                   </div>
-                  <h3>Closed loop reporting</h3>
+                  <h3>
+                    Reporting That Shows What Is Actually Growing Your Business
+                  </h3>
                   <p>
-                    Organize all your marketing efforts using a single calendar.
-                    Get more done with efficient planning and identify campaigns
-                    that perform with better monitoring features.
+                    We build dashboards that show performance across campaigns,
+                    consultants, and pipelines. You get simple, clear data that
+                    helps you scale what works and fix what does not.
                   </p>
                   <a href="#">
                     Learn more <IoIosArrowDroprightCircle />
@@ -564,95 +582,49 @@ const Crm = () => {
                     className="faq-accordion"
                   >
                     <Accordion.Item eventKey="0">
-                      <Accordion.Header>What are Google Ads?</Accordion.Header>
+                      <Accordion.Header>What is Zoho CRM?</Accordion.Header>
                       <Accordion.Body>
-                        Google Ads is Google’s Pay‑Per‑Click (PPC) advertising
-                        platform where you pay each time someone clicks your ad.
-                        Your ads can appear in Google Search results, on
-                        YouTube, Gmail, and across the Google Display Network
-                        (GDN).
+                        Zoho CRM is a platform for managing leads, contacts,
+                        deals, and customer communication efficiently.
                       </Accordion.Body>
                     </Accordion.Item>
 
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>
-                        What types of Google Ads can Heroes of Digital run?
+                        How does Zoho CRM help safari operators?
                       </Accordion.Header>
                       <Accordion.Body>
-                        We manage Search Ads (text ads in Google Search
-                        results), Display Ads (image ads on websites in the
-                        GDN), YouTube Video Ads, Google Shopping campaigns for
-                        e‑commerce, and Remarketing campaigns that re‑engage
-                        past visitors. We choose the right campaign types based
-                        on your objectives, audience, and Return on Ad Spend
-                        (ROAS) targets.
+                        It centralizes all inquiries, automates follow-ups, and
+                        helps convert interest into confirmed bookings.
                       </Accordion.Body>
                     </Accordion.Item>
 
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
-                        How does Google Ads work?
+                        Can I integrate my website, ads, and social media?
                       </Accordion.Header>
                       <Accordion.Body>
-                        You select keywords, audience targeting, and bidding
-                        strategies. When users search for those keywords or
-                        match your targeting, Google runs an ad auction to
-                        decide whose ads appear. You pay based on your bid and
-                        performance metrics like Quality Score, which combines
-                        ad relevance, Click‑Through Rate (CTR), and landing page
-                        experience.
+                        Yes, all leads from your digital channels can flow
+                        directly into Zoho CRM.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                       <Accordion.Header>
-                        How much do Google Ads cost?
+                        Do you provide training?
                       </Accordion.Header>
                       <Accordion.Body>
-                        You control your cost with daily or monthly budgets.
-                        Actual cost‑per‑click (CPC) depends on keyword
-                        competition, bidding strategy (e.g., Manual CPC,
-                        Maximise Conversions), and Quality Score. At Heroes of
-                        Digital, we optimise bids, targeting, and ad quality to
-                        lower CPC while increasing conversions.
+                        Yes, SMP provides full onboarding so your team can use
+                        Zoho CRM to its full potential.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
                       <Accordion.Header>
-                        How to measure and track Google Ads performance?
+                        Will this improve my sales process?
                       </Accordion.Header>
                       <Accordion.Body>
-                        At Heroes of Digital, we use Conversion Tracking and
-                        Google Analytics (GA4) to monitor the full customer
-                        journey — from click to purchase or enquiry. Key metrics
-                        include CTR, Conversion Rate (CVR), Cost Per Acquisition
-                        (CPA), and Return on Ad Spend (ROAS). This ensures we
-                        optimise campaigns for leads and revenue, not just
-                        clicks.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="5">
-                      <Accordion.Header>
-                        Can I use Google Ads in an e-commerce store?
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        Yes. Google Shopping campaigns showcase your products
-                        with images, prices, and ratings directly in Google
-                        Search. They often deliver higher CTR and purchase
-                        intent compared to standard text ads, especially for
-                        online retail.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="6">
-                      <Accordion.Header>
-                        How is a Google Ads campaign set up?
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        We start with campaign strategy and keyword research,
-                        define targeting, and choose bidding methods. Then we
-                        create compelling ad copy and visuals, set up ad
-                        extensions, configure Conversion Tracking, before
-                        launching the campaign. Post‑launch, we continuously
-                        optimise based A/B test results and performance data.
+                        Absolutely. With structured pipelines, automation, and
+                        analytics, your team can respond faster, prioritize
+                        leads, and close more bookings.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -667,79 +639,53 @@ const Crm = () => {
                   >
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>
-                        How can I benefit from Google Ads?
+                        How long does it take to set up Zoho CRM?
                       </Accordion.Header>
                       <Accordion.Body>
-                        It drives targeted, high‑intent traffic to your site,
-                        helping you generate leads and sales quickly. Advanced
-                        targeting — like location, device, audience segments,
-                        and remarketing — ensures your ads reach the right
-                        people at the right time, improving Return on Ad Spend
-                        (ROAS).
+                        Setup time depends on your sales workflows, but SMP
+                        ensures a smooth, guided implementation tailored to your
+                        safari business.
                       </Accordion.Body>
                     </Accordion.Item>
 
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>
-                        Is Google Ads suitable for small businesses?
+                        Can Zoho CRM track multiple safari destinations and
+                        lodges?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Yes, it’s highly scalable. You can start with a modest
-                        budget, use location targeting to focus on nearby
-                        customers, and expand as you see profitable results.
+                        Yes, Zoho CRM can manage multiple properties,
+                        itineraries, and teams within one centralized system.
                       </Accordion.Body>
                     </Accordion.Item>
 
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
-                        Is there a disadvantage for Google Ads?
+                        Is Zoho CRM suitable for small safari operators?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Results stop when you stop running ads, and poorly
-                        managed campaigns can waste budget. Without proper bid
-                        strategies, targeting, and optimisation, your Cost Per
-                        Acquisition (CPA) can climb quickly.
+                        Yes, the platform is scalable, so both small and large
+                        safari businesses can benefit from automated lead
+                        management and tracking.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                       <Accordion.Header>
-                        Is Google Ads faster than SEO?
+                        Can I customize Zoho CRM for my unique sales process?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Yes, Google Ads can deliver clicks and leads within
-                        hours of launch, while Search Engine Optimisation (SEO)
-                        typically takes weeks or months to build rankings.
+                        Yes, SMP helps tailor pipelines, stages, and workflows
+                        to match your safari sales journey exactly.
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
                       <Accordion.Header>
-                        How long does it take to see results from Google Ads?
+                        Does Zoho CRM provide insights on team performance?
                       </Accordion.Header>
                       <Accordion.Body>
-                        Clicks and impressions can start within hours, but
-                        optimising for strong ROI and consistent conversions
-                        usually takes 2–4 weeks of testing and refinement.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="5">
-                      <Accordion.Header>
-                        Do I need a landing page for my Google Ads?
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        Yes, Google Ads can deliver clicks and leads within
-                        hours of launch, while Search Engine Optimisation (SEO)
-                        typically takes weeks or months to build rankings.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="6">
-                      <Accordion.Header>
-                        Is Google Ads important?
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        Yes. It’s one of the fastest, most measurable ways to
-                        generate targeted leads and sales. It also complements
-                        SEO by capturing search demand while your organic
-                        rankings grow.
+                        Yes, dashboards and reports let you track leads,
+                        follow-ups, conversion rates, and team productivity in
+                        real time.
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>

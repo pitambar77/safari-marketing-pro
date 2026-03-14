@@ -11,7 +11,7 @@ const funnelData = [
       "Testing and fixing website errors",
        "Understand your safari business goals",
       "Develop a world-class website structure",
-      "Create value-added content and itineraries",
+      // "Create value-added content and itineraries",
     ],
   },
   {
@@ -22,8 +22,8 @@ const funnelData = [
       "On-site SEO for your safari website",
 
       "Build backlinks to your safari website",
-      "Analyse your leading safari competitors",
-      "Analyse your safari site ranks and traffic",
+      // "Analyse your leading safari competitors",
+      // "Analyse your safari site ranks and traffic",
     ],
   },
   {
@@ -33,7 +33,7 @@ const funnelData = [
       "Create safari landing pages",
       "Publish and manage safari campaigns",
       "Market trends and competitor research",
-      "Keyword research and audience segmentation",
+      // "Keyword research and audience segmentation",
     ],
   },
   {

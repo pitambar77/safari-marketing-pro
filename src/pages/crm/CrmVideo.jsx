@@ -9,7 +9,8 @@ const CrmVideo = () => {
       {/* Video Button */}
       <button className="crm-video-btn" onClick={() => setOpen(true)}>
         <span className="crm-play-icon">▶</span>
-        Watch a Video
+       Watch the Demo
+
       </button>
 
       {/* Modal */}
