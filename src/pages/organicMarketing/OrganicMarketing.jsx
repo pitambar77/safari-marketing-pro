@@ -57,7 +57,7 @@ const OrganicMarketing = () => {
             <div className="col-md-5">
               <div className="add-hero-brand">
                 <img
-                  src="https://www.heroesofdigital.com/wp-content/uploads/2025/07/right-img-banner-google-ads.png.webp"
+                  src="/Organic marketing Banner Section.png"
                   alt="Safari Marketing Pro"
                   tittle="Safari Marketing Pro"
                   className="w-100"

@@ -22,6 +22,7 @@ import BlogDetails from "./pages/blogDetails/BlogDetails";
 import Blogs from "./pages/blogs/Blogs";
 import Marketing360 from "./pages/marketing360/Marketing360";
 import SalesTraining from "./pages/salesTraining/SalesTraining";
+import CaseStudy from "./pages/caseStudy/CaseStudy";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -45,6 +46,7 @@ const router = createBrowserRouter(
       <Route path="blogs" element={<Blogs />} />
       <Route path="marketing-360" element={<Marketing360 />} />
       <Route path="sales-training" element={<SalesTraining />} />
+      <Route path="case-study" element={<CaseStudy/>}/>
     </Route>
   )
 );

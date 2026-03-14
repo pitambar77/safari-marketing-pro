@@ -10,31 +10,31 @@ const smmData = [
     id: "01",
     title: "Social Media Strategy & Planning",
     desc: `We don’t just post; we plan for conversion. We build a bespoke digital roadmap for your safari brand—defining target demographics, seasonal content themes, and posting cadences. Every strategic move is designed to turn "dreamers" into "bookers" while fueling long-term brand equity.`,
-    image: sampleImg1,
+    image: "Social Media Strategy & Planning.png",
   },
   {
     id: "02",
     title: "Content Creation & Storytelling",
     desc: "The wild is visual, and your feed should be too. From cinematic Reels and immersive carousels to evocative storytelling, we produce high-impact assets that showcase the pulse of the bush. We craft the narrative that allows travelers to see themselves in the back of your cruiser before they even pack their bags.",
-    image: sampleImg2,
+    image: "Content Creation & Storytelling.png",
   },
   {
     id: "03",
     title: " Community Management & Engagement",
     desc: `A safari brand is built on trust and personal connection. We handle the "campfire conversations" by managing comments, direct messages, and interactions in real-time. By fostering an active, responsive community, we transform casual likes into meaningful inquiries and loyal brand advocates.`,
-    image: sampleImg3,
+    image: "Community Management & Engagement.png",
   },
   {
     id: "04",
     title: "Paid Social Advertising (Meta Ads)",
     desc: "AWe put your lodge or tour in front of the right eyes at the right time. Our precision-targeted Meta campaigns reach high-intent travelers and retarget those who have already shown interest. We focus on high-yield ad spend that drives consistent traffic and high-quality lead generation.",
-    image: sampleImg4,
+    image: "Paid Social Advertising (Meta Ads).png",
   },
   {
     id: "05",
     title: "Performance Tracking & Optimization",
     desc: "Data is our compass. We track every click, lead, and conversion to ensure your investment is performing. By analyzing engagement patterns and lead quality, we continuously refine your content and ad strategy to maximize ROI and scale your bookings season after season.",
-    image: sampleImg4,
+    image: "Performance Tracking & Optimization.png",
   },
 ];
 

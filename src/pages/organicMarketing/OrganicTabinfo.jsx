@@ -11,7 +11,7 @@ const smmData = [
     id: "01",
     title: "Strategic Market & Audience Research",
     desc:"We analyse your safari niche, target travellers, destinations, and competitors to understand what your ideal guests are truly searching for.",
-    image: sampleImg1,
+    image: '/Strategic Market & Audience Research.png',
     list: [
       "Traveller personas & behaviour",
       "Destination demand analysis",
@@ -24,7 +24,7 @@ const smmData = [
     id: "02",
     title: "Safari Keyword & Intent Mapping",
     desc: "We map high-intent safari keywords to each stage of the buyer journey — from inspiration to booking.",
-    image: sampleImg2,
+    image: "Safari Keyword & Intent Mapping.png",
     list: [
       "Informational vs booking intent",
       "Destination & experience keywords",
@@ -37,7 +37,7 @@ const smmData = [
     id: "03",
     title: "Content Planning for Buyer Journeys",
     desc: "We structure content around how travellers plan safaris, guiding them from discovery to decision.",
-    image: sampleImg3,
+    image: "Content Planning for Buyer Journeys.png",
     list: [
       "Awareness → consideration → booking",
       "Funnel-based content mapping",
@@ -50,7 +50,7 @@ const smmData = [
     id: "04",
     title: "SEO-Driven Content Creation",
     desc: "We create optimised blogs, landing pages, and website content designed to rank and convert.",
-    image: sampleImg4,
+    image: "SEO-Driven Content Creation.png",
     list: [
       "Blog & landing page writing",
       "SEO formatting & internal linking",
@@ -63,7 +63,7 @@ const smmData = [
     id: "05",
     title: "Website & Blog Optimisation",
     desc: "We refine your site structure, pages, speed, UX, and on-page SEO.",
-    image: sampleImg3,
+    image: "Website & Blog Optimisation.png",
     list: [
       "Page speed & technical fixes",
       "On-page SEO improvements",
@@ -76,7 +76,7 @@ const smmData = [
     id: "06",
     title: "Authority & Trust Building",
     desc:  "We strengthen your safari brand through backlinks, digital PR, and safari expertise signals.",
-    image: sampleImg1,
+    image: "Authority & Trust Building.png",
     list: [
       "Backlink acquisition",
       "Brand mentions & citations",
@@ -89,7 +89,7 @@ const smmData = [
     id: "07",
     title: "Performance Tracking & Refinement",
     desc: "We track your safari website rankings, traffic, and lead quality, and continuously improve.",
-    image: sampleImg2,
+    image: "Performance Tracking & Refinement.png",
     list: [
       "Keyword ranking reports",
       "Traffic & behaviour analysis",

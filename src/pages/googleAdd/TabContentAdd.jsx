@@ -74,7 +74,7 @@ const TabContentAdd = () => {
               <div className="col-md-6">
                 <div className="conte_details-pico">
                   <img
-                    src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Google-Search-Advertising.webp"
+                    src="/Responsive Display Ads.png"
                     alt="Google Search Advertising"
                     title="Google Search Advertising"
                     className="w-100"
@@ -107,7 +107,7 @@ const TabContentAdd = () => {
               <div className="col-md-6">
                 <div className="conte_details-pico">
                   <img
-                    src="https://www.heroesofdigital.com/wp-content/uploads/2025/04/Google-Search-Advertising.webp"
+                    src="/Responsive Display Ads.png"
                     alt="Google Display Network"
                     title="Google Display Network"
                     className="w-100"

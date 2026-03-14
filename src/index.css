@@ -4023,3 +4023,123 @@ ul.frame-list li::marker {
   display: flex;
   align-items: flex-end;
 }
+
+.bannersec h1 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 82px;
+}
+.bannersec p {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 40px;
+  width: 1080px;
+}
+
+.casestud {
+  width: 100%;
+  position: relative;
+  padding: 70px 0;
+}
+
+.case-stdy-ban {
+  max-width: 80%;
+  margin: 50px auto 50px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+
+.challenge-section {
+  background: #f6f6f6;
+  padding: 80px 20px;
+}
+
+.challenge-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 60px;
+}
+
+/* LEFT SIDE */
+
+.section-title {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.sub-title {
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.section-text {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.7;
+  
+}
+
+/* LIST */
+
+.solution-list {
+  padding-left: 20px;
+}
+
+.solution-list li {
+  line-height: 30px;
+}
+
+.bold {
+  font-weight: 600;
+  color: #333;
+}
+
+/* RIGHT SIDE */
+
+.help-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.help-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.help-btn {
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 40px;
+  border: 1px solid #ddd;
+  background: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.help-btn:hover {
+  background: #fff;
+  border-color: #aaa;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .challenge-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+}

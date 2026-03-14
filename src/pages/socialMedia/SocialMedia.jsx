@@ -198,7 +198,7 @@ const SocialMedia = () => {
             </div>
           </div>
           <div className="social-main-pic">
-            <img src={social} alt="Social media marketing" className="w-100" />
+            <img src={"prop.png"} alt="Social media marketing" className="w-100" />
           </div>
         </div>
       </div>
@@ -293,7 +293,7 @@ const SocialMedia = () => {
               </div>
               <div className="web-effective-pic">
                 <img
-                  src={SmmMedia1}
+                  src={"Design 1.png"}
                   alt="Designs that trigger emotions"
                   className="w-100"
                 />
@@ -301,7 +301,7 @@ const SocialMedia = () => {
 
               <div className="web-effective-pic">
                 <img
-                  src={SmmMedia2}
+                  src={"/Design 2.png"}
                   alt="Persuasive content"
                   className="w-100"
                 />
@@ -349,7 +349,7 @@ const SocialMedia = () => {
               </div>
               <div className="web-effective-pic">
                 <img
-                  src={SmmMedia3}
+                  src={"/Design 3.png"}
                   alt="Convert more visitors into leads"
                   className="w-100"
                 />
@@ -357,7 +357,7 @@ const SocialMedia = () => {
 
               <div className="web-effective-pic">
                 <img
-                  src={SmmMedia4}
+                  src={"Design 4.png"}
                   alt="Loads blazing fast"
                   className="w-100"
                 />

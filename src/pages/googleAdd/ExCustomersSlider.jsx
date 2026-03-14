@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 const data = [
   {
     title: "Chilli Manis",
-    image:"https://www.heroesofdigital.com/wp-content/uploads/2025/06/Google-Shopping.webp",
+    image:"/1.png",
     para:"SMP of Digital really boosted our SEM campaign and maximised reach to our target audience.This resulted in a dramatic 3 fold increase in our online sales channel.",
     brandpic:"https://www.heroesofdigital.com/wp-content/uploads/2025/06/bods-1-e1595466317393.webp",
     costomer: "Mervin Sim",
@@ -17,7 +17,7 @@ const data = [
   },
   {
     title: "Trinity Medical Centre",
-    image: "https://www.heroesofdigital.com/wp-content/uploads/2025/06/Google-Shopping.webp",
+    image: "2.png",
     para:"SMP of Digital really boosted our SEM campaign and maximised reach to our target audience.This resulted in a dramatic 3 fold increase in our online sales channel.",
     brandpic:"https://www.heroesofdigital.com/wp-content/uploads/2025/06/bods-1-e1595466317393.webp",
     costomer: "Mervin Sim",
@@ -25,7 +25,7 @@ const data = [
   },
   {
     title: "Sterling Law",
-    image: "https://www.heroesofdigital.com/wp-content/uploads/2025/06/Google-Shopping.webp",
+    image: "3.png",
     para:"SMP of Digital really boosted our SEM campaign and maximised reach to our target audience.This resulted in a dramatic 3 fold increase in our online sales channel.",
     brandpic:"https://www.heroesofdigital.com/wp-content/uploads/2025/06/bods-1-e1595466317393.webp",
     costomer: "Mervin Sim",

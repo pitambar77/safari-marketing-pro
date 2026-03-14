@@ -41,19 +41,6 @@ const TanzaniaContact = () => {
   };
 
 
-
-// const handleSubmit = async (e) => {
-//   e.preventDefault();
-
-//   try {
-//     await axios.post("http://localhost:5000/api/contact", formData);
-
-//     alert("Form submitted successfully!");
-//   } catch (error) {
-//     alert("Submission failed");
-//   }
-// };
-
   return (
     <div className="contact-us-page">
       <div className="tanzania-contact">
